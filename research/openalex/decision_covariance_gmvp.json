@@ -1,0 +1,1076 @@
+{
+  "retrieved_at": "2026-11-05T12:04:35.0832392Z",
+  "url": "https://api.openalex.org/works/doi:10.48550/arXiv.2508.10776",
+  "response": {
+    "id": "https://openalex.org/W6929349821",
+    "doi": "https://doi.org/10.48550/arxiv.2508.10776",
+    "title": "Estimating Covariance for Global Minimum Variance Portfolio: A Decision-Focused Learning Approach",
+    "display_name": "Estimating Covariance for Global Minimum Variance Portfolio: A Decision-Focused Learning Approach",
+    "publication_year": 2025,
+    "publication_date": "2025-08-14",
+    "ids": {
+      "openalex": "https://openalex.org/W6929349821",
+      "doi": "https://doi.org/10.48550/arxiv.2508.10776"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "pmh:oai:arXiv.org:2508.10776",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2508.10776",
+      "pdf_url": "https://arxiv.org/pdf/2508.10776",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    "volume": null,
+    "type": "preprint",
+    "indexed_in": [
+      "arxiv",
+      "datacite"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2508.10776",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5036153690",
+          "display_name": "Juchan Kim",
+          "orcid": "https://orcid.org/0009-0002-9696-7269",
+          "observed_orcids": [
+            "https://orcid.org/0009-0002-9696-7269"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I48566637",
+            "display_name": "Ulsan National Institute of Science and Technology",
+            "ror": "https://ror.org/017cjz748",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I48566637"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kim, Juchan",
+        "raw_affiliation_strings": [
+          "Ulsan National Institute of Science and Technology Ulsan , Republic of Korea"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Ulsan National Institute of Science and Technology Ulsan , Republic of Korea",
+            "institution_ids": [
+              "https://openalex.org/I48566637"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5114369595",
+          "display_name": "Inwoo Tae",
+          "orcid": "https://orcid.org/0000-0001-8087-8240",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8087-8240"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I48566637",
+            "display_name": "Ulsan National Institute of Science and Technology",
+            "ror": "https://ror.org/017cjz748",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I48566637"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Tae, Inwoo",
+        "raw_affiliation_strings": [
+          "Ulsan National Institute of Science and Technology Ulsan , Republic of Korea"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Ulsan National Institute of Science and Technology Ulsan , Republic of Korea",
+            "institution_ids": [
+              "https://openalex.org/I48566637"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": null,
+          "display_name": "Lee, Yongjae",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I48566637",
+            "display_name": "Ulsan National Institute of Science and Technology",
+            "ror": "https://ror.org/017cjz748",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I48566637"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lee, Yongjae",
+        "raw_affiliation_strings": [
+          "Ulsan National Institute of Science and Technology Ulsan , Republic of Korea"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Ulsan National Institute of Science and Technology Ulsan , Republic of Korea",
+            "institution_ids": [
+              "https://openalex.org/I48566637"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I48566637"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": true,
+    "primary_topic": {
+      "id": "https://openalex.org/T11413",
+      "display_name": "Risk and Portfolio Optimization",
+      "score": 0.9955999851226807,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11413",
+        "display_name": "Risk and Portfolio Optimization",
+        "score": 0.9955999851226807,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10282",
+        "display_name": "Financial Risk and Volatility Modeling",
+        "score": 0.0024999999441206455,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2003",
+          "display_name": "Finance"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10047",
+        "display_name": "Financial Markets and Investment Strategies",
+        "score": 0.00039999998989515007,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2003",
+          "display_name": "Finance"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/global-minimum-variance-portfolio",
+        "display_name": "global minimum variance portfolio",
+        "score": 0.9440000057220459
+      },
+      {
+        "id": "https://openalex.org/keywords/decision-focused-learning",
+        "display_name": "decision-focused learning",
+        "score": 0.8289999961853027
+      },
+      {
+        "id": "https://openalex.org/keywords/covariance-matrix-estimation",
+        "display_name": "covariance matrix estimation",
+        "score": 0.9570000171661377
+      },
+      {
+        "id": "https://openalex.org/keywords/portfolio-optimization",
+        "display_name": "portfolio optimization",
+        "score": 0.9810000061988831
+      },
+      {
+        "id": "https://openalex.org/keywords/principal-components",
+        "display_name": "principal components",
+        "score": 0.5630000233650208
+      },
+      {
+        "id": "https://openalex.org/keywords/volatility-reduction",
+        "display_name": "volatility reduction",
+        "score": 0.6909999847412109
+      },
+      {
+        "id": "https://openalex.org/keywords/risk-return-trade-off",
+        "display_name": "risk-return tradeoff",
+        "score": 0.7099999785423279
+      },
+      {
+        "id": "https://openalex.org/keywords/parameter-estimation",
+        "display_name": "parameter estimation",
+        "score": 0.47099998593330383
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C185429906",
+        "wikidata": "https://www.wikidata.org/wiki/Q1130160",
+        "display_name": "Estimator",
+        "level": 2,
+        "score": 0.6748999953269958
+      },
+      {
+        "id": "https://openalex.org/C2780821815",
+        "wikidata": "https://www.wikidata.org/wiki/Q5340806",
+        "display_name": "Portfolio",
+        "level": 2,
+        "score": 0.5076000094413757
+      },
+      {
+        "id": "https://openalex.org/C126255220",
+        "wikidata": "https://www.wikidata.org/wiki/Q141495",
+        "display_name": "Mathematical optimization",
+        "level": 1,
+        "score": 0.492000013589859
+      },
+      {
+        "id": "https://openalex.org/C149782125",
+        "wikidata": "https://www.wikidata.org/wiki/Q160039",
+        "display_name": "Econometrics",
+        "level": 1,
+        "score": 0.45660001039505005
+      },
+      {
+        "id": "https://openalex.org/C202655437",
+        "wikidata": "https://www.wikidata.org/wiki/Q7231728",
+        "display_name": "Portfolio optimization",
+        "level": 3,
+        "score": 0.4244999885559082
+      },
+      {
+        "id": "https://openalex.org/C185142706",
+        "wikidata": "https://www.wikidata.org/wiki/Q1134404",
+        "display_name": "Covariance matrix",
+        "level": 2,
+        "score": 0.41510000824928284
+      },
+      {
+        "id": "https://openalex.org/C81917197",
+        "wikidata": "https://www.wikidata.org/wiki/Q628760",
+        "display_name": "Selection (genetic algorithm)",
+        "level": 2,
+        "score": 0.4092999994754791
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.40450000762939453
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.3995000123977661
+      },
+      {
+        "id": "https://openalex.org/C178650346",
+        "wikidata": "https://www.wikidata.org/wiki/Q201984",
+        "display_name": "Covariance",
+        "level": 2,
+        "score": 0.39640000462532043
+      },
+      {
+        "id": "https://openalex.org/C196083921",
+        "wikidata": "https://www.wikidata.org/wiki/Q7915758",
+        "display_name": "Variance (accounting)",
+        "level": 2,
+        "score": 0.3684999942779541
+      },
+      {
+        "id": "https://openalex.org/C96250715",
+        "wikidata": "https://www.wikidata.org/wiki/Q965330",
+        "display_name": "Estimation",
+        "level": 2,
+        "score": 0.3677999973297119
+      },
+      {
+        "id": "https://openalex.org/C91602232",
+        "wikidata": "https://www.wikidata.org/wiki/Q756115",
+        "display_name": "Volatility (finance)",
+        "level": 2,
+        "score": 0.34450000524520874
+      },
+      {
+        "id": "https://openalex.org/C150325174",
+        "wikidata": "https://www.wikidata.org/wiki/Q4335500",
+        "display_name": "Optimal decision",
+        "level": 3,
+        "score": 0.3434000015258789
+      },
+      {
+        "id": "https://openalex.org/C27438332",
+        "wikidata": "https://www.wikidata.org/wiki/Q2873",
+        "display_name": "Principal component analysis",
+        "level": 2,
+        "score": 0.3424000144004822
+      },
+      {
+        "id": "https://openalex.org/C167928553",
+        "wikidata": "https://www.wikidata.org/wiki/Q1376021",
+        "display_name": "Estimation theory",
+        "level": 2,
+        "score": 0.33889999985694885
+      },
+      {
+        "id": "https://openalex.org/C103144560",
+        "wikidata": "https://www.wikidata.org/wiki/Q2670999",
+        "display_name": "Investment strategy",
+        "level": 3,
+        "score": 0.3292999863624573
+      },
+      {
+        "id": "https://openalex.org/C148483581",
+        "wikidata": "https://www.wikidata.org/wiki/Q446488",
+        "display_name": "Feature selection",
+        "level": 2,
+        "score": 0.3158000111579895
+      },
+      {
+        "id": "https://openalex.org/C93959086",
+        "wikidata": "https://www.wikidata.org/wiki/Q6888345",
+        "display_name": "Model selection",
+        "level": 2,
+        "score": 0.30809998512268066
+      },
+      {
+        "id": "https://openalex.org/C9725762",
+        "wikidata": "https://www.wikidata.org/wiki/Q1072885",
+        "display_name": "Modern portfolio theory",
+        "level": 3,
+        "score": 0.2955000102519989
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.287200003862381
+      },
+      {
+        "id": "https://openalex.org/C74510933",
+        "wikidata": "https://www.wikidata.org/wiki/Q1936145",
+        "display_name": "Project portfolio management",
+        "level": 3,
+        "score": 0.2806999981403351
+      },
+      {
+        "id": "https://openalex.org/C111335779",
+        "wikidata": "https://www.wikidata.org/wiki/Q3454686",
+        "display_name": "Reduction (mathematics)",
+        "level": 2,
+        "score": 0.2784999907016754
+      },
+      {
+        "id": "https://openalex.org/C2779530757",
+        "wikidata": "https://www.wikidata.org/wiki/Q1207505",
+        "display_name": "Quality (philosophy)",
+        "level": 2,
+        "score": 0.27390000224113464
+      },
+      {
+        "id": "https://openalex.org/C62644790",
+        "wikidata": "https://www.wikidata.org/wiki/Q3454689",
+        "display_name": "Variance reduction",
+        "level": 3,
+        "score": 0.27239999175071716
+      },
+      {
+        "id": "https://openalex.org/C165646398",
+        "wikidata": "https://www.wikidata.org/wiki/Q3755281",
+        "display_name": "Minimum-variance unbiased estimator",
+        "level": 3,
+        "score": 0.26330000162124634
+      },
+      {
+        "id": "https://openalex.org/C120936955",
+        "wikidata": "https://www.wikidata.org/wiki/Q2155640",
+        "display_name": "Empirical research",
+        "level": 2,
+        "score": 0.2563000023365021
+      },
+      {
+        "id": "https://openalex.org/C28901747",
+        "wikidata": "https://www.wikidata.org/wiki/Q177571",
+        "display_name": "Decision theory",
+        "level": 2,
+        "score": 0.2540000081062317
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "pmh:oai:arXiv.org:2508.10776",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2508.10776",
+        "pdf_url": "https://arxiv.org/pdf/2508.10776",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
+        "id": "doi:10.48550/arxiv.2508.10776",
+        "doi": "https://doi.org/10.48550/arxiv.2508.10776",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.2508.10776",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Preprint"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:arXiv.org:2508.10776",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2508.10776",
+      "pdf_url": "https://arxiv.org/pdf/2508.10776",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    "sustainable_development_goals": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W6929349821.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W6929349821.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W3126024799",
+      "https://openalex.org/W2613076093",
+      "https://openalex.org/W1522410680",
+      "https://openalex.org/W4416232539",
+      "https://openalex.org/W7166540355",
+      "https://openalex.org/W4408170888",
+      "https://openalex.org/W1945321330",
+      "https://openalex.org/W4416389304",
+      "https://openalex.org/W7213899137",
+      "https://openalex.org/W2344933784"
+    ],
+    "abstract_inverted_index": {
+      "Portfolio": [
+        0
+      ],
+      "optimization": [
+        1
+      ],
+      "constitutes": [
+        2
+      ],
+      "a": [
+        3,
+        55,
+        147
+      ],
+      "cornerstone": [
+        4
+      ],
+      "of": [
+        5,
+        23,
+        28,
+        100,
+        107,
+        116,
+        150
+      ],
+      "risk": [
+        6
+      ],
+      "management": [
+        7
+      ],
+      "by": [
+        8,
+        50
+      ],
+      "quantifying": [
+        9
+      ],
+      "the": [
+        10,
+        26,
+        89,
+        98,
+        104,
+        113
+      ],
+      "risk-return": [
+        11
+      ],
+      "trade-off.": [
+        12
+      ],
+      "Since": [
+        13
+      ],
+      "it": [
+        14
+      ],
+      "inherently": [
+        15
+      ],
+      "depends": [
+        16
+      ],
+      "on": [
+        17,
+        157
+      ],
+      "accurate": [
+        18
+      ],
+      "parameter": [
+        19
+      ],
+      "estimation": [
+        20,
+        126,
+        165
+      ],
+      "under": [
+        21
+      ],
+      "conditions": [
+        22
+      ],
+      "future": [
+        24
+      ],
+      "uncertainty,": [
+        25
+      ],
+      "selection": [
+        27
+      ],
+      "appropriate": [
+        29
+      ],
+      "input": [
+        30
+      ],
+      "parameters": [
+        31,
+        49
+      ],
+      "is": [
+        32
+      ],
+      "critical": [
+        33
+      ],
+      "for": [
+        34
+      ],
+      "effective": [
+        35
+      ],
+      "portfolio": [
+        36,
+        92
+      ],
+      "construction.": [
+        37
+      ],
+      "However,": [
+        38
+      ],
+      "most": [
+        39
+      ],
+      "conventional": [
+        40
+      ],
+      "statistical": [
+        41
+      ],
+      "estimators": [
+        42
+      ],
+      "and": [
+        43,
+        109,
+        164
+      ],
+      "machine": [
+        44
+      ],
+      "learning": [
+        45,
+        69
+      ],
+      "algorithms": [
+        46
+      ],
+      "determine": [
+        47
+      ],
+      "these": [
+        48
+      ],
+      "minimizing": [
+        51
+      ],
+      "mean-squared": [
+        52
+      ],
+      "error": [
+        53,
+        82
+      ],
+      "(MSE),": [
+        54
+      ],
+      "criterion": [
+        56
+      ],
+      "that": [
+        57,
+        74,
+        124
+      ],
+      "can": [
+        58
+      ],
+      "yield": [
+        59
+      ],
+      "suboptimal": [
+        60
+      ],
+      "investment": [
+        61
+      ],
+      "decisions.": [
+        62
+      ],
+      "In": [
+        63
+      ],
+      "this": [
+        64
+      ],
+      "paper,": [
+        65
+      ],
+      "we": [
+        66,
+        95,
+        122,
+        145
+      ],
+      "adopt": [
+        67
+      ],
+      "decision-focused": [
+        68
+      ],
+      "(DFL)": [
+        70
+      ],
+      "-": [
+        71,
+        86
+      ],
+      "an": [
+        72
+      ],
+      "approach": [
+        73
+      ],
+      "directly": [
+        75
+      ],
+      "optimizes": [
+        76
+      ],
+      "decision": [
+        77,
+        101,
+        142
+      ],
+      "quality": [
+        78
+      ],
+      "rather": [
+        79
+      ],
+      "than": [
+        80
+      ],
+      "prediction": [
+        81
+      ],
+      "such": [
+        83
+      ],
+      "as": [
+        84
+      ],
+      "MSE": [
+        85
+      ],
+      "to": [
+        87,
+        130
+      ],
+      "derive": [
+        88,
+        97
+      ],
+      "global": [
+        90
+      ],
+      "minimum-variance": [
+        91
+      ],
+      "(GMVP).": [
+        93
+      ],
+      "Specifically,": [
+        94
+      ],
+      "theoretically": [
+        96
+      ],
+      "gradient": [
+        99
+      ],
+      "loss": [
+        102
+      ],
+      "using": [
+        103
+      ],
+      "analytic": [
+        105
+      ],
+      "solution": [
+        106
+      ],
+      "GMVP": [
+        108,
+        154
+      ],
+      "its": [
+        110,
+        158
+      ],
+      "properties": [
+        111
+      ],
+      "regarding": [
+        112
+      ],
+      "principal": [
+        114
+      ],
+      "components": [
+        115
+      ],
+      "itself.": [
+        117
+      ],
+      "Through": [
+        118
+      ],
+      "extensive": [
+        119
+      ],
+      "empirical": [
+        120
+      ],
+      "evaluation,": [
+        121
+      ],
+      "show": [
+        123
+      ],
+      "prediction-focused": [
+        125
+      ],
+      "methods": [
+        127,
+        138
+      ],
+      "may": [
+        128
+      ],
+      "fail": [
+        129
+      ],
+      "produce": [
+        131
+      ],
+      "optimal": [
+        132
+      ],
+      "allocations": [
+        133
+      ],
+      "in": [
+        134,
+        153
+      ],
+      "practice,": [
+        135
+      ],
+      "whereas": [
+        136
+      ],
+      "DFL-based": [
+        137
+      ],
+      "consistently": [
+        139
+      ],
+      "deliver": [
+        140
+      ],
+      "superior": [
+        141
+      ],
+      "performance.": [
+        143
+      ],
+      "Furthermore,": [
+        144
+      ],
+      "provide": [
+        146
+      ],
+      "comprehensive": [
+        148
+      ],
+      "analysis": [
+        149
+      ],
+      "DFL's": [
+        151
+      ],
+      "mechanism": [
+        152
+      ],
+      "construction,": [
+        155
+      ],
+      "focusing": [
+        156
+      ],
+      "volatility": [
+        159
+      ],
+      "reduction": [
+        160
+      ],
+      "capability,": [
+        161
+      ],
+      "decision-driving": [
+        162
+      ],
+      "features,": [
+        163
+      ],
+      "characteristics.": [
+        166
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-11-04T10:54:05.112534",
+    "created_date": "2025-10-10T00:00:00"
+  }
+}

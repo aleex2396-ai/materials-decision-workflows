@@ -1,0 +1,16 @@
+# Public implementation review
+
+Inspected 2026-11-05 through the GitHub connector. Search queries, commits, files, licenses and negative results are recorded in `github_evidence.json`. No third-party code was copied into the project by this review.
+
+| Repository | Inspected evidence | Consequence for this project |
+|---|---|---|
+| [BoTorch](https://github.com/meta-pytorch/botorch), MIT, commit `b0dd01be61d517c387e234903a6e2cc38c057ea2` | README, LICENSE, `botorch/acquisition/analytic.py`: LogEI, constrained EI, log constrained EI | Analytic constrained EI multiplies improvement by feasibility probabilities under independent Gaussian outputs. It is not a hard safety constraint. The code recommends log-space variants for numerical stability. Use this as an established reference; a small independent implementation must document differences and edge cases. |
+| [safe-control-gym](https://github.com/learnsyslab/safe-control-gym), MIT, commit `6b5391d014f36fdfa0f9d22d92c77387e5274308` | README, LICENSE, `controllers/mpc/linear_mpc.py`: optimiser setup and action selection | Clear dynamics, horizon state/input constraints, terminal cost and receding-horizon execution are a useful comparison standard. It also exposes disturbances and constraint metrics. Its robotics environments and dependencies are not a materials model, and importing the library would not validate a materials-control claim. |
+| [SafeOpt](https://github.com/befelix/SafeOpt), MIT, commit `06f4579779af17d6a28199ab69c379f0d18bc5f4` | README.rst, LICENSE, `safeopt/gp_opt.py`: safe-set construction, expanders, maximisers, query selection | SafeOpt explicitly separates safe set expansion from objective maximisation. The README marks maintenance mode. Use it for conceptual/algorithm comparison, with its theoretical assumptions stated; avoid implying a confidence-filtered EI rule reproduces SafeOpt. |
+| [Materials BAX](https://github.com/sathya-chitturi/materials-bax-gpflow) | README and recursive file tree | Author-associated implementation of targeted materials discovery; README points to NIST Fe-Co-Ni data and an empirical nanoparticle model. No license detected in the inspected repository metadata/tree. Record as related work; do not vendor code or dataset on the assumption that public visibility grants reuse rights. |
+
+The BAX README links the original [NIST Fe-Co-Ni benchmark directory](https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni). Its data file and description were located, but dataset-specific reuse terms were not established in this review. Treat this as a candidate public benchmark requiring its own provenance/license check, not as an already imported dataset.
+
+One repository-title query for `Wasserstein regret optimal control` returned no matches. This is a retrieval limitation, not proof that no reference implementation exists. BoTorch and safe-control-gym were inspected rather than executed; this review makes no replication claim.
+
+Dependency choices should follow the problem and required numerical checks. This project uses small explicit implementations where they make assumptions and derivatives inspectable, and established solvers for the conic problems. Numerical comparisons and scope statements are necessary regardless of whether a method is implemented locally or imported.

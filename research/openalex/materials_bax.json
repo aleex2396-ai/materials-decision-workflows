@@ -1,0 +1,1783 @@
+{
+  "retrieved_at": "2026-11-05T11:20:52.4456204Z",
+  "url": "https://api.openalex.org/works/doi:10.1038/s41524-024-01326-2",
+  "response": {
+    "id": "https://openalex.org/W4400793326",
+    "doi": "https://doi.org/10.1038/s41524-024-01326-2",
+    "title": "Targeted materials discovery using Bayesian algorithm execution",
+    "display_name": "Targeted materials discovery using Bayesian algorithm execution",
+    "publication_year": 2024,
+    "publication_date": "2024-07-18",
+    "ids": {
+      "openalex": "https://openalex.org/W4400793326",
+      "doi": "https://doi.org/10.1038/s41524-024-01326-2"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1038/s41524-024-01326-2",
+      "doi": "https://doi.org/10.1038/s41524-024-01326-2",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41524-024-01326-2",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210232664",
+        "display_name": "npj Computational Materials",
+        "issn_l": "2057-3960",
+        "issn": [
+          "2057-3960"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "dongbi-a",
+          "jufo-1",
+          "norway-1",
+          "oarl",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "npj Computational Materials",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "arxiv",
+      "crossref",
+      "datacite",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41524-024-01326-2",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5068743423",
+          "display_name": "Sathya R. Chitturi",
+          "orcid": "https://orcid.org/0000-0002-0298-8476",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0298-8476"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2801935854",
+            "display_name": "SLAC National Accelerator Laboratory",
+            "ror": "https://ror.org/05gzmn429",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I2801935854",
+              "https://openalex.org/I39565521",
+              "https://openalex.org/I97018004"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Sathya R. Chitturi",
+        "raw_affiliation_strings": [
+          "Department of Materials Science and Engineering, Stanford University, Stanford, CA, 94305, USA",
+          "SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-0298-8476",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Materials Science and Engineering, Stanford University, Stanford, CA, 94305, USA",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          },
+          {
+            "raw_affiliation_string": "SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA",
+            "institution_ids": [
+              "https://openalex.org/I2801935854"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5034097947",
+          "display_name": "Akash Ramdas",
+          "orcid": "https://orcid.org/0009-0002-4735-7069",
+          "observed_orcids": [
+            "https://orcid.org/0009-0002-4735-7069"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2801935854",
+            "display_name": "SLAC National Accelerator Laboratory",
+            "ror": "https://ror.org/05gzmn429",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I2801935854",
+              "https://openalex.org/I39565521",
+              "https://openalex.org/I97018004"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Akash Ramdas",
+        "raw_affiliation_strings": [
+          "Department of Materials Science and Engineering, Stanford University, Stanford, CA, 94305, USA",
+          "SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Materials Science and Engineering, Stanford University, Stanford, CA, 94305, USA",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          },
+          {
+            "raw_affiliation_string": "SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA",
+            "institution_ids": [
+              "https://openalex.org/I2801935854"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100625845",
+          "display_name": "Yue Wu",
+          "orcid": "https://orcid.org/0000-0003-2874-8267",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2874-8267"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2801935854",
+            "display_name": "SLAC National Accelerator Laboratory",
+            "ror": "https://ror.org/05gzmn429",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I2801935854",
+              "https://openalex.org/I39565521",
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yue Wu",
+        "raw_affiliation_strings": [
+          "SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-2874-8267",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA",
+            "institution_ids": [
+              "https://openalex.org/I2801935854"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5076915647",
+          "display_name": "Brian A. Rohr",
+          "orcid": "https://orcid.org/0000-0003-4696-0149",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4696-0149"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2801935854",
+            "display_name": "SLAC National Accelerator Laboratory",
+            "ror": "https://ror.org/05gzmn429",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I2801935854",
+              "https://openalex.org/I39565521",
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Brian Rohr",
+        "raw_affiliation_strings": [
+          "SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA",
+            "institution_ids": [
+              "https://openalex.org/I2801935854"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5091179481",
+          "display_name": "Stefano Ermon",
+          "orcid": "https://orcid.org/0000-0003-0039-2887",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0039-2887"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Stefano Ermon",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, Stanford University, Stanford, CA, 94305, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, Stanford University, Stanford, CA, 94305, USA",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5064879447",
+          "display_name": "Jennifer A. Dionne",
+          "orcid": "https://orcid.org/0000-0001-5287-4357",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5287-4357"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jennifer Dionne",
+        "raw_affiliation_strings": [
+          "Department of Materials Science and Engineering, Stanford University, Stanford, CA, 94305, USA"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-5287-4357",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Materials Science and Engineering, Stanford University, Stanford, CA, 94305, USA",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5062031395",
+          "display_name": "Felipe H. da Jornada",
+          "orcid": "https://orcid.org/0000-0001-6712-7151",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-6712-7151"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2801935854",
+            "display_name": "SLAC National Accelerator Laboratory",
+            "ror": "https://ror.org/05gzmn429",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I2801935854",
+              "https://openalex.org/I39565521",
+              "https://openalex.org/I97018004"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Felipe H. da Jornada",
+        "raw_affiliation_strings": [
+          "Department of Materials Science and Engineering, Stanford University, Stanford, CA, 94305, USA",
+          "SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-6712-7151",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Materials Science and Engineering, Stanford University, Stanford, CA, 94305, USA",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          },
+          {
+            "raw_affiliation_string": "SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA",
+            "institution_ids": [
+              "https://openalex.org/I2801935854"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5010857834",
+          "display_name": "Mike Dunne",
+          "orcid": "https://orcid.org/0000-0002-4978-5166",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4978-5166",
+            "https://orcid.org/0000-0002-5259-9970"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2801935854",
+            "display_name": "SLAC National Accelerator Laboratory",
+            "ror": "https://ror.org/05gzmn429",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I2801935854",
+              "https://openalex.org/I39565521",
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mike Dunne",
+        "raw_affiliation_strings": [
+          "SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA",
+            "institution_ids": [
+              "https://openalex.org/I2801935854"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5025739057",
+          "display_name": "Christopher J. Tassone",
+          "orcid": "https://orcid.org/0000-0002-6664-2554",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6664-2554"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2801935854",
+            "display_name": "SLAC National Accelerator Laboratory",
+            "ror": "https://ror.org/05gzmn429",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I2801935854",
+              "https://openalex.org/I39565521",
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Christopher Tassone",
+        "raw_affiliation_strings": [
+          "SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA",
+            "institution_ids": [
+              "https://openalex.org/I2801935854"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5073310637",
+          "display_name": "Willie Neiswanger",
+          "orcid": "https://orcid.org/0000-0002-9619-5572",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-9619-5572"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1174212",
+            "display_name": "University of Southern California",
+            "ror": "https://ror.org/03taz7m60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I1174212"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Willie Neiswanger",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, Stanford University, Stanford, CA, 94305, USA",
+          "Department of Computer Science, University of Southern California, Los Angeles, CA, 90089, USA"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-9619-5572",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, Stanford University, Stanford, CA, 94305, USA",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Computer Science, University of Southern California, Los Angeles, CA, 90089, USA",
+            "institution_ids": [
+              "https://openalex.org/I1174212"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5047648085",
+          "display_name": "Daniel F. Ratner",
+          "orcid": "https://orcid.org/0000-0002-5747-7323",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5747-7323"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2801935854",
+            "display_name": "SLAC National Accelerator Laboratory",
+            "ror": "https://ror.org/05gzmn429",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I2801935854",
+              "https://openalex.org/I39565521",
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Daniel Ratner",
+        "raw_affiliation_strings": [
+          "SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA",
+            "institution_ids": [
+              "https://openalex.org/I2801935854"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5068743423"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I2801935854",
+      "https://openalex.org/I97018004"
+    ],
+    "apc_list": {
+      "value": 3290,
+      "currency": "USD",
+      "value_usd": 3290
+    },
+    "apc_paid": {
+      "value": 3290,
+      "currency": "USD",
+      "value_usd": 3290
+    },
+    "fwci": 4.2407,
+    "has_fulltext": true,
+    "cited_by_count": 49,
+    "citation_normalized_percentile": {
+      "value": 0.96601291,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "10",
+      "issue": "1",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11948",
+      "display_name": "Machine Learning in Materials Science",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11948",
+        "display_name": "Machine Learning in Materials Science",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11798",
+        "display_name": "Optimal Experimental Design Methods",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12101",
+        "display_name": "Advanced Bandit Algorithms Research",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/bayesian-optimization",
+        "display_name": "Bayesian optimization",
+        "score": 0.8899999856948853
+      },
+      {
+        "id": "https://openalex.org/keywords/materials-discovery",
+        "display_name": "materials discovery",
+        "score": 0.7710000276565552
+      },
+      {
+        "id": "https://openalex.org/keywords/design-space-exploration",
+        "display_name": "design space exploration",
+        "score": 0.6010000109672546
+      },
+      {
+        "id": "https://openalex.org/keywords/filtering-algorithms",
+        "display_name": "filtering algorithms",
+        "score": 0.6850000023841858
+      },
+      {
+        "id": "https://openalex.org/keywords/data-collection-strategies",
+        "display_name": "data collection strategies",
+        "score": 0.5419999957084656
+      },
+      {
+        "id": "https://openalex.org/keywords/magnetic-materials-characterization",
+        "display_name": "magnetic materials characterization",
+        "score": 0.9610000252723694
+      },
+      {
+        "id": "https://openalex.org/keywords/discrete-search-space",
+        "display_name": "discrete search space",
+        "score": 0.593999981880188
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.762486457824707
+      },
+      {
+        "id": "https://openalex.org/C2778049539",
+        "wikidata": "https://www.wikidata.org/wiki/Q17002908",
+        "display_name": "Bayesian optimization",
+        "level": 2,
+        "score": 0.6538477540016174
+      },
+      {
+        "id": "https://openalex.org/C2780451532",
+        "wikidata": "https://www.wikidata.org/wiki/Q759676",
+        "display_name": "Task (project management)",
+        "level": 2,
+        "score": 0.5684682130813599
+      },
+      {
+        "id": "https://openalex.org/C14036430",
+        "wikidata": "https://www.wikidata.org/wiki/Q3736076",
+        "display_name": "Function (biology)",
+        "level": 2,
+        "score": 0.5043836832046509
+      },
+      {
+        "id": "https://openalex.org/C107673813",
+        "wikidata": "https://www.wikidata.org/wiki/Q812534",
+        "display_name": "Bayesian probability",
+        "level": 2,
+        "score": 0.4657158851623535
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.3882347345352173
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.3401390016078949
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.266288161277771
+      },
+      {
+        "id": "https://openalex.org/C201995342",
+        "wikidata": "https://www.wikidata.org/wiki/Q682496",
+        "display_name": "Systems engineering",
+        "level": 1,
+        "score": 0.13287106156349182
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C78458016",
+        "wikidata": "https://www.wikidata.org/wiki/Q840400",
+        "display_name": "Evolutionary biology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 6,
+    "locations": [
+      {
+        "id": "doi:10.1038/s41524-024-01326-2",
+        "doi": "https://doi.org/10.1038/s41524-024-01326-2",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41524-024-01326-2",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210232664",
+          "display_name": "npj Computational Materials",
+          "issn_l": "2057-3960",
+          "issn": [
+            "2057-3960"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "dongbi-a",
+            "jufo-1",
+            "norway-1",
+            "oarl",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "npj Computational Materials",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:2312.16078",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2312.16078",
+        "pdf_url": "https://arxiv.org/pdf/2312.16078",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:392b6cf994d2442fa62f48bcd95108a5",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/392b6cf994d2442fa62f48bcd95108a5",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "npj Computational Materials, Vol 10, Iss 1, Pp 1-12 (2024)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:osti.gov:2372860",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://www.osti.gov/biblio/2372860",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402487",
+          "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I139351228",
+          "host_organization_name": "Office of Scientific and Technical Information",
+          "host_organization_lineage": [
+            "https://openalex.org/I139351228"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:osti.gov:2404455",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://www.osti.gov/biblio/2404455",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402487",
+          "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I139351228",
+          "host_organization_name": "Office of Scientific and Technical Information",
+          "host_organization_lineage": [
+            "https://openalex.org/I139351228"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      {
+        "id": "doi:10.48550/arxiv.2312.16078",
+        "doi": "https://doi.org/10.48550/arxiv.2312.16078",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.2312.16078",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Preprint"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1038/s41524-024-01326-2",
+      "doi": "https://doi.org/10.1038/s41524-024-01326-2",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41524-024-01326-2",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210232664",
+        "display_name": "npj Computational Materials",
+        "issn_l": "2057-3960",
+        "issn": [
+          "2057-3960"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "dongbi-a",
+          "jufo-1",
+          "norway-1",
+          "oarl",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "npj Computational Materials",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G1229526393",
+        "display_name": null,
+        "funder_award_id": "AC02-76SF00515",
+        "funder_id": "https://openalex.org/F4320332359",
+        "funder_display_name": "Office of Science"
+      },
+      {
+        "id": "https://openalex.org/G1286251239",
+        "display_name": null,
+        "funder_award_id": "DE-AC02",
+        "funder_id": "https://openalex.org/F4320337480",
+        "funder_display_name": "Basic Energy Sciences"
+      },
+      {
+        "id": "https://openalex.org/G2371548206",
+        "display_name": null,
+        "funder_award_id": "76SF00515",
+        "funder_id": "https://openalex.org/F4320306084",
+        "funder_display_name": "U.S. Department of Energy"
+      },
+      {
+        "id": "https://openalex.org/G262532246",
+        "display_name": null,
+        "funder_award_id": "DEAC02−76SF00515",
+        "funder_id": "https://openalex.org/F4320338381",
+        "funder_display_name": "SLAC National Accelerator Laboratory"
+      },
+      {
+        "id": "https://openalex.org/G303061748",
+        "display_name": null,
+        "funder_award_id": "DE–AC02–76SF00515",
+        "funder_id": "https://openalex.org/F4320306084",
+        "funder_display_name": "U.S. Department of Energy"
+      },
+      {
+        "id": "https://openalex.org/G3907540882",
+        "display_name": "DMREF: Collaborative research: Data driven discovery of synthesis pathways and distinguishing electronic phenomena of 1D van der Waals bonded solids",
+        "funder_award_id": "1922312",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      },
+      {
+        "id": "https://openalex.org/G421866065",
+        "display_name": null,
+        "funder_award_id": "1922312",
+        "funder_id": "https://openalex.org/F4320337367",
+        "funder_display_name": "Division of Materials Research"
+      },
+      {
+        "id": "https://openalex.org/G4235786860",
+        "display_name": null,
+        "funder_award_id": "AC02‐76SF00515",
+        "funder_id": "https://openalex.org/F4320338381",
+        "funder_display_name": "SLAC National Accelerator Laboratory"
+      },
+      {
+        "id": "https://openalex.org/G495301720",
+        "display_name": null,
+        "funder_award_id": "DE-AC02-76SF0051 5",
+        "funder_id": "https://openalex.org/F4320332359",
+        "funder_display_name": "Office of Science"
+      },
+      {
+        "id": "https://openalex.org/G498139845",
+        "display_name": null,
+        "funder_award_id": "DE-AC02",
+        "funder_id": "https://openalex.org/F4320332359",
+        "funder_display_name": "Office of Science"
+      },
+      {
+        "id": "https://openalex.org/G5570207115",
+        "display_name": null,
+        "funder_award_id": "AC02‐76SF00515",
+        "funder_id": "https://openalex.org/F4320306084",
+        "funder_display_name": "U.S. Department of Energy"
+      },
+      {
+        "id": "https://openalex.org/G6550344761",
+        "display_name": null,
+        "funder_award_id": "76SF00515",
+        "funder_id": "https://openalex.org/F4320337480",
+        "funder_display_name": "Basic Energy Sciences"
+      },
+      {
+        "id": "https://openalex.org/G7283024673",
+        "display_name": null,
+        "funder_award_id": "AC02-76SF00515",
+        "funder_id": "https://openalex.org/F4320337480",
+        "funder_display_name": "Basic Energy Sciences"
+      },
+      {
+        "id": "https://openalex.org/G7331630580",
+        "display_name": null,
+        "funder_award_id": "DE-AC02-76SF00515",
+        "funder_id": "https://openalex.org/F4320337744",
+        "funder_display_name": "Chemical Sciences, Geosciences, and Biosciences Division"
+      },
+      {
+        "id": "https://openalex.org/G8382000481",
+        "display_name": null,
+        "funder_award_id": "76SF00515",
+        "funder_id": "https://openalex.org/F4320332359",
+        "funder_display_name": "Office of Science"
+      },
+      {
+        "id": "https://openalex.org/G911061179",
+        "display_name": null,
+        "funder_award_id": "DE-AC-02-76SF00515",
+        "funder_id": "https://openalex.org/F4320337480",
+        "funder_display_name": "Basic Energy Sciences"
+      },
+      {
+        "id": "https://openalex.org/G969889393",
+        "display_name": null,
+        "funder_award_id": "DE-AC02-",
+        "funder_id": "https://openalex.org/F4320306084",
+        "funder_display_name": "U.S. Department of Energy"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320306084",
+        "display_name": "U.S. Department of Energy",
+        "ror": "https://ror.org/01bj3aw27"
+      },
+      {
+        "id": "https://openalex.org/F4320332359",
+        "display_name": "Office of Science",
+        "ror": "https://ror.org/00mmn6b08"
+      },
+      {
+        "id": "https://openalex.org/F4320337367",
+        "display_name": "Division of Materials Research",
+        "ror": "https://ror.org/01pc7k308"
+      },
+      {
+        "id": "https://openalex.org/F4320337480",
+        "display_name": "Basic Energy Sciences",
+        "ror": "https://ror.org/05mg91w61"
+      },
+      {
+        "id": "https://openalex.org/F4320337744",
+        "display_name": "Chemical Sciences, Geosciences, and Biosciences Division",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320338381",
+        "display_name": "SLAC National Accelerator Laboratory",
+        "ror": "https://ror.org/05gzmn429"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4400793326.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4400793326.grobid-xml"
+    },
+    "referenced_works_count": 59,
+    "referenced_works": [
+      "https://openalex.org/W1969094676",
+      "https://openalex.org/W1973682899",
+      "https://openalex.org/W2007695974",
+      "https://openalex.org/W2018326691",
+      "https://openalex.org/W2021172010",
+      "https://openalex.org/W2086997728",
+      "https://openalex.org/W2093787075",
+      "https://openalex.org/W2111526171",
+      "https://openalex.org/W2156267707",
+      "https://openalex.org/W2192203593",
+      "https://openalex.org/W2258281698",
+      "https://openalex.org/W2336569366",
+      "https://openalex.org/W2762685212",
+      "https://openalex.org/W2784208423",
+      "https://openalex.org/W2794577885",
+      "https://openalex.org/W2888337398",
+      "https://openalex.org/W2888436131",
+      "https://openalex.org/W2890019192",
+      "https://openalex.org/W2901155091",
+      "https://openalex.org/W2950629258",
+      "https://openalex.org/W2951618391",
+      "https://openalex.org/W2967096001",
+      "https://openalex.org/W2998788451",
+      "https://openalex.org/W2999359202",
+      "https://openalex.org/W3002374369",
+      "https://openalex.org/W3011445295",
+      "https://openalex.org/W3018864785",
+      "https://openalex.org/W3020314217",
+      "https://openalex.org/W3024841826",
+      "https://openalex.org/W3028329358",
+      "https://openalex.org/W3034954837",
+      "https://openalex.org/W3045965361",
+      "https://openalex.org/W3092025504",
+      "https://openalex.org/W3095968279",
+      "https://openalex.org/W3100632886",
+      "https://openalex.org/W3110255429",
+      "https://openalex.org/W3128474010",
+      "https://openalex.org/W3170539189",
+      "https://openalex.org/W3172457552",
+      "https://openalex.org/W3175019297",
+      "https://openalex.org/W3175085846",
+      "https://openalex.org/W3183012698",
+      "https://openalex.org/W3215518215",
+      "https://openalex.org/W4200241887",
+      "https://openalex.org/W4205518462",
+      "https://openalex.org/W4212913440",
+      "https://openalex.org/W4224143931",
+      "https://openalex.org/W4295736424",
+      "https://openalex.org/W4306935883",
+      "https://openalex.org/W4313593658",
+      "https://openalex.org/W4318486595",
+      "https://openalex.org/W4322765499",
+      "https://openalex.org/W4362585165",
+      "https://openalex.org/W4381430190",
+      "https://openalex.org/W4389132715",
+      "https://openalex.org/W4389879135",
+      "https://openalex.org/W6929538594",
+      "https://openalex.org/W6930075137",
+      "https://openalex.org/W7103550641"
+    ],
+    "related_works": [
+      "https://openalex.org/W4411937000",
+      "https://openalex.org/W4388775324",
+      "https://openalex.org/W7168026068",
+      "https://openalex.org/W4308245573",
+      "https://openalex.org/W4403441878",
+      "https://openalex.org/W3190249714",
+      "https://openalex.org/W4377822440",
+      "https://openalex.org/W3035138415",
+      "https://openalex.org/W4225822833",
+      "https://openalex.org/W4416387966"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Rapid": [
+        1
+      ],
+      "discovery": [
+        2
+      ],
+      "and": [
+        3,
+        82,
+        87,
+        109,
+        124,
+        128,
+        154
+      ],
+      "synthesis": [
+        4,
+        123
+      ],
+      "of": [
+        5,
+        41,
+        72,
+        90,
+        151,
+        162
+      ],
+      "future": [
+        6
+      ],
+      "materials": [
+        7,
+        34,
+        126,
+        152
+      ],
+      "requires": [
+        8,
+        37
+      ],
+      "intelligent": [
+        9
+      ],
+      "data": [
+        10,
+        77
+      ],
+      "acquisition": [
+        11,
+        92
+      ],
+      "strategies": [
+        12,
+        79
+      ],
+      "to": [
+        13,
+        26
+      ],
+      "navigate": [
+        14
+      ],
+      "large": [
+        15
+      ],
+      "design": [
+        16,
+        35,
+        43
+      ],
+      "spaces.": [
+        17
+      ],
+      "A": [
+        18
+      ],
+      "popular": [
+        19
+      ],
+      "strategy": [
+        20
+      ],
+      "is": [
+        21,
+        97
+      ],
+      "Bayesian": [
+        22
+      ],
+      "optimization,": [
+        23
+      ],
+      "which": [
+        24,
+        45
+      ],
+      "aims": [
+        25
+      ],
+      "find": [
+        27
+      ],
+      "candidates": [
+        28
+      ],
+      "that": [
+        29,
+        56,
+        130
+      ],
+      "maximize": [
+        30
+      ],
+      "material": [
+        31
+      ],
+      "properties;": [
+        32
+      ],
+      "however,": [
+        33
+      ],
+      "often": [
+        36
+      ],
+      "finding": [
+        38
+      ],
+      "specific": [
+        39
+      ],
+      "subsets": [
+        40
+      ],
+      "the": [
+        42,
+        85,
+        149,
+        159
+      ],
+      "space": [
+        44
+      ],
+      "meet": [
+        46
+      ],
+      "more": [
+        47,
+        135
+      ],
+      "complex": [
+        48
+      ],
+      "or": [
+        49
+      ],
+      "specialized": [
+        50
+      ],
+      "goals.": [
+        51
+      ],
+      "We": [
+        52,
+        114
+      ],
+      "present": [
+        53
+      ],
+      "a": [
+        54,
+        144
+      ],
+      "framework": [
+        55,
+        96,
+        142
+      ],
+      "captures": [
+        57
+      ],
+      "experimental": [
+        58
+      ],
+      "goals": [
+        59
+      ],
+      "through": [
+        60
+      ],
+      "straightforward": [
+        61
+      ],
+      "user-defined": [
+        62
+      ],
+      "filtering": [
+        63
+      ],
+      "algorithms.": [
+        64
+      ],
+      "These": [
+        65
+      ],
+      "algorithms": [
+        66
+      ],
+      "are": [
+        67,
+        133
+      ],
+      "automatically": [
+        68
+      ],
+      "translated": [
+        69
+      ],
+      "into": [
+        70
+      ],
+      "one": [
+        71
+      ],
+      "three": [
+        73
+      ],
+      "intelligent,": [
+        74
+      ],
+      "parameter-free,": [
+        75
+      ],
+      "sequential": [
+        76
+      ],
+      "collection": [
+        78
+      ],
+      "(SwitchBAX,": [
+        80
+      ],
+      "InfoBAX,": [
+        81
+      ],
+      "MeanBAX),": [
+        83
+      ],
+      "bypassing": [
+        84
+      ],
+      "time-consuming": [
+        86
+      ],
+      "difficult": [
+        88
+      ],
+      "process": [
+        89
+      ],
+      "task-specific": [
+        91
+      ],
+      "function": [
+        93
+      ],
+      "design.": [
+        94
+      ],
+      "Our": [
+        95
+      ],
+      "tailored": [
+        98
+      ],
+      "for": [
+        99,
+        120,
+        147,
+        158
+      ],
+      "typical": [
+        100
+      ],
+      "discrete": [
+        101
+      ],
+      "search": [
+        102
+      ],
+      "spaces": [
+        103
+      ],
+      "involving": [
+        104
+      ],
+      "multiple": [
+        105
+      ],
+      "measured": [
+        106
+      ],
+      "physical": [
+        107
+      ],
+      "properties": [
+        108
+      ],
+      "short": [
+        110
+      ],
+      "time-horizon": [
+        111
+      ],
+      "decision": [
+        112
+      ],
+      "making.": [
+        113
+      ],
+      "demonstrate": [
+        115
+      ],
+      "this": [
+        116
+      ],
+      "approach": [
+        117
+      ],
+      "on": [
+        118
+      ],
+      "datasets": [
+        119
+      ],
+      "TiO2": [
+        121
+      ],
+      "nanoparticle": [
+        122
+      ],
+      "magnetic": [
+        125
+      ],
+      "characterization,": [
+        127
+      ],
+      "show": [
+        129
+      ],
+      "our": [
+        131,
+        141
+      ],
+      "methods": [
+        132
+      ],
+      "significantly": [
+        134
+      ],
+      "efficient": [
+        136
+      ],
+      "than": [
+        137
+      ],
+      "state-of-the-art": [
+        138
+      ],
+      "approaches.": [
+        139
+      ],
+      "Overall,": [
+        140
+      ],
+      "provides": [
+        143
+      ],
+      "practical": [
+        145
+      ],
+      "solution": [
+        146
+      ],
+      "navigating": [
+        148
+      ],
+      "complexities": [
+        150
+      ],
+      "design,": [
+        153
+      ],
+      "helps": [
+        155
+      ],
+      "lay": [
+        156
+      ],
+      "groundwork": [
+        157
+      ],
+      "accelerated": [
+        160
+      ],
+      "development": [
+        161
+      ],
+      "advanced": [
+        163
+      ],
+      "materials.": [
+        164
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 28
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 16
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 4
+      }
+    ],
+    "updated_date": "2026-11-04T10:54:05.112534",
+    "created_date": "2024-07-19T00:00:00"
+  }
+}

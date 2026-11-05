@@ -1,0 +1,42 @@
+{
+  "origin": "public_synthetic_only",
+  "no_private_data_loaded": true,
+  "config_sha256": "b4657b6c2d44756b5d02e57166dc8036d05e3eb1c5a08130a8edd7ca401904de",
+  "source_sha256": {
+    "__init__.py": "c826e3b343c219b874c17fb64c63681ca1078a73d8e7d765a7750a493eb150a8",
+    "cli.py": "0f5aaeb95980a10e627e062095d58cb7af33081276ae1ed3a698e5fee1695ea1",
+    "control.py": "08a5fc131ae2391ba6227ad39ddf8255d4212c30c4a6c86cae948f7789d3a46a",
+    "data.py": "0a8da0fddd39b167d38424e952dab3e5ba18a44768805c98632172b612289393",
+    "decision_learning.py": "471ce36de38e38fde6267a6c6d6f6a54e8f948efdfae9c143b31909e92575e40",
+    "decision_report.py": "6baa9f27091c3822f071e997c70d0fb814cc04148f5db9788458e267fe9ba244",
+    "decision_study.py": "395f51a3ab82b1c7a1bfb752a1907c9deb1a52c8060741cbf28d18318b1c9427",
+    "discovery.py": "fb3ed02591a027d51b84ca3fe25071398e47f16d0a19ad563094cea85c8c46ea",
+    "dr_control.py": "5b12633ce4e5c92e9b20397680cf049fb29cc755bb8d5bdd8a89a0b84534f7ea",
+    "dual.py": "ae0086e80f163ed1ac925d94f71e347dd8cde3323918c0b42cbab0cd9e0629bf",
+    "mechanism_study.py": "123dff9e3e0964fdbd6276ade816a31a2c352f8d4225ebb847ba7120f92e285e",
+    "models.py": "7cf0c3312bae019d6f663d6bdbfe85a1e1b40bff4fc2ca9a186a35901bf20c9c",
+    "private_local.py": "7fc769b615b2dbc6d29b6de3d8c451efe583a1ff2122829ebf7d296bd852c6b6",
+    "reference_study.py": "17326dc92e2acb20ef37379e12c884c1db923bb9844d668e24f6b71884f38b1c",
+    "report.py": "4d9a3ca8931f129dc1bfe3217e5a5d48d08560f771bb3361ee022bf6213553f3",
+    "simulator.py": "d8a86364497fa7bf1e76e3824caca6dbc96cc7dd9c5ae557a150d018f2452101",
+    "study.py": "1ba142c373972112be481554561e358d8269513bcbfe2502af8d7f4f05618437"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.17.1",
+    "cvxpy": "1.9.3",
+    "clarabel": "0.11.1",
+    "scs": "3.3.1"
+  },
+  "artifact_sha256": {
+    "covariance_tradeoff.png": "3052d6057dc63605f93a3e42c8368f6914197979080038c00d2b4e6c97616f3f",
+    "failures.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "fits.json": "206e95f364ee3768890eaac5b93bb7850d11af5036efaf6f94644529d1f7bc84",
+    "policies.json": "8c571cf3351bb94a740db88b9714824a6c5c7ba24bed2aa5f54bb1e929c05ae4",
+    "primary_comparison.png": "cc7c622f37989faa77a5cb508183a2b378e0533e2cc990e1fe93575964e12276",
+    "records.json": "5eb967b3937dcd13590755fb79d9b86259569b89f628e951a79d15ef71904bb6",
+    "REPORT.md": "4fafee64f26736c087d56664156d3a2473c48ae6f20cbcd4b1ca4c2724894fe3",
+    "summary.json": "0046286dd0826b7fbdcfce655c74d8bca1a0a642443952fed55a74c4bac27e2a"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "study_version": "2.0-reference",
+  "origin": "public_synthetic_only",
+  "protocol_status": "followup_frozen_before_dual_study_results",
+  "quadrature_order": 24,
+  "grid_size": 81,
+  "refinement_quadrature_order": 48,
+  "refinement_grid_size": 161,
+  "monte_carlo_episodes": 16384,
+  "seed": 91372,
+  "regimes": [
+    {"name": "low_then_high", "reference_now": 0.25, "reference_next": 0.88, "low": 0.12, "high": 0.60, "wbar": 0.025},
+    {"name": "high_both", "reference_now": 0.88, "reference_next": 0.88, "low": 0.12, "high": 0.60, "wbar": 0.025},
+    {"name": "low_both", "reference_now": 0.25, "reference_next": 0.25, "low": 0.12, "high": 0.60, "wbar": 0.025},
+    {"name": "narrow_prior", "reference_now": 0.25, "reference_next": 0.88, "low": 0.28, "high": 0.32, "wbar": 0.025},
+    {"name": "large_noise", "reference_now": 0.25, "reference_next": 0.88, "low": 0.12, "high": 0.60, "wbar": 0.10}
+  ],
+  "primary_endpoint": "two-step total expected cost under posterior-aware versus frozen-belief planning with identical state-feedback access and action grid",
+  "claims": "Numerical grid/quadrature reference, analytic terminal control and conditional information inequality; no globally optimal infinite-horizon dual-control claim."
+}

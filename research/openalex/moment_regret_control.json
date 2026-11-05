@@ -1,0 +1,965 @@
+{
+  "retrieved_at": "2026-11-05T11:20:51.2736849Z",
+  "url": "https://api.openalex.org/works/doi:10.48550/arXiv.2512.10906",
+  "response": {
+    "id": "https://openalex.org/W4417297121",
+    "doi": "https://doi.org/10.48550/arxiv.2512.10906",
+    "title": "Distributionally Robust Regret Optimal Control Under Moment-Based Ambiguity Sets",
+    "display_name": "Distributionally Robust Regret Optimal Control Under Moment-Based Ambiguity Sets",
+    "publication_year": 2025,
+    "publication_date": "2025-12-11",
+    "ids": {
+      "openalex": "https://openalex.org/W4417297121",
+      "doi": "https://doi.org/10.48550/arxiv.2512.10906"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "pmh:oai:arXiv.org:2512.10906",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "https://arxiv.org/abs/2512.10906",
+      "pdf_url": "https://arxiv.org/pdf/2512.10906",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    "volume": null,
+    "type": "preprint",
+    "indexed_in": [
+      "arxiv",
+      "datacite"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2512.10906",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5033257687",
+          "display_name": "Feras Al Taha",
+          "orcid": "https://orcid.org/0000-0001-5588-9431",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5588-9431"
+          ]
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Taha, Feras Al",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5071680590",
+          "display_name": "Eilyan Y. Bitar",
+          "orcid": "https://orcid.org/0000-0002-5659-5969",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5659-5969"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I205783295",
+            "display_name": "Cornell University",
+            "ror": "https://ror.org/05bnh6r87",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bitar, Eilyan",
+        "raw_affiliation_strings": [
+          "EDU School of Electrical and Computer Engineering , Cornell University , Ithaca , NY , 14853 , USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "EDU School of Electrical and Computer Engineering , Cornell University , Ithaca , NY , 14853 , USA",
+            "institution_ids": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10791",
+      "display_name": "Advanced Control Systems Optimization",
+      "score": 0.7426999807357788,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10791",
+        "display_name": "Advanced Control Systems Optimization",
+        "score": 0.7426999807357788,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11413",
+        "display_name": "Risk and Portfolio Optimization",
+        "score": 0.22630000114440918,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10046",
+        "display_name": "Stability and Control of Uncertain Systems",
+        "score": 0.015200000256299973,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/distributionally-robust-optimization",
+        "display_name": "distributionally robust optimization",
+        "score": 0.9480000138282776
+      },
+      {
+        "id": "https://openalex.org/keywords/regret-minimization",
+        "display_name": "regret minimization",
+        "score": 0.9089999794960022
+      },
+      {
+        "id": "https://openalex.org/keywords/moment-based-ambiguity-set",
+        "display_name": "moment-based ambiguity set",
+        "score": 0.871999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/unknown-distribution",
+        "display_name": "unknown distribution",
+        "score": 0.5130000114440918
+      },
+      {
+        "id": "https://openalex.org/keywords/minimax-optimal-control",
+        "display_name": "minimax optimal control",
+        "score": 0.8579999804496765
+      },
+      {
+        "id": "https://openalex.org/keywords/convex-reformulation",
+        "display_name": "convex reformulation",
+        "score": 0.953000009059906
+      },
+      {
+        "id": "https://openalex.org/keywords/projected-subgradient-method",
+        "display_name": "projected subgradient method",
+        "score": 0.9810000061988831
+      },
+      {
+        "id": "https://openalex.org/keywords/finite-horizon-control",
+        "display_name": "finite horizon control",
+        "score": 0.7509999871253967
+      },
+      {
+        "id": "https://openalex.org/keywords/data-driven-control",
+        "display_name": "data-driven control",
+        "score": 0.7910000085830688
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C126255220",
+        "wikidata": "https://www.wikidata.org/wiki/Q141495",
+        "display_name": "Mathematical optimization",
+        "level": 1,
+        "score": 0.6628999710083008
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.598800003528595
+      },
+      {
+        "id": "https://openalex.org/C158968445",
+        "wikidata": "https://www.wikidata.org/wiki/Q7631150",
+        "display_name": "Subgradient method",
+        "level": 2,
+        "score": 0.5552999973297119
+      },
+      {
+        "id": "https://openalex.org/C101901036",
+        "wikidata": "https://www.wikidata.org/wiki/Q2269096",
+        "display_name": "Semidefinite programming",
+        "level": 2,
+        "score": 0.5134000182151794
+      },
+      {
+        "id": "https://openalex.org/C157972887",
+        "wikidata": "https://www.wikidata.org/wiki/Q463359",
+        "display_name": "Convex optimization",
+        "level": 3,
+        "score": 0.5016000270843506
+      },
+      {
+        "id": "https://openalex.org/C91575142",
+        "wikidata": "https://www.wikidata.org/wiki/Q1971426",
+        "display_name": "Optimal control",
+        "level": 2,
+        "score": 0.49070000648498535
+      },
+      {
+        "id": "https://openalex.org/C50817715",
+        "wikidata": "https://www.wikidata.org/wiki/Q79895177",
+        "display_name": "Regret",
+        "level": 2,
+        "score": 0.4803999960422516
+      },
+      {
+        "id": "https://openalex.org/C149728462",
+        "wikidata": "https://www.wikidata.org/wiki/Q751319",
+        "display_name": "Minimax",
+        "level": 2,
+        "score": 0.4603999853134155
+      },
+      {
+        "id": "https://openalex.org/C72134830",
+        "wikidata": "https://www.wikidata.org/wiki/Q5166524",
+        "display_name": "Convexity",
+        "level": 2,
+        "score": 0.4560000002384186
+      },
+      {
+        "id": "https://openalex.org/C149441793",
+        "wikidata": "https://www.wikidata.org/wiki/Q200726",
+        "display_name": "Probability distribution",
+        "level": 2,
+        "score": 0.44999998807907104
+      },
+      {
+        "id": "https://openalex.org/C2780522230",
+        "wikidata": "https://www.wikidata.org/wiki/Q1140419",
+        "display_name": "Ambiguity",
+        "level": 2,
+        "score": 0.447299987077713
+      },
+      {
+        "id": "https://openalex.org/C170131372",
+        "wikidata": "https://www.wikidata.org/wiki/Q7617811",
+        "display_name": "Stochastic control",
+        "level": 3,
+        "score": 0.3986999988555908
+      },
+      {
+        "id": "https://openalex.org/C92757383",
+        "wikidata": "https://www.wikidata.org/wiki/Q382497",
+        "display_name": "Affine transformation",
+        "level": 2,
+        "score": 0.39640000462532043
+      },
+      {
+        "id": "https://openalex.org/C193254401",
+        "wikidata": "https://www.wikidata.org/wiki/Q2160088",
+        "display_name": "Robust optimization",
+        "level": 2,
+        "score": 0.39570000767707825
+      },
+      {
+        "id": "https://openalex.org/C63479239",
+        "wikidata": "https://www.wikidata.org/wiki/Q7353546",
+        "display_name": "Robustness (evolution)",
+        "level": 3,
+        "score": 0.36820000410079956
+      },
+      {
+        "id": "https://openalex.org/C191795146",
+        "wikidata": "https://www.wikidata.org/wiki/Q3878446",
+        "display_name": "Norm (philosophy)",
+        "level": 2,
+        "score": 0.3578999936580658
+      },
+      {
+        "id": "https://openalex.org/C178650346",
+        "wikidata": "https://www.wikidata.org/wiki/Q201984",
+        "display_name": "Covariance",
+        "level": 2,
+        "score": 0.34940001368522644
+      },
+      {
+        "id": "https://openalex.org/C31531917",
+        "wikidata": "https://www.wikidata.org/wiki/Q915157",
+        "display_name": "Robust control",
+        "level": 3,
+        "score": 0.33660000562667847
+      },
+      {
+        "id": "https://openalex.org/C112680207",
+        "wikidata": "https://www.wikidata.org/wiki/Q714886",
+        "display_name": "Regular polygon",
+        "level": 2,
+        "score": 0.32179999351501465
+      },
+      {
+        "id": "https://openalex.org/C92207270",
+        "wikidata": "https://www.wikidata.org/wiki/Q939253",
+        "display_name": "Matrix norm",
+        "level": 3,
+        "score": 0.3165000081062317
+      },
+      {
+        "id": "https://openalex.org/C164660894",
+        "wikidata": "https://www.wikidata.org/wiki/Q2037833",
+        "display_name": "Piecewise",
+        "level": 2,
+        "score": 0.2892000079154968
+      },
+      {
+        "id": "https://openalex.org/C177264268",
+        "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+        "display_name": "Set (abstract data type)",
+        "level": 2,
+        "score": 0.2865999937057495
+      },
+      {
+        "id": "https://openalex.org/C137631369",
+        "wikidata": "https://www.wikidata.org/wiki/Q7617831",
+        "display_name": "Stochastic programming",
+        "level": 2,
+        "score": 0.28610000014305115
+      },
+      {
+        "id": "https://openalex.org/C137836250",
+        "wikidata": "https://www.wikidata.org/wiki/Q984063",
+        "display_name": "Optimization problem",
+        "level": 2,
+        "score": 0.2842999994754791
+      },
+      {
+        "id": "https://openalex.org/C8272713",
+        "wikidata": "https://www.wikidata.org/wiki/Q176737",
+        "display_name": "Stochastic process",
+        "level": 2,
+        "score": 0.2809999883174896
+      },
+      {
+        "id": "https://openalex.org/C145446738",
+        "wikidata": "https://www.wikidata.org/wiki/Q319913",
+        "display_name": "Convex function",
+        "level": 3,
+        "score": 0.2806999981403351
+      },
+      {
+        "id": "https://openalex.org/C155253501",
+        "wikidata": "https://www.wikidata.org/wiki/Q461992",
+        "display_name": "Interior point method",
+        "level": 2,
+        "score": 0.2761000096797943
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.2703999876976013
+      },
+      {
+        "id": "https://openalex.org/C41045048",
+        "wikidata": "https://www.wikidata.org/wiki/Q202843",
+        "display_name": "Linear programming",
+        "level": 2,
+        "score": 0.2671000063419342
+      },
+      {
+        "id": "https://openalex.org/C185798385",
+        "wikidata": "https://www.wikidata.org/wiki/Q1161707",
+        "display_name": "Benchmark (surveying)",
+        "level": 2,
+        "score": 0.25270000100135803
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "pmh:oai:arXiv.org:2512.10906",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://arxiv.org/abs/2512.10906",
+        "pdf_url": "https://arxiv.org/pdf/2512.10906",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
+        "id": "doi:10.48550/arxiv.2512.10906",
+        "doi": "https://doi.org/10.48550/arxiv.2512.10906",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.2512.10906",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Preprint"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:arXiv.org:2512.10906",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "https://arxiv.org/abs/2512.10906",
+      "pdf_url": "https://arxiv.org/pdf/2512.10906",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    "sustainable_development_goals": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320333413",
+        "display_name": "David R. Atkinson Center for a Sustainable Future , Cornell University",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320334248",
+        "display_name": "Cornell Atkinson Center for Sustainability, Cornell University",
+        "ror": "https://ror.org/03h0qhk21"
+      },
+      {
+        "id": "https://openalex.org/F4320334593",
+        "display_name": "Natural Sciences and Engineering Research Council of Canada",
+        "ror": "https://ror.org/01h531d29"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4417297121.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4417297121.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W7160430371",
+      "https://openalex.org/W6981199059",
+      "https://openalex.org/W4382365352",
+      "https://openalex.org/W4415711988",
+      "https://openalex.org/W2783750304",
+      "https://openalex.org/W4399597913",
+      "https://openalex.org/W4409426254",
+      "https://openalex.org/W7212106767",
+      "https://openalex.org/W7124163657",
+      "https://openalex.org/W4417517461"
+    ],
+    "abstract_inverted_index": {
+      "We": [
+        0
+      ],
+      "consider": [
+        1
+      ],
+      "a": [
+        2,
+        83,
+        92,
+        112
+      ],
+      "class": [
+        3
+      ],
+      "of": [
+        4,
+        29,
+        95,
+        106
+      ],
+      "finite-horizon,": [
+        5
+      ],
+      "linear-quadratic": [
+        6,
+        98
+      ],
+      "stochastic": [
+        7,
+        99
+      ],
+      "control": [
+        8,
+        54,
+        73,
+        100,
+        136
+      ],
+      "problems,": [
+        9
+      ],
+      "where": [
+        10
+      ],
+      "the": [
+        11,
+        15,
+        58,
+        66,
+        96,
+        104,
+        130
+      ],
+      "probability": [
+        12
+      ],
+      "distribution": [
+        13
+      ],
+      "governing": [
+        14
+      ],
+      "noise": [
+        16
+      ],
+      "process": [
+        17
+      ],
+      "is": [
+        18,
+        75
+      ],
+      "unknown": [
+        19
+      ],
+      "but": [
+        20
+      ],
+      "assumed": [
+        21
+      ],
+      "to": [
+        22,
+        24,
+        56,
+        77,
+        121,
+        128
+      ],
+      "belong": [
+        23
+      ],
+      "an": [
+        25,
+        79
+      ],
+      "ambiguity": [
+        26,
+        67
+      ],
+      "set": [
+        27
+      ],
+      "consisting": [
+        28
+      ],
+      "all": [
+        30,
+        63
+      ],
+      "distributions": [
+        31,
+        64
+      ],
+      "whose": [
+        32
+      ],
+      "mean": [
+        33
+      ],
+      "and": [
+        34
+      ],
+      "covariance": [
+        35
+      ],
+      "lie": [
+        36
+      ],
+      "within": [
+        37
+      ],
+      "norm": [
+        38
+      ],
+      "balls": [
+        39
+      ],
+      "centered": [
+        40
+      ],
+      "at": [
+        41
+      ],
+      "given": [
+        42
+      ],
+      "nominal": [
+        43,
+        97
+      ],
+      "values.": [
+        44
+      ],
+      "To": [
+        45
+      ],
+      "cope": [
+        46
+      ],
+      "with": [
+        47,
+        133
+      ],
+      "this": [
+        48,
+        107
+      ],
+      "ambiguity,": [
+        49
+      ],
+      "we": [
+        50,
+        110
+      ],
+      "design": [
+        51,
+        137
+      ],
+      "causal": [
+        52
+      ],
+      "affine": [
+        53
+      ],
+      "policies": [
+        55
+      ],
+      "minimize": [
+        57
+      ],
+      "worst-case": [
+        59
+      ],
+      "expected": [
+        60
+      ],
+      "regret": [
+        61
+      ],
+      "over": [
+        62
+      ],
+      "in": [
+        65
+      ],
+      "set.": [
+        68
+      ],
+      "The": [
+        69
+      ],
+      "resulting": [
+        70
+      ],
+      "minimax": [
+        71
+      ],
+      "optimal": [
+        72,
+        119
+      ],
+      "problem": [
+        74
+      ],
+      "shown": [
+        76
+      ],
+      "admit": [
+        78
+      ],
+      "equivalent": [
+        80
+      ],
+      "reformulation": [
+        81
+      ],
+      "as": [
+        82,
+        91
+      ],
+      "tractable": [
+        84
+      ],
+      "convex": [
+        85,
+        108
+      ],
+      "program,": [
+        86
+      ],
+      "which": [
+        87
+      ],
+      "can": [
+        88
+      ],
+      "be": [
+        89
+      ],
+      "interpreted": [
+        90
+      ],
+      "regularized": [
+        93
+      ],
+      "version": [
+        94
+      ],
+      "problem.": [
+        101
+      ],
+      "Based": [
+        102
+      ],
+      "on": [
+        103
+      ],
+      "dual": [
+        105
+      ],
+      "reformulation,": [
+        109
+      ],
+      "develop": [
+        111
+      ],
+      "scalable": [
+        113
+      ],
+      "projected": [
+        114
+      ],
+      "subgradient": [
+        115
+      ],
+      "method": [
+        116,
+        132
+      ],
+      "for": [
+        117
+      ],
+      "computing": [
+        118
+      ],
+      "controllers": [
+        120
+      ],
+      "arbitrary": [
+        122
+      ],
+      "accuracy.": [
+        123
+      ],
+      "Numerical": [
+        124
+      ],
+      "experiments": [
+        125
+      ],
+      "are": [
+        126
+      ],
+      "provided": [
+        127
+      ],
+      "compare": [
+        129
+      ],
+      "proposed": [
+        131
+      ],
+      "state-of-the-art": [
+        134
+      ],
+      "data-driven": [
+        135
+      ],
+      "methods.": [
+        138
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2025-12-13T00:00:00"
+  }
+}

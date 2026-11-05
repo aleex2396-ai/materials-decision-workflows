@@ -1,0 +1,23 @@
+{
+  "study_version": "2.0",
+  "origin": "public_synthetic_only",
+  "protocol_status": "followup_frozen_before_decision_study_results",
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+  "horizon": 6,
+  "state_dimension": 2,
+  "input_dimension": 1,
+  "train_trajectories": [8, 28, 112],
+  "validation_trajectories": 64,
+  "test_trajectories": 4096,
+  "radius_per_sqrt_dimension": 0.25,
+  "mean_assumption": "known_zero_mean; nondegenerate random initial state included in disturbance trajectory",
+  "plant_assumption": "known dynamics; material-dependent synthetic coupled thermal deviation model",
+  "outer_maxiter": 12,
+  "estimators": ["empirical_ridge", "diagonal", "likelihood_shrinkage", "decision_shrinkage", "oracle"],
+  "controller_methods": ["nominal", "dr_cost", "dr_regret"],
+  "shifts": ["iid", "oracle_top_0.5r", "oracle_bottom_0.5r", "oracle_top_1.5r"],
+  "primary_endpoint": "paired decision_shrinkage minus likelihood_shrinkage expected true noncausal-oracle regret, dr_regret controller, reported separately for every sample size and shift",
+  "secondary_endpoints": ["true cost", "relative covariance Frobenius error", "true-center worst-case regret", "estimated-ball membership", "spectral margin", "synthesis residuals", "hypergradient residuals", "solver calls and time"],
+  "negative_controls": ["different absolutely continuous nominal distributions with identical second moments produce identical controller objective", "same adaptive interval updates with GP versus constant versus directly measured nominal gain"],
+  "interpretation": "No guaranteed estimator improvement. Radius is a design parameter, not an asserted finite-sample confidence set. Learned-dynamics uncertainty is not included in the known-dynamics theorem."
+}

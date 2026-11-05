@@ -1,0 +1,930 @@
+{
+  "retrieved_at": "2026-11-05T11:20:48.7922288Z",
+  "url": "https://api.openalex.org/works/doi:10.1609/aaai.v34i06.6581",
+  "response": {
+    "id": "https://openalex.org/W2991211457",
+    "doi": "https://doi.org/10.1609/aaai.v34i06.6581",
+    "title": "Safe Linear Stochastic Bandits",
+    "display_name": "Safe Linear Stochastic Bandits",
+    "publication_year": 2020,
+    "publication_date": "2020-04-03",
+    "ids": {
+      "openalex": "https://openalex.org/W2991211457",
+      "doi": "https://doi.org/10.1609/aaai.v34i06.6581",
+      "mag": "2991211457"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1609/aaai.v34i06.6581",
+      "doi": "https://doi.org/10.1609/aaai.v34i06.6581",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1609/aaai.v34i06.6581",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210191458",
+        "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "issn_l": "2159-5399",
+        "issn": [
+          "2159-5399",
+          "2374-3468"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "jufo-2",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320058",
+        "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320058"
+        ],
+        "host_organization_lineage_names": [
+          "Association for the Advancement of Artificial Intelligence"
+        ],
+        "type": "conference"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "conference-paper",
+    "indexed_in": [
+      "arxiv",
+      "crossref",
+      "datacite"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://doi.org/10.1609/aaai.v34i06.6581",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5071727493",
+          "display_name": "Kia Khezeli",
+          "orcid": "https://orcid.org/0000-0002-1982-9391",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1982-9391"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I205783295",
+            "display_name": "Cornell University",
+            "ror": "https://ror.org/05bnh6r87",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kia Khezeli",
+        "raw_affiliation_strings": [
+          "Cornell University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Cornell University",
+            "institution_ids": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5071680590",
+          "display_name": "Eilyan Y. Bitar",
+          "orcid": "https://orcid.org/0000-0002-5659-5969",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5659-5969"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I205783295",
+            "display_name": "Cornell University",
+            "ror": "https://ror.org/05bnh6r87",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Eilyan Bitar",
+        "raw_affiliation_strings": [
+          "Cornell University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Cornell University",
+            "institution_ids": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I205783295"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.3342,
+    "has_fulltext": true,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.45619476,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 88,
+      "max": 93
+    },
+    "biblio": {
+      "volume": "34",
+      "issue": "06",
+      "first_page": "10202",
+      "last_page": "10209"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12101",
+      "display_name": "Advanced Bandit Algorithms Research",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12101",
+        "display_name": "Advanced Bandit Algorithms Research",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10462",
+        "display_name": "Reinforcement Learning in Robotics",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12288",
+        "display_name": "Optimization and Search Problems",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/safety-constraints",
+        "display_name": "safety constraints",
+        "score": 0.7919999957084656
+      },
+      {
+        "id": "https://openalex.org/keywords/anticipated-regret",
+        "display_name": "anticipated regret",
+        "score": 0.5889999866485596
+      },
+      {
+        "id": "https://openalex.org/keywords/exploration-exploitation-trade-off",
+        "display_name": "exploration-exploitation balance",
+        "score": 0.8460000157356262
+      },
+      {
+        "id": "https://openalex.org/keywords/regret-bounds",
+        "display_name": "regret bounds",
+        "score": 0.39500001072883606
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C50817715",
+        "wikidata": "https://www.wikidata.org/wiki/Q79895177",
+        "display_name": "Regret",
+        "level": 2,
+        "score": 0.8502374291419983
+      },
+      {
+        "id": "https://openalex.org/C177264268",
+        "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+        "display_name": "Set (abstract data type)",
+        "level": 2,
+        "score": 0.6253346800804138
+      },
+      {
+        "id": "https://openalex.org/C177148314",
+        "wikidata": "https://www.wikidata.org/wiki/Q170084",
+        "display_name": "Generalization",
+        "level": 2,
+        "score": 0.6127073764801025
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5919190645217896
+      },
+      {
+        "id": "https://openalex.org/C126255220",
+        "wikidata": "https://www.wikidata.org/wiki/Q141495",
+        "display_name": "Mathematical optimization",
+        "level": 1,
+        "score": 0.5803490281105042
+      },
+      {
+        "id": "https://openalex.org/C2776036281",
+        "wikidata": "https://www.wikidata.org/wiki/Q48769818",
+        "display_name": "Constraint (computer-aided design)",
+        "level": 2,
+        "score": 0.5444920063018799
+      },
+      {
+        "id": "https://openalex.org/C51823790",
+        "wikidata": "https://www.wikidata.org/wiki/Q504353",
+        "display_name": "Greedy algorithm",
+        "level": 2,
+        "score": 0.43530622124671936
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.28345298767089844
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.14358407258987427
+      },
+      {
+        "id": "https://openalex.org/C134306372",
+        "wikidata": "https://www.wikidata.org/wiki/Q7754",
+        "display_name": "Mathematical analysis",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C2524010",
+        "wikidata": "https://www.wikidata.org/wiki/Q8087",
+        "display_name": "Geometry",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C199360897",
+        "wikidata": "https://www.wikidata.org/wiki/Q9143",
+        "display_name": "Programming language",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.1609/aaai.v34i06.6581",
+        "doi": "https://doi.org/10.1609/aaai.v34i06.6581",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1609/aaai.v34i06.6581",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210191458",
+          "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "issn_l": "2159-5399",
+          "issn": [
+            "2159-5399",
+            "2374-3468"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "jufo-2",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320058",
+          "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320058"
+          ],
+          "host_organization_lineage_names": [
+            "Association for the Advancement of Artificial Intelligence"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:1911.09501",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/1911.09501",
+        "pdf_url": "https://arxiv.org/pdf/1911.09501",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
+        "id": "mag:2991211457",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://arxiv.org/pdf/1911.09501.pdf",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "arXiv (Cornell University)",
+        "raw_type": null
+      },
+      {
+        "id": "doi:10.48550/arxiv.1911.09501",
+        "doi": "https://doi.org/10.48550/arxiv.1911.09501",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.1911.09501",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Preprint"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1609/aaai.v34i06.6581",
+      "doi": "https://doi.org/10.1609/aaai.v34i06.6581",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1609/aaai.v34i06.6581",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210191458",
+        "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "issn_l": "2159-5399",
+        "issn": [
+          "2159-5399",
+          "2374-3468"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "jufo-2",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320058",
+        "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320058"
+        ],
+        "host_organization_lineage_names": [
+          "Association for the Advancement of Artificial Intelligence"
+        ],
+        "type": "conference"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G867093264",
+        "display_name": "PFI:BIC - Energy Smart Community - Leveraging Virtual Storage to Turn Advanced Metering Infrastructure into a Smart Service System",
+        "funder_award_id": "1632124",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320337392",
+        "display_name": "Division of Electrical, Communications and Cyber Systems",
+        "ror": "https://ror.org/01krpsy48"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2991211457.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2991211457.grobid-xml"
+    },
+    "referenced_works_count": 23,
+    "referenced_works": [
+      "https://openalex.org/W50486269",
+      "https://openalex.org/W1916369423",
+      "https://openalex.org/W2042353373",
+      "https://openalex.org/W2061753713",
+      "https://openalex.org/W2107411554",
+      "https://openalex.org/W2119738618",
+      "https://openalex.org/W2120034667",
+      "https://openalex.org/W2161421585",
+      "https://openalex.org/W2161509455",
+      "https://openalex.org/W2164831377",
+      "https://openalex.org/W2166253248",
+      "https://openalex.org/W2339981478",
+      "https://openalex.org/W2551004485",
+      "https://openalex.org/W2552231430",
+      "https://openalex.org/W2556833011",
+      "https://openalex.org/W2728468721",
+      "https://openalex.org/W2785459433",
+      "https://openalex.org/W2805103824",
+      "https://openalex.org/W2807882795",
+      "https://openalex.org/W2914526782",
+      "https://openalex.org/W2921637089",
+      "https://openalex.org/W2950876252",
+      "https://openalex.org/W6665861923"
+    ],
+    "related_works": [
+      "https://openalex.org/W2986755676",
+      "https://openalex.org/W3007722162",
+      "https://openalex.org/W2966956172",
+      "https://openalex.org/W3102182290",
+      "https://openalex.org/W4226212118",
+      "https://openalex.org/W3158813100",
+      "https://openalex.org/W4386302319",
+      "https://openalex.org/W3016066418",
+      "https://openalex.org/W3015883499",
+      "https://openalex.org/W2552231430"
+    ],
+    "abstract_inverted_index": {
+      "We": [
+        0,
+        40
+      ],
+      "introduce": [
+        1,
+        66
+      ],
+      "the": [
+        2,
+        16,
+        43,
+        82,
+        101,
+        104,
+        112
+      ],
+      "safe": [
+        3,
+        74,
+        85,
+        91
+      ],
+      "linear": [
+        4,
+        10
+      ],
+      "stochastic": [
+        5,
+        11
+      ],
+      "bandit": [
+        6
+      ],
+      "framework—a": [
+        7
+      ],
+      "generalization": [
+        8
+      ],
+      "of": [
+        9,
+        48,
+        84,
+        103,
+        110,
+        132
+      ],
+      "bandits—where,": [
+        12
+      ],
+      "in": [
+        13,
+        94
+      ],
+      "each": [
+        14
+      ],
+      "stage,": [
+        15
+      ],
+      "learner": [
+        17,
+        44
+      ],
+      "is": [
+        18,
+        29,
+        52,
+        115,
+        123
+      ],
+      "required": [
+        19
+      ],
+      "to": [
+        20,
+        54,
+        79,
+        99,
+        117
+      ],
+      "select": [
+        21
+      ],
+      "an": [
+        22,
+        25,
+        49,
+        119
+      ],
+      "arm": [
+        23,
+        50
+      ],
+      "with": [
+        24,
+        37,
+        76
+      ],
+      "expected": [
+        26,
+        120
+      ],
+      "reward": [
+        27
+      ],
+      "that": [
+        28,
+        42,
+        51,
+        70,
+        122
+      ],
+      "no": [
+        30,
+        124
+      ],
+      "less": [
+        31
+      ],
+      "than": [
+        32,
+        126
+      ],
+      "a": [
+        33,
+        67
+      ],
+      "predetermined": [
+        34
+      ],
+      "(safe)": [
+        35
+      ],
+      "threshold": [
+        36
+      ],
+      "high": [
+        38
+      ],
+      "probability.": [
+        39
+      ],
+      "assume": [
+        41
+      ],
+      "initially": [
+        45
+      ],
+      "has": [
+        46
+      ],
+      "knowledge": [
+        47
+      ],
+      "known": [
+        53,
+        73
+      ],
+      "be": [
+        55
+      ],
+      "safe,": [
+        56
+      ],
+      "but": [
+        57
+      ],
+      "not": [
+        58
+      ],
+      "necessarily": [
+        59
+      ],
+      "optimal.": [
+        60
+      ],
+      "Leveraging": [
+        61
+      ],
+      "on": [
+        62
+      ],
+      "this": [
+        63
+      ],
+      "assumption,": [
+        64
+      ],
+      "we": [
+        65
+      ],
+      "learning": [
+        68
+      ],
+      "algorithm": [
+        69,
+        114
+      ],
+      "systematically": [
+        71
+      ],
+      "combines": [
+        72
+      ],
+      "arms": [
+        75,
+        78,
+        86
+      ],
+      "exploratory": [
+        77
+      ],
+      "safely": [
+        80
+      ],
+      "expand": [
+        81
+      ],
+      "set": [
+        83
+      ],
+      "over": [
+        87
+      ],
+      "time,": [
+        88
+      ],
+      "while": [
+        89
+      ],
+      "facilitating": [
+        90
+      ],
+      "greedy": [
+        92
+      ],
+      "exploitation": [
+        93
+      ],
+      "subsequent": [
+        95
+      ],
+      "stages.": [
+        96
+      ],
+      "In": [
+        97
+      ],
+      "addition": [
+        98
+      ],
+      "ensuring": [
+        100
+      ],
+      "satisfaction": [
+        102
+      ],
+      "safety": [
+        105
+      ],
+      "constraint": [
+        106
+      ],
+      "at": [
+        107
+      ],
+      "every": [
+        108
+      ],
+      "stage": [
+        109
+      ],
+      "play,": [
+        111
+      ],
+      "proposed": [
+        113
+      ],
+      "shown": [
+        116
+      ],
+      "exhibit": [
+        118
+      ],
+      "regret": [
+        121
+      ],
+      "more": [
+        125
+      ],
+      "O(√T": [
+        127
+      ],
+      "log(T))": [
+        128
+      ],
+      "after": [
+        129
+      ],
+      "T": [
+        130
+      ],
+      "stages": [
+        131
+      ],
+      "play.": [
+        133
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2021,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-11-04T10:54:05.112534",
+    "created_date": "2019-12-05T00:00:00"
+  }
+}

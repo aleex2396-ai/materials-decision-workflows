@@ -1,0 +1,98 @@
+{
+  "retrieved_date": "2026-11-05",
+  "provider": "Connected GitHub read-only tools",
+  "searches": [
+    {
+      "query": "cvxpylayers",
+      "results": "cvxpy/cvxpylayers plus alternatives"
+    },
+    {
+      "query": "decision focused covariance",
+      "results": []
+    }
+  ],
+  "repositories": [
+    {
+      "repository": "cvxpy/cvxpylayers",
+      "url": "https://github.com/cvxpy/cvxpylayers",
+      "commit": "bd9caf9826d758722a5c42b8a51775fcbc037ffe",
+      "default_branch": "master",
+      "license_api": "Apache-2.0",
+      "pushed_at": "2026-10-24T22:06:44Z",
+      "readme_inspected": true,
+      "files_inspected": [
+        "README.md"
+      ],
+      "reuse": "No source copied; reference/design comparison only",
+      "license_note": null
+    },
+    {
+      "repository": "cvxgrp/diffcp",
+      "url": "https://github.com/cvxgrp/diffcp",
+      "commit": "0192ff3249a89dee9ba09ee71c51030aaa9b474a",
+      "default_branch": "master",
+      "license_api": "Apache-2.0",
+      "pushed_at": "2026-05-20T20:53:29Z",
+      "readme_inspected": true,
+      "files_inspected": [
+        "README.md"
+      ],
+      "reuse": "No source copied; reference/design comparison only",
+      "license_note": null
+    },
+    {
+      "repository": "locuslab/e2e-model-learning",
+      "url": "https://github.com/locuslab/e2e-model-learning",
+      "commit": "2bf43848ac26e25321fea7bfeddf2a24135aa192",
+      "default_branch": "master",
+      "license_api": "Apache-2.0",
+      "pushed_at": "2020-11-29T02:51:58Z",
+      "readme_inspected": true,
+      "files_inspected": [
+        "README.md"
+      ],
+      "reuse": "No source copied; reference/design comparison only",
+      "license_note": null
+    },
+    {
+      "repository": "jankrepl/deepdow",
+      "url": "https://github.com/jankrepl/deepdow",
+      "commit": "384e18acc17c982ac5a4362187b348bdbdb07b98",
+      "default_branch": "master",
+      "license_api": "Apache-2.0",
+      "pushed_at": "2024-01-24T15:56:49Z",
+      "readme_inspected": false,
+      "files_inspected": [
+        "deepdow/layers/misc.py"
+      ],
+      "reuse": "No source copied; reference/design comparison only",
+      "license_note": null
+    },
+    {
+      "repository": "JonasOhn/trainable-ot-dro",
+      "url": "https://github.com/JonasOhn/trainable-ot-dro",
+      "commit": "6e8d18f023f4f2e920af22dc1ef32b292dbb9631",
+      "default_branch": "main",
+      "license_api": null,
+      "pushed_at": "2026-05-07T12:22:44Z",
+      "readme_inspected": true,
+      "files_inspected": [
+        "README.md",
+        "src/trainable_ot_dro/conic_problem.py"
+      ],
+      "reuse": "No source copied; reference/design comparison only",
+      "license_note": "README states MIT; no LICENSE file in inspected root and API has no detected license. No code reuse."
+    }
+  ],
+  "failed_reads": [
+    {
+      "url": "https://api.github.com/repos/stellatogrp/cvxro_experiments",
+      "status": 404,
+      "note": "URL named by current primary manuscript; unavailable through connector. No contents inspected."
+    },
+    {
+      "url": "https://api.github.com/repos/cvxgrp/diffcp/contents/diffcp/cone_program.py?ref=0192ff3249a89dee9ba09ee71c51030aaa9b474a",
+      "note": "No readable source returned; only README/API metadata used for this repository."
+    }
+  ]
+}

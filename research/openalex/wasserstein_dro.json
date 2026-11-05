@@ -1,0 +1,1329 @@
+{
+  "retrieved_at": "2026-11-05T11:20:50.1606625Z",
+  "url": "https://api.openalex.org/works/doi:10.1007/s10107-017-1172-1",
+  "response": {
+    "id": "https://openalex.org/W1712265143",
+    "doi": "https://doi.org/10.1007/s10107-017-1172-1",
+    "title": "Data-driven distributionally robust optimization using the Wasserstein metric: performance guarantees and tractable reformulations",
+    "display_name": "Data-driven distributionally robust optimization using the Wasserstein metric: performance guarantees and tractable reformulations",
+    "publication_year": 2017,
+    "publication_date": "2017-07-07",
+    "ids": {
+      "openalex": "https://openalex.org/W1712265143",
+      "doi": "https://doi.org/10.1007/s10107-017-1172-1",
+      "mag": "1712265143"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1007/s10107-017-1172-1",
+      "doi": "https://doi.org/10.1007/s10107-017-1172-1",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1007/s10107-017-1172-1",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10107-017-1172-1.pdf",
+      "source": {
+        "id": "https://openalex.org/S193920097",
+        "display_name": "Mathematical Programming",
+        "issn_l": "0025-5610",
+        "issn": [
+          "0025-5610",
+          "1436-4646"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-a",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Mathematical Programming",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "arxiv",
+      "crossref",
+      "datacite"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s10107-017-1172-1.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5034611919",
+          "display_name": "Peyman Mohajerin Esfahani",
+          "orcid": "https://orcid.org/0000-0003-1286-8782",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1286-8782"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I98358874",
+            "display_name": "Delft University of Technology",
+            "ror": "https://ror.org/02e2c7k09",
+            "country_code": "NL",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I98358874"
+            ]
+          }
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Peyman Mohajerin Esfahani",
+        "raw_affiliation_strings": [
+          "Delft Center for Systems and Control, TU Delft, Delft, The Netherlands",
+          "Delft Center for Systems & Control, TU Delft, Delft, The Netherlands#TAB#"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-1286-8782",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Delft Center for Systems and Control, TU Delft, Delft, The Netherlands",
+            "institution_ids": [
+              "https://openalex.org/I98358874"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Delft Center for Systems & Control, TU Delft, Delft, The Netherlands#TAB#",
+            "institution_ids": [
+              "https://openalex.org/I98358874"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5065780980",
+          "display_name": "Daniel Kühn",
+          "orcid": "https://orcid.org/0000-0003-2697-8886",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2697-8886"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I5124864",
+            "display_name": "École Polytechnique Fédérale de Lausanne",
+            "ror": "https://ror.org/02s376052",
+            "country_code": "CH",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I2799323385",
+              "https://openalex.org/I5124864"
+            ]
+          }
+        ],
+        "countries": [
+          "CH"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Daniel Kuhn",
+        "raw_affiliation_strings": [
+          "Risk Analytics and Optimization Chair, EPFL, Lausanne, Switzerland"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Risk Analytics and Optimization Chair, EPFL, Lausanne, Switzerland",
+            "institution_ids": [
+              "https://openalex.org/I5124864"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5034611919"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I98358874"
+    ],
+    "apc_list": {
+      "value": 3090,
+      "currency": "USD",
+      "value_usd": 3090
+    },
+    "apc_paid": {
+      "value": 3090,
+      "currency": "USD",
+      "value_usd": 3090
+    },
+    "fwci": 82.7651,
+    "has_fulltext": true,
+    "cited_by_count": 1899,
+    "citation_normalized_percentile": {
+      "value": 0.99977075,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "171",
+      "issue": "1-2",
+      "first_page": "115",
+      "last_page": "166"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11413",
+      "display_name": "Risk and Portfolio Optimization",
+      "score": 0.9984999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11413",
+        "display_name": "Risk and Portfolio Optimization",
+        "score": 0.9984999895095825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10963",
+        "display_name": "Advanced Optimization Algorithms Research",
+        "score": 9.999999747378752E-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2612",
+          "display_name": "Numerical Analysis"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10454",
+        "display_name": "Optimal Power Flow Distribution",
+        "score": 9.999999747378752E-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/distributionally-robust-optimization",
+        "display_name": "distributionally robust optimization",
+        "score": 0.9940000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/wasserstein-distance",
+        "display_name": "Wasserstein distance",
+        "score": 0.9430000185966492
+      },
+      {
+        "id": "https://openalex.org/keywords/wasserstein-ball",
+        "display_name": "Wasserstein ball",
+        "score": 0.9120000004768372
+      },
+      {
+        "id": "https://openalex.org/keywords/stochastic-programming",
+        "display_name": "stochastic programming",
+        "score": 0.6909999847412109
+      },
+      {
+        "id": "https://openalex.org/keywords/convex-reformulation",
+        "display_name": "convex reformulation",
+        "score": 0.8370000123977661
+      },
+      {
+        "id": "https://openalex.org/keywords/linear-programming-reformulation",
+        "display_name": "linear programming reformulation",
+        "score": 0.800000011920929
+      },
+      {
+        "id": "https://openalex.org/keywords/concentration-measurement",
+        "display_name": "concentration measurement",
+        "score": 0.9419999718666077
+      },
+      {
+        "id": "https://openalex.org/keywords/uncertainty-quantification",
+        "display_name": "uncertainty quantification",
+        "score": 0.8970000147819519
+      },
+      {
+        "id": "https://openalex.org/keywords/data-driven-optimization",
+        "display_name": "data-driven optimization",
+        "score": 0.421999990940094
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2777634741",
+        "wikidata": "https://www.wikidata.org/wiki/Q768993",
+        "display_name": "Wasserstein metric",
+        "level": 2,
+        "score": 0.8641914129257202
+      },
+      {
+        "id": "https://openalex.org/C126255220",
+        "wikidata": "https://www.wikidata.org/wiki/Q141495",
+        "display_name": "Mathematical optimization",
+        "level": 1,
+        "score": 0.6991029977798462
+      },
+      {
+        "id": "https://openalex.org/C193254401",
+        "wikidata": "https://www.wikidata.org/wiki/Q2160088",
+        "display_name": "Robust optimization",
+        "level": 2,
+        "score": 0.6970187425613403
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5804635286331177
+      },
+      {
+        "id": "https://openalex.org/C149441793",
+        "wikidata": "https://www.wikidata.org/wiki/Q200726",
+        "display_name": "Probability distribution",
+        "level": 2,
+        "score": 0.5436084270477295
+      },
+      {
+        "id": "https://openalex.org/C176217482",
+        "wikidata": "https://www.wikidata.org/wiki/Q860554",
+        "display_name": "Metric (unit)",
+        "level": 2,
+        "score": 0.5203073024749756
+      },
+      {
+        "id": "https://openalex.org/C137836250",
+        "wikidata": "https://www.wikidata.org/wiki/Q984063",
+        "display_name": "Optimization problem",
+        "level": 2,
+        "score": 0.4913550913333893
+      },
+      {
+        "id": "https://openalex.org/C21031990",
+        "wikidata": "https://www.wikidata.org/wiki/Q355020",
+        "display_name": "Probability measure",
+        "level": 2,
+        "score": 0.4647846221923828
+      },
+      {
+        "id": "https://openalex.org/C194387892",
+        "wikidata": "https://www.wikidata.org/wiki/Q1747770",
+        "display_name": "Stochastic optimization",
+        "level": 2,
+        "score": 0.4474947154521942
+      },
+      {
+        "id": "https://openalex.org/C122041747",
+        "wikidata": "https://www.wikidata.org/wiki/Q838611",
+        "display_name": "Ball (mathematics)",
+        "level": 2,
+        "score": 0.432032972574234
+      },
+      {
+        "id": "https://openalex.org/C2780009758",
+        "wikidata": "https://www.wikidata.org/wiki/Q6804172",
+        "display_name": "Measure (data warehouse)",
+        "level": 2,
+        "score": 0.42484885454177856
+      },
+      {
+        "id": "https://openalex.org/C157972887",
+        "wikidata": "https://www.wikidata.org/wiki/Q463359",
+        "display_name": "Convex optimization",
+        "level": 3,
+        "score": 0.42208144068717957
+      },
+      {
+        "id": "https://openalex.org/C112680207",
+        "wikidata": "https://www.wikidata.org/wiki/Q714886",
+        "display_name": "Regular polygon",
+        "level": 2,
+        "score": 0.33165329694747925
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.31418102979660034
+      },
+      {
+        "id": "https://openalex.org/C28826006",
+        "wikidata": "https://www.wikidata.org/wiki/Q33521",
+        "display_name": "Applied mathematics",
+        "level": 1,
+        "score": 0.19421538710594177
+      },
+      {
+        "id": "https://openalex.org/C134306372",
+        "wikidata": "https://www.wikidata.org/wiki/Q7754",
+        "display_name": "Mathematical analysis",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C21547014",
+        "wikidata": "https://www.wikidata.org/wiki/Q1423657",
+        "display_name": "Operations management",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C77088390",
+        "wikidata": "https://www.wikidata.org/wiki/Q8513",
+        "display_name": "Database",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C2524010",
+        "wikidata": "https://www.wikidata.org/wiki/Q8087",
+        "display_name": "Geometry",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 8,
+    "locations": [
+      {
+        "id": "doi:10.1007/s10107-017-1172-1",
+        "doi": "https://doi.org/10.1007/s10107-017-1172-1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/s10107-017-1172-1",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10107-017-1172-1.pdf",
+        "source": {
+          "id": "https://openalex.org/S193920097",
+          "display_name": "Mathematical Programming",
+          "issn_l": "0025-5610",
+          "issn": [
+            "0025-5610",
+            "1436-4646"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-a",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Mathematical Programming",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:1505.05116",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/1505.05116",
+        "pdf_url": "https://arxiv.org/pdf/1505.05116",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
+        "id": "mag:1712265143",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://export.arxiv.org/pdf/1505.05116",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "arXiv (Cornell University)",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:infoscience.epfl.ch:207778",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://infoscience.epfl.ch/record/207778",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400487",
+          "display_name": "Infoscience (Ecole Polytechnique Fédérale de Lausanne)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I5124864",
+          "host_organization_name": "École Polytechnique Fédérale de Lausanne",
+          "host_organization_lineage": [
+            "https://openalex.org/I5124864"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:infoscience.tind.io:207778",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://infoscience.epfl.ch/record/207778",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400487",
+          "display_name": "Infoscience (Ecole Polytechnique Fédérale de Lausanne)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I5124864",
+          "host_organization_name": "École Polytechnique Fédérale de Lausanne",
+          "host_organization_lineage": [
+            "https://openalex.org/I5124864"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "research article"
+      },
+      {
+        "id": "pmh:oai:tudelft.nl:uuid:dccfb770-41e8-476a-9c89-0553f5725fdb",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://resolver.tudelft.nl/uuid:dccfb770-41e8-476a-9c89-0553f5725fdb",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400906",
+          "display_name": "Research Repository (Delft University of Technology)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I98358874",
+          "host_organization_name": "Delft University of Technology",
+          "host_organization_lineage": [
+            "https://openalex.org/I98358874"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "journal article"
+      },
+      {
+        "id": "pmh:tud:oai:tudelft.nl:uuid:dccfb770-41e8-476a-9c89-0553f5725fdb",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://resolver.tudelft.nl/uuid:dccfb770-41e8-476a-9c89-0553f5725fdb",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401843",
+          "display_name": "Data Archiving and Networked Services (DANS)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1322597698",
+          "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+          "host_organization_lineage": [
+            "https://openalex.org/I1322597698"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Mathematical Programming, 171 (2018)(1-2)",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      {
+        "id": "doi:10.48550/arxiv.1505.05116",
+        "doi": "https://doi.org/10.48550/arxiv.1505.05116",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.1505.05116",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Preprint"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1007/s10107-017-1172-1",
+      "doi": "https://doi.org/10.1007/s10107-017-1172-1",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1007/s10107-017-1172-1",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10107-017-1172-1.pdf",
+      "source": {
+        "id": "https://openalex.org/S193920097",
+        "display_name": "Mathematical Programming",
+        "issn_l": "0025-5610",
+        "issn": [
+          "0025-5610",
+          "1436-4646"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-a",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Mathematical Programming",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G2867641314",
+        "display_name": "Optimization under Unknown or Uncertain Uncertainty (Optimization4U)",
+        "funder_award_id": "157733",
+        "funder_id": "https://openalex.org/F4320320924",
+        "funder_display_name": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320320924",
+        "display_name": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung",
+        "ror": "https://ror.org/00yjd3n13"
+      },
+      {
+        "id": "https://openalex.org/F4320321012",
+        "display_name": "Technische Universiteit Delft",
+        "ror": "https://ror.org/02e2c7k09"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W1712265143.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W1712265143.grobid-xml"
+    },
+    "referenced_works_count": 57,
+    "referenced_works": [
+      "https://openalex.org/W128586474",
+      "https://openalex.org/W431821928",
+      "https://openalex.org/W622935592",
+      "https://openalex.org/W633277346",
+      "https://openalex.org/W760153864",
+      "https://openalex.org/W1409984952",
+      "https://openalex.org/W1484551447",
+      "https://openalex.org/W1507925093",
+      "https://openalex.org/W1518992076",
+      "https://openalex.org/W1585160083",
+      "https://openalex.org/W1647779468",
+      "https://openalex.org/W1850992575",
+      "https://openalex.org/W1967630104",
+      "https://openalex.org/W1968355947",
+      "https://openalex.org/W1972388944",
+      "https://openalex.org/W1990989681",
+      "https://openalex.org/W2006041100",
+      "https://openalex.org/W2006599749",
+      "https://openalex.org/W2009348384",
+      "https://openalex.org/W2021472931",
+      "https://openalex.org/W2022090913",
+      "https://openalex.org/W2047355698",
+      "https://openalex.org/W2052889677",
+      "https://openalex.org/W2066856724",
+      "https://openalex.org/W2069737635",
+      "https://openalex.org/W2082531187",
+      "https://openalex.org/W2092866161",
+      "https://openalex.org/W2118578357",
+      "https://openalex.org/W2119303899",
+      "https://openalex.org/W2125417745",
+      "https://openalex.org/W2136914524",
+      "https://openalex.org/W2137923543",
+      "https://openalex.org/W2140041377",
+      "https://openalex.org/W2142092335",
+      "https://openalex.org/W2147860430",
+      "https://openalex.org/W2148603752",
+      "https://openalex.org/W2152027968",
+      "https://openalex.org/W2155153453",
+      "https://openalex.org/W2156168813",
+      "https://openalex.org/W2159309155",
+      "https://openalex.org/W2166292404",
+      "https://openalex.org/W2222339201",
+      "https://openalex.org/W2285778921",
+      "https://openalex.org/W2294947825",
+      "https://openalex.org/W2296319761",
+      "https://openalex.org/W2328111639",
+      "https://openalex.org/W2496350169",
+      "https://openalex.org/W2551077685",
+      "https://openalex.org/W2558813012",
+      "https://openalex.org/W2562747313",
+      "https://openalex.org/W2588832334",
+      "https://openalex.org/W2766966154",
+      "https://openalex.org/W2796840860",
+      "https://openalex.org/W3123325486",
+      "https://openalex.org/W3124714633",
+      "https://openalex.org/W4251616545",
+      "https://openalex.org/W4285719527"
+    ],
+    "related_works": [
+      "https://openalex.org/W2898191198",
+      "https://openalex.org/W2336156739",
+      "https://openalex.org/W3047593671",
+      "https://openalex.org/W6908556271",
+      "https://openalex.org/W4323651160",
+      "https://openalex.org/W3212504317",
+      "https://openalex.org/W4288469095",
+      "https://openalex.org/W4319595639",
+      "https://openalex.org/W3084007891",
+      "https://openalex.org/W7117533678"
+    ],
+    "abstract_inverted_index": {
+      "We": [
+        0
+      ],
+      "consider": [
+        1
+      ],
+      "stochastic": [
+        2
+      ],
+      "programs": [
+        3
+      ],
+      "where": [
+        4
+      ],
+      "the": [
+        5,
+        8,
+        20,
+        28,
+        38,
+        42,
+        55,
+        67,
+        92
+      ],
+      "distribution": [
+        6,
+        40,
+        57
+      ],
+      "of": [
+        7,
+        30,
+        54
+      ],
+      "uncertain": [
+        9
+      ],
+      "parameters": [
+        10
+      ],
+      "is": [
+        11
+      ],
+      "only": [
+        12
+      ],
+      "observable": [
+        13
+      ],
+      "through": [
+        14
+      ],
+      "a": [
+        15,
+        25
+      ],
+      "finite": [
+        16,
+        106
+      ],
+      "training": [
+        17,
+        43
+      ],
+      "dataset.": [
+        18
+      ],
+      "Using": [
+        19
+      ],
+      "Wasserstein": [
+        21,
+        60,
+        98
+      ],
+      "metric,": [
+        22
+      ],
+      "we": [
+        23,
+        46,
+        86,
+        122
+      ],
+      "construct": [
+        24
+      ],
+      "ball": [
+        26
+      ],
+      "in": [
+        27,
+        52,
+        101,
+        138
+      ],
+      "space": [
+        29
+      ],
+      "(multivariate": [
+        31
+      ],
+      "and": [
+        32,
+        45
+      ],
+      "non-discrete)": [
+        33
+      ],
+      "probability": [
+        34
+      ],
+      "distributions": [
+        35
+      ],
+      "centered": [
+        36
+      ],
+      "at": [
+        37
+      ],
+      "uniform": [
+        39
+      ],
+      "on": [
+        41,
+        74
+      ],
+      "samples,": [
+        44
+      ],
+      "seek": [
+        47
+      ],
+      "decisions": [
+        48
+      ],
+      "that": [
+        49,
+        125
+      ],
+      "perform": [
+        50
+      ],
+      "best": [
+        51
+      ],
+      "view": [
+        53
+      ],
+      "worst-case": [
+        56
+      ],
+      "within": [
+        58
+      ],
+      "this": [
+        59,
+        84
+      ],
+      "ball.": [
+        61
+      ],
+      "The": [
+        62
+      ],
+      "state-of-the-art": [
+        63
+      ],
+      "methods": [
+        64
+      ],
+      "for": [
+        65
+      ],
+      "solving": [
+        66
+      ],
+      "resulting": [
+        68
+      ],
+      "distributionally": [
+        69,
+        93
+      ],
+      "robust": [
+        70,
+        94
+      ],
+      "optimization": [
+        71,
+        76,
+        95,
+        141
+      ],
+      "problems": [
+        72,
+        96
+      ],
+      "rely": [
+        73
+      ],
+      "global": [
+        75
+      ],
+      "techniques,": [
+        77
+      ],
+      "which": [
+        78
+      ],
+      "quickly": [
+        79
+      ],
+      "become": [
+        80
+      ],
+      "computationally": [
+        81
+      ],
+      "excruciating.": [
+        82
+      ],
+      "In": [
+        83
+      ],
+      "paper": [
+        85
+      ],
+      "demonstrate": [
+        87
+      ],
+      "that,": [
+        88
+      ],
+      "under": [
+        89
+      ],
+      "mild": [
+        90
+      ],
+      "assumptions,": [
+        91
+      ],
+      "over": [
+        97
+      ],
+      "balls": [
+        99
+      ],
+      "can": [
+        100
+      ],
+      "fact": [
+        102
+      ],
+      "be": [
+        103
+      ],
+      "reformulated": [
+        104
+      ],
+      "as": [
+        105,
+        113,
+        142,
+        144
+      ],
+      "convex": [
+        107
+      ],
+      "programs—in": [
+        108
+      ],
+      "many": [
+        109
+      ],
+      "interesting": [
+        110
+      ],
+      "cases": [
+        111
+      ],
+      "even": [
+        112
+      ],
+      "tractable": [
+        114
+      ],
+      "linear": [
+        115
+      ],
+      "programs.": [
+        116
+      ],
+      "Leveraging": [
+        117
+      ],
+      "recent": [
+        118
+      ],
+      "measure": [
+        119
+      ],
+      "concentration": [
+        120
+      ],
+      "results,": [
+        121
+      ],
+      "also": [
+        123
+      ],
+      "show": [
+        124
+      ],
+      "their": [
+        126
+      ],
+      "solutions": [
+        127
+      ],
+      "enjoy": [
+        128
+      ],
+      "powerful": [
+        129
+      ],
+      "finite-sample": [
+        130
+      ],
+      "performance": [
+        131
+      ],
+      "guarantees.": [
+        132
+      ],
+      "Our": [
+        133
+      ],
+      "theoretical": [
+        134
+      ],
+      "results": [
+        135
+      ],
+      "are": [
+        136
+      ],
+      "exemplified": [
+        137
+      ],
+      "mean-risk": [
+        139
+      ],
+      "portfolio": [
+        140
+      ],
+      "well": [
+        143
+      ],
+      "uncertainty": [
+        145
+      ],
+      "quantification.": [
+        146
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 375
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 292
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 245
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 212
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 196
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 205
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 169
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 114
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 54
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 28
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2015,
+        "cited_by_count": 5
+      }
+    ],
+    "updated_date": "2026-11-04T10:54:05.112534",
+    "created_date": "2016-06-24T00:00:00"
+  }
+}

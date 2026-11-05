@@ -1,0 +1,1345 @@
+{
+  "retrieved_at": "2026-11-05T12:04:33.3319556Z",
+  "url": "https://api.openalex.org/works/doi:10.48550/arXiv.1910.12430",
+  "response": {
+    "id": "https://openalex.org/W2970791107",
+    "doi": "https://doi.org/10.48550/arxiv.1910.12430",
+    "title": "Differentiable Convex Optimization Layers",
+    "display_name": "Differentiable Convex Optimization Layers",
+    "publication_year": 2019,
+    "publication_date": "2019-10-28",
+    "ids": {
+      "openalex": "https://openalex.org/W2970791107",
+      "doi": "https://doi.org/10.48550/arxiv.1910.12430",
+      "mag": "2970791107"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "pmh:oai:arXiv.org:1910.12430",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/1910.12430",
+      "pdf_url": "https://arxiv.org/pdf/1910.12430",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    "volume": null,
+    "type": "preprint",
+    "indexed_in": [
+      "arxiv",
+      "datacite"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/1910.12430",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5112643057",
+          "display_name": "Akshay Agrawal",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Agrawal, Akshay",
+        "raw_affiliation_strings": [
+          "Stanford University",
+          "Stanford University, Stanford, United States"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stanford University",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Stanford University, Stanford, United States",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5030666794",
+          "display_name": "Brandon Amos",
+          "orcid": "https://orcid.org/0000-0003-2884-0119",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2884-0119"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2252078561",
+            "display_name": "Meta (Israel)",
+            "ror": "https://ror.org/02388em19",
+            "country_code": "IL",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2252078561",
+              "https://openalex.org/I4210114444"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "IL",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Amos, Brandon",
+        "raw_affiliation_strings": [
+          "Stanford University",
+          "Meta (Israel), Tel Aviv, Israel"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stanford University",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+            "institution_ids": [
+              "https://openalex.org/I2252078561"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5023055112",
+          "display_name": "Shane T. Barratt",
+          "orcid": "https://orcid.org/0000-0002-7127-0724",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7127-0724"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Barratt, Shane",
+        "raw_affiliation_strings": [
+          "Stanford University",
+          "Stanford University, Stanford, United States"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stanford University",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Stanford University, Stanford, United States",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5011176205",
+          "display_name": "Stephen Boyd",
+          "orcid": "https://orcid.org/0000-0001-8353-6000",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8353-6000"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Boyd, Stephen",
+        "raw_affiliation_strings": [
+          "Stanford University",
+          "Stanford University, Stanford, United States"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stanford University",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Stanford University, Stanford, United States",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Diamond, Steven",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Diamond, Steven",
+        "raw_affiliation_strings": [
+          "Stanford University",
+          "Stanford University, Stanford, United States"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stanford University",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Stanford University, Stanford, United States",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5075035644",
+          "display_name": "J. Zico Kolter",
+          "orcid": "https://orcid.org/0000-0002-8106-5759",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8106-5759"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I74973139",
+            "display_name": "Carnegie Mellon University",
+            "ror": "https://ror.org/05x2bcf33",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kolter, Zico",
+        "raw_affiliation_strings": [
+          "Carnegie Mellon University, Pittsburgh, United States"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Carnegie Mellon University, Pittsburgh, United States",
+            "institution_ids": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": true,
+    "cited_by_count": 360,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "32",
+      "issue": null,
+      "first_page": "9558",
+      "last_page": "9570"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10963",
+      "display_name": "Advanced Optimization Algorithms Research",
+      "score": 0.8184000253677368,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2612",
+        "display_name": "Numerical Analysis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10963",
+        "display_name": "Advanced Optimization Algorithms Research",
+        "score": 0.8184000253677368,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2612",
+          "display_name": "Numerical Analysis"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10545",
+        "display_name": "Optimization and Variational Analysis",
+        "score": 0.10719999670982361,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11612",
+        "display_name": "Stochastic Gradient Optimization Techniques",
+        "score": 0.02969999983906746,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/cvxpy",
+        "display_name": "CVXPY",
+        "score": 0.7509999871253967
+      },
+      {
+        "id": "https://openalex.org/keywords/stochastic-control",
+        "display_name": "stochastic control",
+        "score": 0.7620000243186951
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C202615002",
+        "wikidata": "https://www.wikidata.org/wiki/Q783507",
+        "display_name": "Differentiable function",
+        "level": 2,
+        "score": 0.7977213859558105
+      },
+      {
+        "id": "https://openalex.org/C2778770139",
+        "wikidata": "https://www.wikidata.org/wiki/Q1966904",
+        "display_name": "Solver",
+        "level": 2,
+        "score": 0.7643835544586182
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6200836896896362
+      },
+      {
+        "id": "https://openalex.org/C157972887",
+        "wikidata": "https://www.wikidata.org/wiki/Q463359",
+        "display_name": "Convex optimization",
+        "level": 3,
+        "score": 0.5749348402023315
+      },
+      {
+        "id": "https://openalex.org/C126255220",
+        "wikidata": "https://www.wikidata.org/wiki/Q141495",
+        "display_name": "Mathematical optimization",
+        "level": 1,
+        "score": 0.5545576214790344
+      },
+      {
+        "id": "https://openalex.org/C50862404",
+        "wikidata": "https://www.wikidata.org/wiki/Q3075259",
+        "display_name": "Proper convex function",
+        "level": 5,
+        "score": 0.513032078742981
+      },
+      {
+        "id": "https://openalex.org/C92757383",
+        "wikidata": "https://www.wikidata.org/wiki/Q382497",
+        "display_name": "Affine transformation",
+        "level": 2,
+        "score": 0.48061245679855347
+      },
+      {
+        "id": "https://openalex.org/C137836250",
+        "wikidata": "https://www.wikidata.org/wiki/Q984063",
+        "display_name": "Optimization problem",
+        "level": 2,
+        "score": 0.4531051814556122
+      },
+      {
+        "id": "https://openalex.org/C12108790",
+        "wikidata": "https://www.wikidata.org/wiki/Q2234833",
+        "display_name": "Convex analysis",
+        "level": 4,
+        "score": 0.37197279930114746
+      },
+      {
+        "id": "https://openalex.org/C112680207",
+        "wikidata": "https://www.wikidata.org/wiki/Q714886",
+        "display_name": "Regular polygon",
+        "level": 2,
+        "score": 0.35261833667755127
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.2985287010669708
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.29060226678848267
+      },
+      {
+        "id": "https://openalex.org/C202444582",
+        "wikidata": "https://www.wikidata.org/wiki/Q837863",
+        "display_name": "Pure mathematics",
+        "level": 1,
+        "score": 0.07468011975288391
+      },
+      {
+        "id": "https://openalex.org/C2524010",
+        "wikidata": "https://www.wikidata.org/wiki/Q8087",
+        "display_name": "Geometry",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "pmh:oai:arXiv.org:1910.12430",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/1910.12430",
+        "pdf_url": "https://arxiv.org/pdf/1910.12430",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
+        "id": "doi:10.48550/arxiv.1910.12430",
+        "doi": "https://doi.org/10.48550/arxiv.1910.12430",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.1910.12430",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Preprint"
+      },
+      {
+        "id": "mag:2970791107",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://arxiv.org/pdf/1910.12430.pdf",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "arXiv (Cornell University)",
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:arXiv.org:1910.12430",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/1910.12430",
+      "pdf_url": "https://arxiv.org/pdf/1910.12430",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    "sustainable_development_goals": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2970791107.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2970791107.grobid-xml"
+    },
+    "referenced_works_count": 66,
+    "referenced_works": [
+      "https://openalex.org/W581108958",
+      "https://openalex.org/W1530724886",
+      "https://openalex.org/W1553600963",
+      "https://openalex.org/W1572204513",
+      "https://openalex.org/W1585773866",
+      "https://openalex.org/W1970916399",
+      "https://openalex.org/W1977192803",
+      "https://openalex.org/W1993647205",
+      "https://openalex.org/W2001728872",
+      "https://openalex.org/W2014746566",
+      "https://openalex.org/W2051434435",
+      "https://openalex.org/W2097897435",
+      "https://openalex.org/W2098432798",
+      "https://openalex.org/W2098617596",
+      "https://openalex.org/W2106320154",
+      "https://openalex.org/W2106476087",
+      "https://openalex.org/W2108434419",
+      "https://openalex.org/W2113642685",
+      "https://openalex.org/W2117402460",
+      "https://openalex.org/W2119652329",
+      "https://openalex.org/W2129516068",
+      "https://openalex.org/W2148862211",
+      "https://openalex.org/W2149906774",
+      "https://openalex.org/W2157042229",
+      "https://openalex.org/W2158782408",
+      "https://openalex.org/W2178935672",
+      "https://openalex.org/W2186629860",
+      "https://openalex.org/W2187061624",
+      "https://openalex.org/W2253795368",
+      "https://openalex.org/W2290452516",
+      "https://openalex.org/W2296319761",
+      "https://openalex.org/W2496276084",
+      "https://openalex.org/W2554314924",
+      "https://openalex.org/W2597344944",
+      "https://openalex.org/W2604763608",
+      "https://openalex.org/W2620324432",
+      "https://openalex.org/W2751681791",
+      "https://openalex.org/W2754641446",
+      "https://openalex.org/W2758087204",
+      "https://openalex.org/W2769646558",
+      "https://openalex.org/W2770374498",
+      "https://openalex.org/W2773446523",
+      "https://openalex.org/W2796676459",
+      "https://openalex.org/W2799231549",
+      "https://openalex.org/W2800007566",
+      "https://openalex.org/W2889731659",
+      "https://openalex.org/W2891122218",
+      "https://openalex.org/W2899491382",
+      "https://openalex.org/W2899771611",
+      "https://openalex.org/W2934413201",
+      "https://openalex.org/W2939592218",
+      "https://openalex.org/W2941818660",
+      "https://openalex.org/W2949753286",
+      "https://openalex.org/W2950492466",
+      "https://openalex.org/W2951189605",
+      "https://openalex.org/W2952215077",
+      "https://openalex.org/W2962763344",
+      "https://openalex.org/W2963970238",
+      "https://openalex.org/W2964076774",
+      "https://openalex.org/W2971228012",
+      "https://openalex.org/W2972700194",
+      "https://openalex.org/W2981021779",
+      "https://openalex.org/W2985010153",
+      "https://openalex.org/W3122660793",
+      "https://openalex.org/W3210839039",
+      "https://openalex.org/W4241359251"
+    ],
+    "related_works": [
+      "https://openalex.org/W4409987572",
+      "https://openalex.org/W7214786028",
+      "https://openalex.org/W7162809928",
+      "https://openalex.org/W3020640144",
+      "https://openalex.org/W7103136937",
+      "https://openalex.org/W6910554961",
+      "https://openalex.org/W4386081801",
+      "https://openalex.org/W4415796744",
+      "https://openalex.org/W3023596032",
+      "https://openalex.org/W4388656246"
+    ],
+    "abstract_inverted_index": {
+      "Recent": [
+        0
+      ],
+      "work": [
+        1
+      ],
+      "has": [
+        2
+      ],
+      "shown": [
+        3
+      ],
+      "how": [
+        4,
+        141
+      ],
+      "to": [
+        5,
+        46,
+        48,
+        58,
+        109,
+        122,
+        134,
+        142,
+        196,
+        228
+      ],
+      "embed": [
+        6
+      ],
+      "differentiable": [
+        7,
+        39,
+        179,
+        202,
+        230
+      ],
+      "optimization": [
+        8,
+        40,
+        68,
+        199
+      ],
+      "problems": [
+        9,
+        12,
+        69,
+        200
+      ],
+      "(that": [
+        10
+      ],
+      "is,": [
+        11
+      ],
+      "whose": [
+        13
+      ],
+      "solutions": [
+        14
+      ],
+      "can": [
+        15,
+        97
+      ],
+      "be": [
+        16,
+        98
+      ],
+      "backpropagated": [
+        17
+      ],
+      "through)": [
+        18
+      ],
+      "as": [
+        19,
+        100,
+        135
+      ],
+      "layers": [
+        20,
+        41,
+        180
+      ],
+      "within": [
+        21
+      ],
+      "deep": [
+        22
+      ],
+      "learning": [
+        23,
+        210
+      ],
+      "architectures.": [
+        24
+      ],
+      "This": [
+        25
+      ],
+      "method": [
+        26
+      ],
+      "provides": [
+        27
+      ],
+      "a": [
+        28,
+        64,
+        83,
+        112,
+        123,
+        169
+      ],
+      "useful": [
+        29
+      ],
+      "inductive": [
+        30
+      ],
+      "bias": [
+        31
+      ],
+      "for": [
+        32,
+        38,
+        75,
+        151,
+        173,
+        181
+      ],
+      "certain": [
+        33
+      ],
+      "problems,": [
+        34
+      ],
+      "but": [
+        35
+      ],
+      "existing": [
+        36
+      ],
+      "software": [
+        37
+      ],
+      "is": [
+        42,
+        222
+      ],
+      "rigid": [
+        43
+      ],
+      "and": [
+        44,
+        89,
+        114,
+        176,
+        187,
+        212,
+        216
+      ],
+      "difficult": [
+        45
+      ],
+      "apply": [
+        47
+      ],
+      "new": [
+        49,
+        130
+      ],
+      "settings.": [
+        50
+      ],
+      "In": [
+        51
+      ],
+      "this": [
+        52
+      ],
+      "paper,": [
+        53
+      ],
+      "we": [
+        54,
+        90,
+        132,
+        217
+      ],
+      "propose": [
+        55
+      ],
+      "an": [
+        56,
+        104,
+        115
+      ],
+      "approach": [
+        57
+      ],
+      "differentiating": [
+        59
+      ],
+      "through": [
+        60,
+        145,
+        155
+      ],
+      "disciplined": [
+        61,
+        80,
+        86,
+        94,
+        182
+      ],
+      "convex": [
+        62,
+        67,
+        76,
+        87,
+        158,
+        174,
+        183,
+        198
+      ],
+      "programs,": [
+        63
+      ],
+      "subclass": [
+        65
+      ],
+      "of": [
+        66,
+        85,
+        103,
+        125,
+        147,
+        167
+      ],
+      "used": [
+        70
+      ],
+      "by": [
+        71
+      ],
+      "domain-specific": [
+        72
+      ],
+      "languages": [
+        73
+      ],
+      "(DSLs)": [
+        74
+      ],
+      "optimization.": [
+        77
+      ],
+      "We": [
+        78,
+        138,
+        160,
+        204
+      ],
+      "introduce": [
+        79
+      ],
+      "parametrized": [
+        81,
+        95
+      ],
+      "programming,": [
+        82,
+        88
+      ],
+      "subset": [
+        84
+      ],
+      "show": [
+        91,
+        218
+      ],
+      "that": [
+        92,
+        219
+      ],
+      "every": [
+        93
+      ],
+      "program": [
+        96
+      ],
+      "represented": [
+        99
+      ],
+      "the": [
+        101,
+        119,
+        126,
+        156,
+        194
+      ],
+      "composition": [
+        102
+      ],
+      "affine": [
+        105,
+        116
+      ],
+      "map": [
+        106,
+        117
+      ],
+      "from": [
+        107,
+        118,
+        232
+      ],
+      "parameters": [
+        108
+      ],
+      "problem": [
+        110,
+        128
+      ],
+      "data,": [
+        111
+      ],
+      "solver,": [
+        113
+      ],
+      "solver's": [
+        120
+      ],
+      "solution": [
+        121,
+        124
+      ],
+      "original": [
+        127
+      ],
+      "(a": [
+        129
+      ],
+      "form": [
+        131
+      ],
+      "refer": [
+        133
+      ],
+      "affine-solver-affine": [
+        136
+      ],
+      "form).": [
+        137
+      ],
+      "then": [
+        139
+      ],
+      "demonstrate": [
+        140
+      ],
+      "efficiently": [
+        143
+      ],
+      "differentiate": [
+        144
+      ],
+      "each": [
+        146
+      ],
+      "these": [
+        148
+      ],
+      "components,": [
+        149
+      ],
+      "allowing": [
+        150
+      ],
+      "end-to-end": [
+        152
+      ],
+      "analytical": [
+        153
+      ],
+      "differentiation": [
+        154
+      ],
+      "entire": [
+        157
+      ],
+      "program.": [
+        159
+      ],
+      "implement": [
+        161,
+        178
+      ],
+      "our": [
+        162,
+        220
+      ],
+      "methodology": [
+        163
+      ],
+      "in": [
+        164,
+        185,
+        201,
+        207,
+        213
+      ],
+      "version": [
+        165
+      ],
+      "1.1": [
+        166
+      ],
+      "CVXPY,": [
+        168
+      ],
+      "popular": [
+        170
+      ],
+      "Python-embedded": [
+        171
+      ],
+      "DSL": [
+        172
+      ],
+      "optimization,": [
+        175
+      ],
+      "additionally": [
+        177
+      ],
+      "programs": [
+        184
+      ],
+      "PyTorch": [
+        186
+      ],
+      "TensorFlow": [
+        188
+      ],
+      "2.0.": [
+        189
+      ],
+      "Our": [
+        190
+      ],
+      "implementation": [
+        191
+      ],
+      "significantly": [
+        192
+      ],
+      "lowers": [
+        193
+      ],
+      "barrier": [
+        195
+      ],
+      "using": [
+        197
+      ],
+      "programs.": [
+        203
+      ],
+      "present": [
+        205
+      ],
+      "applications": [
+        206
+      ],
+      "linear": [
+        208
+      ],
+      "machine": [
+        209
+      ],
+      "models": [
+        211
+      ],
+      "stochastic": [
+        214
+      ],
+      "control,": [
+        215
+      ],
+      "layer": [
+        221
+      ],
+      "competitive": [
+        223
+      ],
+      "(in": [
+        224
+      ],
+      "execution": [
+        225
+      ],
+      "time)": [
+        226
+      ],
+      "compared": [
+        227
+      ],
+      "specialized": [
+        229
+      ],
+      "solvers": [
+        231
+      ],
+      "past": [
+        233
+      ],
+      "work.": [
+        234
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 31
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 71
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 79
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 48
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 81
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 39
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-11-04T10:54:05.112534",
+    "created_date": "2019-09-05T00:00:00"
+  }
+}

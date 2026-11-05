@@ -1,0 +1,14 @@
+{
+  "study_version": "2.0-mechanism",
+  "origin": "public_synthetic_only",
+  "protocol_status": "supplement_after_analytic_scale_confound_identified_before_supplementary_outcomes",
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+  "train_trajectories": [8, 28, 112],
+  "validation_trajectories": 64,
+  "radius_multipliers": [0.0, 0.05, 0.1, 0.25, 0.5],
+  "fixed_trace": "Both covariance families normalised to empirical training trace before synthesis; quotient derivatives included.",
+  "radius_baseline": "Freeze likelihood-fitted covariance; select radius multiplier times sqrt(d) using the same validation empirical regret; evaluate only after selection.",
+  "outer_maxiter": 12,
+  "primary_relationship": "Supplementary mechanism analysis; does not replace the frozen decision_study primary endpoint.",
+  "question": "Do estimator differences persist when moment scale is fixed or radius tuning is allowed?"
+}

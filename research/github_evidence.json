@@ -1,0 +1,94 @@
+{
+  "retrieved_date": "2026-11-05",
+  "method": "GitHub connector search_repositories and fetch; public resources only",
+  "queries": [
+    "BoTorch",
+    "safe-control-gym",
+    "Wasserstein regret optimal control",
+    "SafeOpt",
+    "materials bax"
+  ],
+  "negative_searches": [
+    {
+      "query": "Wasserstein regret optimal control",
+      "result_count": 0,
+      "note": "No direct title match returned by this one query; not evidence that implementations do not exist."
+    }
+  ],
+  "repositories": [
+    {
+      "slug": "meta-pytorch/botorch",
+      "files": [
+        "README.md",
+        "LICENSE",
+        "botorch/acquisition/analytic.py"
+      ],
+      "symbols": [
+        "LogExpectedImprovement",
+        "ConstrainedExpectedImprovement",
+        "LogConstrainedExpectedImprovement"
+      ],
+      "license": "MIT",
+      "decision": "Comparison/reference only; no code vendored. Analytic feasibility-weighted EI assumes independent Gaussian outputs and q=1; it is not a hard safety certificate. Upstream recommends LogEI for numerical stability.",
+      "inspected_at": "2026-11-05",
+      "url": "https://github.com/meta-pytorch/botorch",
+      "default_branch": "main",
+      "commit": "b0dd01be61d517c387e234903a6e2cc38c057ea2",
+      "commit_date": "2026-10-16T15:47:26Z"
+    },
+    {
+      "slug": "learnsyslab/safe-control-gym",
+      "files": [
+        "README.md",
+        "LICENSE",
+        "safe_control_gym/controllers/mpc/linear_mpc.py"
+      ],
+      "symbols": [
+        "LinearMPC.setup_optimizer",
+        "LinearMPC.select_action"
+      ],
+      "license": "MIT",
+      "decision": "Architecture/evaluation reference only; no code vendored. Reference includes explicit horizon dynamics, state/input constraints and first-action receding-horizon execution. Reproduction would require substantial robotics dependencies.",
+      "inspected_at": "2026-11-05",
+      "url": "https://github.com/learnsyslab/safe-control-gym",
+      "default_branch": "main",
+      "commit": "6b5391d014f36fdfa0f9d22d92c77387e5274308",
+      "commit_date": "2026-04-29T14:25:50Z"
+    },
+    {
+      "slug": "befelix/SafeOpt",
+      "files": [
+        "README.rst",
+        "LICENSE",
+        "safeopt/gp_opt.py"
+      ],
+      "symbols": [
+        "SafeOpt.compute_safe_set",
+        "SafeOpt.compute_sets",
+        "SafeOpt.optimize"
+      ],
+      "license": "MIT",
+      "decision": "Algorithmic comparison only; no code vendored. README explicitly says maintenance mode. SafeOpt expands a safe set and optimises within reachable set; generic constrained EI is different.",
+      "inspected_at": "2026-11-05",
+      "url": "https://github.com/befelix/SafeOpt",
+      "default_branch": "master",
+      "commit": "06f4579779af17d6a28199ab69c379f0d18bc5f4",
+      "commit_date": "2020-04-16T17:32:40Z"
+    },
+    {
+      "slug": "sathya-chitturi/materials-bax-gpflow",
+      "files": [
+        "README.md",
+        "repository tree"
+      ],
+      "symbols": [],
+      "license": null,
+      "decision": "Paper-associated materials-discovery comparison. No license detected in inspected repository metadata/tree, so no code or data vendored. README refers to original NIST Fe-Co-Ni data and empirical nanoparticle model.",
+      "inspected_at": "2026-11-05",
+      "url": "https://github.com/sathya-chitturi/materials-bax-gpflow",
+      "default_branch": "main",
+      "commit": null,
+      "commit_date": null
+    }
+  ]
+}

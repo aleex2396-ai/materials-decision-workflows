@@ -1,0 +1,337 @@
+[
+  {
+    "key": "botorch",
+    "openalex_id": "https://openalex.org/W3105441357",
+    "doi": "https://doi.org/10.48550/arxiv.1910.06403",
+    "title": "BoTorch: A Framework for Efficient Monte-Carlo Bayesian Optimization",
+    "year": 2019,
+    "authors": [
+      "Maximilian Balandat",
+      "Brian Karrer",
+      "Daniel Jiang",
+      "Samuel Daulton",
+      "Benjamin Letham",
+      "Andrew Gordon Wilson",
+      "Eytan Bakshy"
+    ],
+    "source_url": "http://arxiv.org/abs/1910.06403",
+    "retrieved_at": "2026-11-05T11:20:50.9776758Z",
+    "query_url": "https://api.openalex.org/works/doi:10.48550/arXiv.1910.06403",
+    "snapshot": "openalex/botorch.json"
+  },
+  {
+    "key": "conformal_covariate_shift",
+    "openalex_id": "https://openalex.org/W2936788460",
+    "doi": "https://doi.org/10.48550/arxiv.1904.06019",
+    "title": "Conformal Prediction Under Covariate Shift",
+    "year": 2019,
+    "authors": [
+      "Ryan J. Tibshirani",
+      "Rina Foygel Barber",
+      "Emmanuel J. Candès",
+      "Aaditya Ramdas"
+    ],
+    "source_url": "http://arxiv.org/abs/1904.06019",
+    "retrieved_at": "2026-11-05T11:20:50.5141536Z",
+    "query_url": "https://api.openalex.org/works/doi:10.48550/arXiv.1904.06019",
+    "snapshot": "openalex/conformal_covariate_shift.json"
+  },
+  {
+    "key": "decision_control_policies",
+    "openalex_id": "https://openalex.org/W2994705643",
+    "doi": "https://doi.org/10.48550/arxiv.1912.09529",
+    "title": "Learning Convex Optimization Control Policies",
+    "year": 2019,
+    "authors": [
+      "Akshay Agrawal",
+      "Shane T. Barratt",
+      "Stephen Boyd",
+      "Bartolomeo Stellato"
+    ],
+    "source_url": "http://arxiv.org/abs/1912.09529",
+    "retrieved_at": "2026-11-05T12:04:33.9290486Z",
+    "query_url": "https://api.openalex.org/works/doi:10.48550/arXiv.1912.09529",
+    "snapshot": "openalex/decision_control_policies.json"
+  },
+  {
+    "key": "decision_convex_layers",
+    "openalex_id": "https://openalex.org/W2970791107",
+    "doi": "https://doi.org/10.48550/arxiv.1910.12430",
+    "title": "Differentiable Convex Optimization Layers",
+    "year": 2019,
+    "authors": [
+      "Akshay Agrawal",
+      "Brandon Amos",
+      "Shane T. Barratt",
+      "Stephen Boyd",
+      "Diamond, Steven",
+      "J. Zico Kolter"
+    ],
+    "source_url": "http://arxiv.org/abs/1910.12430",
+    "retrieved_at": "2026-11-05T12:04:33.3319556Z",
+    "query_url": "https://api.openalex.org/works/doi:10.48550/arXiv.1910.12430",
+    "snapshot": "openalex/decision_convex_layers.json"
+  },
+  {
+    "key": "decision_covariance_cleaning",
+    "openalex_id": "https://openalex.org/W4417183354",
+    "doi": "https://doi.org/10.1016/j.jfds.2026.100179",
+    "title": "End-to-end large portfolio optimization for variance minimization with neural networks through covariance cleaning",
+    "year": 2026,
+    "authors": [
+      "Christian Bongiorno",
+      "Efstratios Manolakis",
+      "Rosario N. Mantegna"
+    ],
+    "source_url": "https://doi.org/10.1016/j.jfds.2026.100179",
+    "retrieved_at": "2026-11-05T12:04:35.3503172Z",
+    "query_url": "https://api.openalex.org/works/doi:10.1016/j.jfds.2026.100179",
+    "snapshot": "openalex/decision_covariance_cleaning.json"
+  },
+  {
+    "key": "decision_covariance_gmvp",
+    "openalex_id": "https://openalex.org/W6929349821",
+    "doi": "https://doi.org/10.48550/arxiv.2508.10776",
+    "title": "Estimating Covariance for Global Minimum Variance Portfolio: A Decision-Focused Learning Approach",
+    "year": 2025,
+    "authors": [
+      "Juchan Kim",
+      "Inwoo Tae",
+      "Lee, Yongjae"
+    ],
+    "source_url": "http://arxiv.org/abs/2508.10776",
+    "retrieved_at": "2026-11-05T12:04:35.0832392Z",
+    "query_url": "https://api.openalex.org/works/doi:10.48550/arXiv.2508.10776",
+    "snapshot": "openalex/decision_covariance_gmvp.json"
+  },
+  {
+    "key": "decision_loss_aware_dro",
+    "openalex_id": "https://openalex.org/W4415316425",
+    "doi": "https://doi.org/10.48550/arxiv.2509.12689",
+    "title": "Loss-aware distributionally robust optimization via trainable optimal transport ambiguity sets",
+    "year": 2025,
+    "authors": [
+      "Jonas Ohnemus",
+      "Marta Fochesato",
+      "Riccardo Zuliani",
+      "John Lygeros"
+    ],
+    "source_url": "http://arxiv.org/abs/2509.12689",
+    "retrieved_at": "2026-11-05T12:04:34.7928318Z",
+    "query_url": "https://api.openalex.org/works/doi:10.48550/arXiv.2509.12689",
+    "snapshot": "openalex/decision_loss_aware_dro.json"
+  },
+  {
+    "key": "decision_spo",
+    "openalex_id": "https://openalex.org/W2766820687",
+    "doi": "https://doi.org/10.1287/mnsc.2020.3922",
+    "title": "Smart “Predict, then Optimize”",
+    "year": 2021,
+    "authors": [
+      "Adam N. Elmachtoub",
+      "Paul Grigas"
+    ],
+    "source_url": "https://doi.org/10.1287/mnsc.2020.3922",
+    "retrieved_at": "2026-11-05T12:04:33.6430095Z",
+    "query_url": "https://api.openalex.org/works/doi:10.1287/mnsc.2020.3922",
+    "snapshot": "openalex/decision_spo.json"
+  },
+  {
+    "key": "decision_task_exploration",
+    "openalex_id": "https://openalex.org/W3128508838",
+    "doi": "https://doi.org/10.48550/arxiv.2102.05214",
+    "title": "Task-Optimal Exploration in Linear Dynamical Systems",
+    "year": 2021,
+    "authors": [
+      "Andrew Wagenmaker",
+      "Max Simchowitz",
+      "Kevin Jamieson"
+    ],
+    "source_url": "http://arxiv.org/abs/2102.05214",
+    "retrieved_at": "2026-11-05T12:04:34.2131650Z",
+    "query_url": "https://api.openalex.org/works/doi:10.48550/arXiv.2102.05214",
+    "snapshot": "openalex/decision_task_exploration.json"
+  },
+  {
+    "key": "decision_task_model",
+    "openalex_id": "https://openalex.org/W2597344944",
+    "doi": "https://doi.org/10.48550/arxiv.1703.04529",
+    "title": "Task-based End-to-end Model Learning in Stochastic Optimization",
+    "year": 2017,
+    "authors": [
+      "Priya L. Donti",
+      "Brandon Amos",
+      "J. Zico Kolter"
+    ],
+    "source_url": "http://arxiv.org/abs/1703.04529",
+    "retrieved_at": "2026-11-05T12:04:33.0016201Z",
+    "query_url": "https://api.openalex.org/works/doi:10.48550/arXiv.1703.04529",
+    "snapshot": "openalex/decision_task_model.json"
+  },
+  {
+    "key": "decision_uncertainty_sets",
+    "openalex_id": "https://openalex.org/W4378945683",
+    "doi": "https://doi.org/10.48550/arxiv.2305.19225",
+    "title": "Learning Decision-Focused Uncertainty Sets in Robust Optimization",
+    "year": 2023,
+    "authors": [
+      "Irina Wang",
+      "Bart P. G. Van Parys",
+      "Bartolomeo Stellato"
+    ],
+    "source_url": "https://arxiv.org/abs/2305.19225",
+    "retrieved_at": "2026-11-05T12:04:34.5085406Z",
+    "query_url": "https://api.openalex.org/works/doi:10.48550/arXiv.2305.19225",
+    "snapshot": "openalex/decision_uncertainty_sets.json"
+  },
+  {
+    "key": "materials_bax",
+    "openalex_id": "https://openalex.org/W4400793326",
+    "doi": "https://doi.org/10.1038/s41524-024-01326-2",
+    "title": "Targeted materials discovery using Bayesian algorithm execution",
+    "year": 2024,
+    "authors": [
+      "Sathya R. Chitturi",
+      "Akash Ramdas",
+      "Yue Wu",
+      "Brian A. Rohr",
+      "Stefano Ermon",
+      "Jennifer A. Dionne",
+      "Felipe H. da Jornada",
+      "Mike Dunne",
+      "Christopher J. Tassone",
+      "Willie Neiswanger",
+      "Daniel F. Ratner"
+    ],
+    "source_url": "https://doi.org/10.1038/s41524-024-01326-2",
+    "retrieved_at": "2026-11-05T11:20:52.4456204Z",
+    "query_url": "https://api.openalex.org/works/doi:10.1038/s41524-024-01326-2",
+    "snapshot": "openalex/materials_bax.json"
+  },
+  {
+    "key": "moment_regret_control",
+    "openalex_id": "https://openalex.org/W4417297121",
+    "doi": "https://doi.org/10.48550/arxiv.2512.10906",
+    "title": "Distributionally Robust Regret Optimal Control Under Moment-Based Ambiguity Sets",
+    "year": 2025,
+    "authors": [
+      "Feras Al Taha",
+      "Eilyan Y. Bitar"
+    ],
+    "source_url": "https://arxiv.org/abs/2512.10906",
+    "retrieved_at": "2026-11-05T11:20:51.2736849Z",
+    "query_url": "https://api.openalex.org/works/doi:10.48550/arXiv.2512.10906",
+    "snapshot": "openalex/moment_regret_control.json"
+  },
+  {
+    "key": "nonstationary_chance_constraints",
+    "openalex_id": "https://openalex.org/W4280496243",
+    "doi": "https://doi.org/10.1109/lcsys.2022.3174132",
+    "title": "Data-Driven Approximations of Chance Constrained Programs in Nonstationary Environments",
+    "year": 2022,
+    "authors": [
+      "Shuhao Yan",
+      "Francesca Parise",
+      "Eilyan Y. Bitar"
+    ],
+    "source_url": "https://doi.org/10.1109/lcsys.2022.3174132",
+    "retrieved_at": "2026-11-05T11:20:49.5593198Z",
+    "query_url": "https://api.openalex.org/works/doi:10.48550/arXiv.2205.03748",
+    "snapshot": "openalex/nonstationary_chance_constraints.json"
+  },
+  {
+    "key": "regret_minimization",
+    "openalex_id": "https://openalex.org/W4405714275",
+    "doi": "https://doi.org/10.48550/arxiv.2412.15406",
+    "title": "Distributionally Robust Regret Minimization",
+    "year": 2024,
+    "authors": [
+      "Eilyan Y. Bitar"
+    ],
+    "source_url": "http://arxiv.org/abs/2412.15406",
+    "retrieved_at": "2026-11-05T11:20:51.8065475Z",
+    "query_url": "https://api.openalex.org/works/doi:10.48550/arXiv.2412.15406",
+    "snapshot": "openalex/regret_minimization.json"
+  },
+  {
+    "key": "safe_control_gym",
+    "openalex_id": "https://openalex.org/W4293370597",
+    "doi": "https://doi.org/10.1109/lra.2022.3196132",
+    "title": "Safe-Control-Gym: A Unified Benchmark Suite for Safe Learning-Based Control and Reinforcement Learning in Robotics",
+    "year": 2022,
+    "authors": [
+      "Zhaocong Yuan",
+      "Adam W. Hall",
+      "Siqi Zhou",
+      "Lukas Brunke",
+      "Melissa Greeff",
+      "Jacopo Panerati",
+      "Angela P. Schoellig"
+    ],
+    "source_url": "https://doi.org/10.1109/lra.2022.3196132",
+    "retrieved_at": "2026-11-05T11:20:50.7796112Z",
+    "query_url": "https://api.openalex.org/works/doi:10.1109/LRA.2022.3196132",
+    "snapshot": "openalex/safe_control_gym.json"
+  },
+  {
+    "key": "safe_linear_bandits",
+    "openalex_id": "https://openalex.org/W2991211457",
+    "doi": "https://doi.org/10.1609/aaai.v34i06.6581",
+    "title": "Safe Linear Stochastic Bandits",
+    "year": 2020,
+    "authors": [
+      "Kia Khezeli",
+      "Eilyan Y. Bitar"
+    ],
+    "source_url": "https://doi.org/10.1609/aaai.v34i06.6581",
+    "retrieved_at": "2026-11-05T11:20:48.7922288Z",
+    "query_url": "https://api.openalex.org/works/doi:10.1609/aaai.v34i06.6581",
+    "snapshot": "openalex/safe_linear_bandits.json"
+  },
+  {
+    "key": "uncertainty_sets",
+    "openalex_id": "https://openalex.org/W3016155920",
+    "doi": "https://doi.org/10.1109/cdc42340.2020.9303863",
+    "title": "Nonparametric Estimation of Uncertainty Sets for Robust Optimization",
+    "year": 2020,
+    "authors": [
+      "Polina Alexeenko",
+      "Eilyan Y. Bitar"
+    ],
+    "source_url": "https://doi.org/10.1109/cdc42340.2020.9303863",
+    "retrieved_at": "2026-11-05T11:20:49.3657377Z",
+    "query_url": "https://api.openalex.org/works/doi:10.48550/arXiv.2004.03069",
+    "snapshot": "openalex/uncertainty_sets.json"
+  },
+  {
+    "key": "wasserstein_dro",
+    "openalex_id": "https://openalex.org/W1712265143",
+    "doi": "https://doi.org/10.1007/s10107-017-1172-1",
+    "title": "Data-driven distributionally robust optimization using the Wasserstein metric: performance guarantees and tractable reformulations",
+    "year": 2017,
+    "authors": [
+      "Peyman Mohajerin Esfahani",
+      "Daniel Kühn"
+    ],
+    "source_url": "https://doi.org/10.1007/s10107-017-1172-1",
+    "retrieved_at": "2026-11-05T11:20:50.1606625Z",
+    "query_url": "https://api.openalex.org/works/doi:10.1007/s10107-017-1172-1",
+    "snapshot": "openalex/wasserstein_dro.json"
+  },
+  {
+    "key": "wasserstein_regret_control",
+    "openalex_id": "https://openalex.org/W4391021528",
+    "doi": "https://doi.org/10.1109/cdc49753.2023.10384311",
+    "title": "A Distributionally Robust Approach to Regret Optimal Control using the Wasserstein Distance",
+    "year": 2023,
+    "authors": [
+      "Feras Al Taha",
+      "Shuhao Yan",
+      "Eilyan Y. Bitar"
+    ],
+    "source_url": "https://doi.org/10.1109/cdc49753.2023.10384311",
+    "retrieved_at": "2026-11-05T11:20:49.8763759Z",
+    "query_url": "https://api.openalex.org/works/doi:10.48550/arXiv.2304.06783",
+    "snapshot": "openalex/wasserstein_regret_control.json"
+  }
+]

@@ -1,0 +1,21 @@
+name: numerical-and-pipeline-checks
+on: [push, pull_request]
+permissions:
+  contents: read
+env:
+  OMP_NUM_THREADS: '1'
+  OPENBLAS_NUM_THREADS: '1'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-lock.txt
+      - run: python -m pip install --no-deps -e .
+      - run: python scripts/export_public.py --check-tracked
+      - run: python -m pytest -q
+      - run: python -m crfml.cli all --output results
+      - run: python scripts/export_public.py --destination dist/ci-export

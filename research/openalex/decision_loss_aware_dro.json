@@ -1,0 +1,1029 @@
+{
+  "retrieved_at": "2026-11-05T12:04:34.7928318Z",
+  "url": "https://api.openalex.org/works/doi:10.48550/arXiv.2509.12689",
+  "response": {
+    "id": "https://openalex.org/W4415316425",
+    "doi": "https://doi.org/10.48550/arxiv.2509.12689",
+    "title": "Loss-aware distributionally robust optimization via trainable optimal transport ambiguity sets",
+    "display_name": "Loss-aware distributionally robust optimization via trainable optimal transport ambiguity sets",
+    "publication_year": 2025,
+    "publication_date": "2025-09-16",
+    "ids": {
+      "openalex": "https://openalex.org/W4415316425",
+      "doi": "https://doi.org/10.48550/arxiv.2509.12689"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "pmh:oai:arXiv.org:2509.12689",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2509.12689",
+      "pdf_url": "https://arxiv.org/pdf/2509.12689",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    "volume": null,
+    "type": "preprint",
+    "indexed_in": [
+      "arxiv",
+      "datacite"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2509.12689",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5132728727",
+          "display_name": "Jonas Ohnemus",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I35440088",
+            "display_name": "ETH Zurich",
+            "ror": "https://ror.org/05a28rw58",
+            "country_code": "CH",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I2799323385",
+              "https://openalex.org/I35440088"
+            ]
+          }
+        ],
+        "countries": [
+          "CH"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ohnemus, Jonas",
+        "raw_affiliation_strings": [
+          "ETH Zürich"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "ETH Zürich",
+            "institution_ids": [
+              "https://openalex.org/I35440088"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5036714077",
+          "display_name": "Marta Fochesato",
+          "orcid": "https://orcid.org/0009-0002-0631-6463",
+          "observed_orcids": [
+            "https://orcid.org/0009-0002-0631-6463"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I35440088",
+            "display_name": "ETH Zurich",
+            "ror": "https://ror.org/05a28rw58",
+            "country_code": "CH",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I2799323385",
+              "https://openalex.org/I35440088"
+            ]
+          }
+        ],
+        "countries": [
+          "CH"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Fochesato, Marta",
+        "raw_affiliation_strings": [
+          "ETH Zürich"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "ETH Zürich",
+            "institution_ids": [
+              "https://openalex.org/I35440088"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5044298415",
+          "display_name": "Riccardo Zuliani",
+          "orcid": "https://orcid.org/0009-0003-2882-9128",
+          "observed_orcids": [
+            "https://orcid.org/0009-0003-2882-9128"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I35440088",
+            "display_name": "ETH Zurich",
+            "ror": "https://ror.org/05a28rw58",
+            "country_code": "CH",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I2799323385",
+              "https://openalex.org/I35440088"
+            ]
+          }
+        ],
+        "countries": [
+          "CH"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zuliani, Riccardo",
+        "raw_affiliation_strings": [
+          "ETH Zürich"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "ETH Zürich",
+            "institution_ids": [
+              "https://openalex.org/I35440088"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5007359599",
+          "display_name": "John Lygeros",
+          "orcid": "https://orcid.org/0000-0002-6159-1962",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6159-1962"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I35440088",
+            "display_name": "ETH Zurich",
+            "ror": "https://ror.org/05a28rw58",
+            "country_code": "CH",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I2799323385",
+              "https://openalex.org/I35440088"
+            ]
+          }
+        ],
+        "countries": [
+          "CH"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lygeros, John",
+        "raw_affiliation_strings": [
+          "ETH Zürich"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "ETH Zürich",
+            "institution_ids": [
+              "https://openalex.org/I35440088"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I35440088"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11413",
+      "display_name": "Risk and Portfolio Optimization",
+      "score": 0.9940999746322632,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11413",
+        "display_name": "Risk and Portfolio Optimization",
+        "score": 0.9940999746322632,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11612",
+        "display_name": "Stochastic Gradient Optimization Techniques",
+        "score": 0.0005000000237487257,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10454",
+        "display_name": "Optimal Power Flow Distribution",
+        "score": 0.00039999998989515007,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/distributionally-robust-optimization",
+        "display_name": "distributionally robust optimization",
+        "score": 0.8840000033378601
+      },
+      {
+        "id": "https://openalex.org/keywords/optimal-transport",
+        "display_name": "optimal transport",
+        "score": 0.8759999871253967
+      },
+      {
+        "id": "https://openalex.org/keywords/ambiguity-set",
+        "display_name": "ambiguity set",
+        "score": 0.9340000152587891
+      },
+      {
+        "id": "https://openalex.org/keywords/bi-level-optimization",
+        "display_name": "bi-level optimization",
+        "score": 0.8289999961853027
+      },
+      {
+        "id": "https://openalex.org/keywords/end-to-end-learning",
+        "display_name": "end-to-end learning",
+        "score": 0.6129999756813049
+      },
+      {
+        "id": "https://openalex.org/keywords/portfolio-optimization",
+        "display_name": "portfolio optimization",
+        "score": 0.7049999833106995
+      },
+      {
+        "id": "https://openalex.org/keywords/linear-regression",
+        "display_name": "linear regression",
+        "score": 0.8700000047683716
+      },
+      {
+        "id": "https://openalex.org/keywords/uncertainty-quantification",
+        "display_name": "uncertainty quantification",
+        "score": 0.6359999775886536
+      },
+      {
+        "id": "https://openalex.org/keywords/sampling-error",
+        "display_name": "sampling error",
+        "score": 0.43799999356269836
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C193254401",
+        "wikidata": "https://www.wikidata.org/wiki/Q2160088",
+        "display_name": "Robust optimization",
+        "level": 2,
+        "score": 0.7943000197410583
+      },
+      {
+        "id": "https://openalex.org/C2780522230",
+        "wikidata": "https://www.wikidata.org/wiki/Q1140419",
+        "display_name": "Ambiguity",
+        "level": 2,
+        "score": 0.7422999739646912
+      },
+      {
+        "id": "https://openalex.org/C126255220",
+        "wikidata": "https://www.wikidata.org/wiki/Q141495",
+        "display_name": "Mathematical optimization",
+        "level": 1,
+        "score": 0.7257999777793884
+      },
+      {
+        "id": "https://openalex.org/C3309286",
+        "wikidata": "https://www.wikidata.org/wiki/Q4907693",
+        "display_name": "Bilevel optimization",
+        "level": 3,
+        "score": 0.6636999845504761
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5748999714851379
+      },
+      {
+        "id": "https://openalex.org/C137836250",
+        "wikidata": "https://www.wikidata.org/wiki/Q984063",
+        "display_name": "Optimization problem",
+        "level": 2,
+        "score": 0.4912000000476837
+      },
+      {
+        "id": "https://openalex.org/C177264268",
+        "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+        "display_name": "Set (abstract data type)",
+        "level": 2,
+        "score": 0.4593999981880188
+      },
+      {
+        "id": "https://openalex.org/C43521106",
+        "wikidata": "https://www.wikidata.org/wiki/Q2165493",
+        "display_name": "Pipeline (software)",
+        "level": 2,
+        "score": 0.45329999923706055
+      },
+      {
+        "id": "https://openalex.org/C63479239",
+        "wikidata": "https://www.wikidata.org/wiki/Q7353546",
+        "display_name": "Robustness (evolution)",
+        "level": 3,
+        "score": 0.43959999084472656
+      },
+      {
+        "id": "https://openalex.org/C202655437",
+        "wikidata": "https://www.wikidata.org/wiki/Q7231728",
+        "display_name": "Portfolio optimization",
+        "level": 3,
+        "score": 0.4185999929904938
+      },
+      {
+        "id": "https://openalex.org/C41045048",
+        "wikidata": "https://www.wikidata.org/wiki/Q202843",
+        "display_name": "Linear programming",
+        "level": 2,
+        "score": 0.3815999925136566
+      },
+      {
+        "id": "https://openalex.org/C2777303404",
+        "wikidata": "https://www.wikidata.org/wiki/Q759757",
+        "display_name": "Convergence (economics)",
+        "level": 2,
+        "score": 0.3644999861717224
+      },
+      {
+        "id": "https://openalex.org/C14036430",
+        "wikidata": "https://www.wikidata.org/wiki/Q3736076",
+        "display_name": "Function (biology)",
+        "level": 2,
+        "score": 0.35109999775886536
+      },
+      {
+        "id": "https://openalex.org/C28719098",
+        "wikidata": "https://www.wikidata.org/wiki/Q44946",
+        "display_name": "Point (geometry)",
+        "level": 2,
+        "score": 0.3357999920845032
+      },
+      {
+        "id": "https://openalex.org/C149441793",
+        "wikidata": "https://www.wikidata.org/wiki/Q200726",
+        "display_name": "Probability distribution",
+        "level": 2,
+        "score": 0.32739999890327454
+      },
+      {
+        "id": "https://openalex.org/C165696696",
+        "wikidata": "https://www.wikidata.org/wiki/Q11287",
+        "display_name": "Exploit",
+        "level": 2,
+        "score": 0.30300000309944153
+      },
+      {
+        "id": "https://openalex.org/C115527620",
+        "wikidata": "https://www.wikidata.org/wiki/Q769909",
+        "display_name": "Nonlinear programming",
+        "level": 3,
+        "score": 0.29980000853538513
+      },
+      {
+        "id": "https://openalex.org/C2777634741",
+        "wikidata": "https://www.wikidata.org/wiki/Q768993",
+        "display_name": "Wasserstein metric",
+        "level": 2,
+        "score": 0.2978000044822693
+      },
+      {
+        "id": "https://openalex.org/C177067428",
+        "wikidata": "https://www.wikidata.org/wiki/Q17013331",
+        "display_name": "Feasible region",
+        "level": 2,
+        "score": 0.28769999742507935
+      },
+      {
+        "id": "https://openalex.org/C55660270",
+        "wikidata": "https://www.wikidata.org/wiki/Q5164377",
+        "display_name": "Constrained optimization",
+        "level": 2,
+        "score": 0.27140000462532043
+      },
+      {
+        "id": "https://openalex.org/C70259352",
+        "wikidata": "https://www.wikidata.org/wiki/Q1847839",
+        "display_name": "Robust regression",
+        "level": 3,
+        "score": 0.2687000036239624
+      },
+      {
+        "id": "https://openalex.org/C89109886",
+        "wikidata": "https://www.wikidata.org/wiki/Q1535924",
+        "display_name": "Trust region",
+        "level": 3,
+        "score": 0.2612000107765198
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.25929999351501465
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.25360000133514404
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "pmh:oai:arXiv.org:2509.12689",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2509.12689",
+        "pdf_url": "https://arxiv.org/pdf/2509.12689",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
+        "id": "doi:10.48550/arxiv.2509.12689",
+        "doi": "https://doi.org/10.48550/arxiv.2509.12689",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.2509.12689",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Preprint"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:arXiv.org:2509.12689",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2509.12689",
+      "pdf_url": "https://arxiv.org/pdf/2509.12689",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    "sustainable_development_goals": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4415316425.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4415316425.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W7172518821",
+      "https://openalex.org/W4388185068",
+      "https://openalex.org/W7221099656",
+      "https://openalex.org/W7168294291",
+      "https://openalex.org/W7221798995",
+      "https://openalex.org/W2934990632",
+      "https://openalex.org/W7083592810",
+      "https://openalex.org/W3126498749",
+      "https://openalex.org/W4385774847",
+      "https://openalex.org/W3213876467"
+    ],
+    "abstract_inverted_index": {
+      "Optimal-Transport": [
+        0
+      ],
+      "Distributionally": [
+        1
+      ],
+      "Robust": [
+        2
+      ],
+      "Optimization": [
+        3
+      ],
+      "(OT-DRO)": [
+        4
+      ],
+      "robustifies": [
+        5
+      ],
+      "data-driven": [
+        6
+      ],
+      "decision-making": [
+        7
+      ],
+      "under": [
+        8
+      ],
+      "uncertainty": [
+        9,
+        49
+      ],
+      "by": [
+        10
+      ],
+      "capturing": [
+        11
+      ],
+      "the": [
+        12,
+        31,
+        41,
+        73,
+        77,
+        80,
+        95,
+        112,
+        128
+      ],
+      "sampling-induced": [
+        13
+      ],
+      "statistical": [
+        14
+      ],
+      "error": [
+        15
+      ],
+      "via": [
+        16,
+        106
+      ],
+      "optimal": [
+        17,
+        81
+      ],
+      "transport": [
+        18,
+        82
+      ],
+      "ambiguity": [
+        19,
+        32,
+        67,
+        83
+      ],
+      "sets.": [
+        20
+      ],
+      "The": [
+        21
+      ],
+      "standard": [
+        22,
+        138
+      ],
+      "OT-DRO": [
+        23,
+        43,
+        70
+      ],
+      "pipeline": [
+        24,
+        62
+      ],
+      "consists": [
+        25
+      ],
+      "of": [
+        26,
+        79,
+        127
+      ],
+      "a": [
+        27,
+        99,
+        107,
+        124
+      ],
+      "two-step": [
+        28
+      ],
+      "procedure,": [
+        29
+      ],
+      "where": [
+        30,
+        72
+      ],
+      "set": [
+        33
+      ],
+      "is": [
+        34
+      ],
+      "first": [
+        35
+      ],
+      "designed": [
+        36
+      ],
+      "and": [
+        37,
+        51,
+        103,
+        141
+      ],
+      "subsequently": [
+        38
+      ],
+      "embedded": [
+        39
+      ],
+      "into": [
+        40
+      ],
+      "downstream": [
+        42
+      ],
+      "problem.": [
+        44,
+        130
+      ],
+      "However,": [
+        45
+      ],
+      "this": [
+        46
+      ],
+      "separation": [
+        47
+      ],
+      "between": [
+        48
+      ],
+      "quantification": [
+        50
+      ],
+      "optimization": [
+        52,
+        101,
+        140
+      ],
+      "might": [
+        53
+      ],
+      "result": [
+        54
+      ],
+      "in": [
+        55
+      ],
+      "excessive": [
+        56
+      ],
+      "conservatism.": [
+        57
+      ],
+      "We": [
+        58,
+        93,
+        131
+      ],
+      "introduce": [
+        59
+      ],
+      "an": [
+        60
+      ],
+      "end-to-end": [
+        61
+      ],
+      "to": [
+        63,
+        86,
+        123
+      ],
+      "automatically": [
+        64
+      ],
+      "learn": [
+        65
+      ],
+      "decision-focused": [
+        66
+      ],
+      "sets": [
+        68
+      ],
+      "for": [
+        69
+      ],
+      "problems,": [
+        71
+      ],
+      "loss": [
+        74
+      ],
+      "function": [
+        75,
+        118
+      ],
+      "informs": [
+        76
+      ],
+      "shape": [
+        78
+      ],
+      "set,": [
+        84
+      ],
+      "leading": [
+        85
+      ],
+      "less": [
+        87
+      ],
+      "conservative": [
+        88,
+        116
+      ],
+      "yet": [
+        89
+      ],
+      "distributionally": [
+        90
+      ],
+      "robust": [
+        91
+      ],
+      "decisions.": [
+        92
+      ],
+      "formulate": [
+        94
+      ],
+      "learning": [
+        96
+      ],
+      "problem": [
+        97
+      ],
+      "as": [
+        98
+      ],
+      "bilevel": [
+        100,
+        129
+      ],
+      "program": [
+        102
+      ],
+      "solve": [
+        104
+      ],
+      "it": [
+        105
+      ],
+      "hypergradient-based": [
+        108
+      ],
+      "method.": [
+        109
+      ],
+      "By": [
+        110
+      ],
+      "leveraging": [
+        111
+      ],
+      "recently": [
+        113
+      ],
+      "introduced": [
+        114
+      ],
+      "nonsmooth": [
+        115
+      ],
+      "implicit": [
+        117
+      ],
+      "theorem,": [
+        119
+      ],
+      "we": [
+        120
+      ],
+      "establish": [
+        121
+      ],
+      "convergence": [
+        122
+      ],
+      "critical": [
+        125
+      ],
+      "point": [
+        126
+      ],
+      "present": [
+        132
+      ],
+      "experiments": [
+        133
+      ],
+      "validating": [
+        134
+      ],
+      "our": [
+        135
+      ],
+      "method": [
+        136
+      ],
+      "on": [
+        137
+      ],
+      "portfolio": [
+        139
+      ],
+      "linear": [
+        142
+      ],
+      "regression": [
+        143
+      ],
+      "tasks.": [
+        144
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-11-04T10:54:05.112534",
+    "created_date": "2025-10-18T00:00:00"
+  }
+}

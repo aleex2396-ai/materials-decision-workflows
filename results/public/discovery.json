@@ -1,0 +1,4603 @@
+[
+  {
+    "policy": "random",
+    "seed": 0,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 76,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 10,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 80,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 17,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 32,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 153,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": true
+      },
+      {
+        "step": 6,
+        "candidate": 156,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 146,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 20,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 65,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": true
+      },
+      {
+        "step": 10,
+        "candidate": 97,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 136,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      40,
+      35,
+      106,
+      49,
+      148,
+      130,
+      98,
+      87,
+      119,
+      64,
+      76,
+      10,
+      80,
+      17,
+      32,
+      153,
+      156,
+      146,
+      20,
+      65,
+      97,
+      136
+    ],
+    "recommendation": 49,
+    "composition_process": [
+      0.216847802079332,
+      0.5625526387712322,
+      0.22059955914943566,
+      0.15884601188655856
+    ],
+    "true_gain": 0.2858667915221158,
+    "predicted_gain": 0.28748586489018624,
+    "observed_gain": 0.282915885372817,
+    "true_quality": 1.197503834142191,
+    "true_defect": 0.20803412316450012,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1076835492817423,
+    "recommended_utility_regret_if_feasible": 0.05164406912706654,
+    "pareto_candidates": [
+      40,
+      49,
+      146,
+      97
+    ],
+    "final_regret": 0.046055920703648834,
+    "sampled_constraint_violations": 2,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 5
+  },
+  {
+    "policy": "greedy",
+    "seed": 0,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 39,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": true
+      },
+      {
+        "step": 1,
+        "candidate": 67,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": true
+      },
+      {
+        "step": 2,
+        "candidate": 57,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 19,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 56,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": true
+      },
+      {
+        "step": 5,
+        "candidate": 33,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": true
+      },
+      {
+        "step": 6,
+        "candidate": 149,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": true
+      },
+      {
+        "step": 7,
+        "candidate": 159,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 23,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 63,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 124,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 11,
+        "candidate": 30,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      40,
+      35,
+      106,
+      49,
+      148,
+      130,
+      98,
+      87,
+      119,
+      64,
+      39,
+      67,
+      57,
+      19,
+      56,
+      33,
+      149,
+      159,
+      23,
+      63,
+      124,
+      30
+    ],
+    "recommendation": 159,
+    "composition_process": [
+      0.3099890911523111,
+      0.5184682435468584,
+      0.17154266530083054,
+      0.2329579683146944
+    ],
+    "true_gain": 0.31002688317570026,
+    "predicted_gain": 0.30693610093609824,
+    "observed_gain": 0.31121988297440023,
+    "true_quality": 1.2454960615332424,
+    "true_defect": 0.1651464404493543,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1593276184088088,
+    "recommended_utility_regret_if_feasible": 0.0,
+    "pareto_candidates": [
+      39,
+      57,
+      159,
+      30
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 6,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 9
+  },
+  {
+    "policy": "constrained_ei",
+    "seed": 0,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 57,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 39,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": true
+      },
+      {
+        "step": 2,
+        "candidate": 99,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 8,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 63,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 18,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 129,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 47,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 55,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": true
+      },
+      {
+        "step": 9,
+        "candidate": 80,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 48,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 118,
+        "simple_regret": 0.046055920703648834,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      40,
+      35,
+      106,
+      49,
+      148,
+      130,
+      98,
+      87,
+      119,
+      64,
+      57,
+      39,
+      99,
+      8,
+      63,
+      18,
+      129,
+      47,
+      55,
+      80,
+      48,
+      118
+    ],
+    "recommendation": 39,
+    "composition_process": [
+      0.21638356993078836,
+      0.4568563938411761,
+      0.3267600362280355,
+      0.21216753083477935
+    ],
+    "true_gain": 0.28012054924704893,
+    "predicted_gain": 0.27593837860388276,
+    "observed_gain": 0.27429831980178515,
+    "true_quality": 1.2322985660281527,
+    "true_defect": 0.2214959964017098,
+    "recommendation_feasible": false,
+    "recommended_utility": 1.148067747928355,
+    "recommended_utility_regret_if_feasible": null,
+    "pareto_candidates": [
+      40,
+      57,
+      39,
+      99,
+      8,
+      129,
+      48
+    ],
+    "final_regret": 0.046055920703648834,
+    "sampled_constraint_violations": 2,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 5
+  },
+  {
+    "policy": "random",
+    "seed": 1,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 23,
+        "simple_regret": 0.12101180487962737,
+        "defect_violation": true
+      },
+      {
+        "step": 1,
+        "candidate": 75,
+        "simple_regret": 0.12101180487962737,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 10,
+        "simple_regret": 0.12101180487962737,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 31,
+        "simple_regret": 0.12101180487962737,
+        "defect_violation": true
+      },
+      {
+        "step": 4,
+        "candidate": 141,
+        "simple_regret": 0.12101180487962737,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 41,
+        "simple_regret": 0.12101180487962737,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 140,
+        "simple_regret": 0.12101180487962737,
+        "defect_violation": true
+      },
+      {
+        "step": 7,
+        "candidate": 133,
+        "simple_regret": 0.12101180487962737,
+        "defect_violation": true
+      },
+      {
+        "step": 8,
+        "candidate": 111,
+        "simple_regret": 0.12101180487962737,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 51,
+        "simple_regret": 0.12101180487962737,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 60,
+        "simple_regret": 0.12101180487962737,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 11,
+        "simple_regret": 0.12101180487962737,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      86,
+      82,
+      83,
+      73,
+      28,
+      136,
+      124,
+      52,
+      131,
+      125,
+      23,
+      75,
+      10,
+      31,
+      141,
+      41,
+      140,
+      133,
+      111,
+      51,
+      60,
+      11
+    ],
+    "recommendation": 52,
+    "composition_process": [
+      0.5278716276555053,
+      0.34403344102537214,
+      0.12809493131912258,
+      0.9628703667122085
+    ],
+    "true_gain": 0.40225073875894996,
+    "predicted_gain": 0.4096271460492758,
+    "observed_gain": 0.41002416330873404,
+    "true_quality": 1.1221739923220087,
+    "true_defect": 0.20682356022917345,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.0186421221167663,
+    "recommended_utility_regret_if_feasible": 0.14531425053941893,
+    "pareto_candidates": [
+      28,
+      52,
+      131,
+      51
+    ],
+    "final_regret": 0.12101180487962737,
+    "sampled_constraint_violations": 4,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 7
+  },
+  {
+    "policy": "greedy",
+    "seed": 1,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 62,
+        "simple_regret": 0.08170313094890758,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 119,
+        "simple_regret": 0.08170313094890758,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 129,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 106,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 4,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 59,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": true
+      },
+      {
+        "step": 6,
+        "candidate": 8,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": true
+      },
+      {
+        "step": 7,
+        "candidate": 33,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": true
+      },
+      {
+        "step": 8,
+        "candidate": 45,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": true
+      },
+      {
+        "step": 9,
+        "candidate": 29,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": true
+      },
+      {
+        "step": 10,
+        "candidate": 55,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": true
+      },
+      {
+        "step": 11,
+        "candidate": 81,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": true
+      }
+    ],
+    "selected": [
+      86,
+      82,
+      83,
+      73,
+      28,
+      136,
+      124,
+      52,
+      131,
+      125,
+      62,
+      119,
+      129,
+      106,
+      4,
+      59,
+      8,
+      33,
+      45,
+      29,
+      55,
+      81
+    ],
+    "recommendation": 129,
+    "composition_process": [
+      0.4356834304350884,
+      0.4341391479337756,
+      0.1301774216311361,
+      0.9997529086984399
+    ],
+    "true_gain": 0.3894326328102996,
+    "predicted_gain": 0.3910457647181083,
+    "observed_gain": 0.38206791898263087,
+    "true_quality": 1.2293197339352175,
+    "true_defect": 0.20492323425899714,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1155927918020683,
+    "recommended_utility_regret_if_feasible": 0.04836358085411696,
+    "pareto_candidates": [
+      28,
+      52,
+      131,
+      62,
+      129,
+      106,
+      4
+    ],
+    "final_regret": 0.013866063266418482,
+    "sampled_constraint_violations": 7,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 10
+  },
+  {
+    "policy": "constrained_ei",
+    "seed": 1,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 138,
+        "simple_regret": 0.12101180487962737,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 129,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 4,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 133,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": true
+      },
+      {
+        "step": 4,
+        "candidate": 19,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 49,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": true
+      },
+      {
+        "step": 6,
+        "candidate": 59,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": true
+      },
+      {
+        "step": 7,
+        "candidate": 135,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 36,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 11,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 106,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 155,
+        "simple_regret": 0.013866063266418482,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      86,
+      82,
+      83,
+      73,
+      28,
+      136,
+      124,
+      52,
+      131,
+      125,
+      138,
+      129,
+      4,
+      133,
+      19,
+      49,
+      59,
+      135,
+      36,
+      11,
+      106,
+      155
+    ],
+    "recommendation": 129,
+    "composition_process": [
+      0.4356834304350884,
+      0.4341391479337756,
+      0.1301774216311361,
+      0.9997529086984399
+    ],
+    "true_gain": 0.3894326328102996,
+    "predicted_gain": 0.39120137712731434,
+    "observed_gain": 0.38206791898263087,
+    "true_quality": 1.2293197339352175,
+    "true_defect": 0.20492323425899714,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1155927918020683,
+    "recommended_utility_regret_if_feasible": 0.04836358085411696,
+    "pareto_candidates": [
+      131,
+      129,
+      4,
+      135,
+      36,
+      106
+    ],
+    "final_regret": 0.013866063266418482,
+    "sampled_constraint_violations": 3,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 6
+  },
+  {
+    "policy": "random",
+    "seed": 2,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 17,
+        "simple_regret": 0.0027495946731981302,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 80,
+        "simple_regret": 0.0027495946731981302,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 3,
+        "simple_regret": 0.0027495946731981302,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 141,
+        "simple_regret": 0.0027495946731981302,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 43,
+        "simple_regret": 0.0027495946731981302,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 154,
+        "simple_regret": 0.0027495946731981302,
+        "defect_violation": true
+      },
+      {
+        "step": 6,
+        "candidate": 111,
+        "simple_regret": 0.0027495946731981302,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 1,
+        "simple_regret": 0.0027495946731981302,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 44,
+        "simple_regret": 0.0027495946731981302,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 123,
+        "simple_regret": 0.0027495946731981302,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 147,
+        "simple_regret": 0.0027495946731981302,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 132,
+        "simple_regret": 0.0027495946731981302,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      7,
+      65,
+      53,
+      8,
+      34,
+      41,
+      47,
+      159,
+      90,
+      158,
+      17,
+      80,
+      3,
+      141,
+      43,
+      154,
+      111,
+      1,
+      44,
+      123,
+      147,
+      132
+    ],
+    "recommendation": 17,
+    "composition_process": [
+      0.28202964172369527,
+      0.5366937703766589,
+      0.18127658789964568,
+      0.24964929245208756
+    ],
+    "true_gain": 0.3092832379914548,
+    "predicted_gain": 0.30514006327830756,
+    "observed_gain": 0.29724879548456573,
+    "true_quality": 1.2385082404233578,
+    "true_defect": 0.17468388623856346,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.150315102293723,
+    "recommended_utility_regret_if_feasible": 0.011287037980267867,
+    "pareto_candidates": [
+      7,
+      53,
+      8,
+      159,
+      17,
+      111
+    ],
+    "final_regret": 0.0027495946731981302,
+    "sampled_constraint_violations": 1,
+    "initial_constraint_violations": 1,
+    "total_sampled_constraint_violations": 2
+  },
+  {
+    "policy": "greedy",
+    "seed": 2,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 9,
+        "simple_regret": 0.03811675995377306,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 83,
+        "simple_regret": 0.03811675995377306,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 30,
+        "simple_regret": 0.03811675995377306,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 37,
+        "simple_regret": 0.009729986848935779,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 128,
+        "simple_regret": 0.009729986848935779,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 91,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 66,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 133,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 145,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 35,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 105,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 17,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      7,
+      65,
+      53,
+      8,
+      34,
+      41,
+      47,
+      159,
+      90,
+      158,
+      9,
+      83,
+      30,
+      37,
+      128,
+      91,
+      66,
+      133,
+      145,
+      35,
+      105,
+      17
+    ],
+    "recommendation": 17,
+    "composition_process": [
+      0.28202964172369527,
+      0.5366937703766589,
+      0.18127658789964568,
+      0.24964929245208756
+    ],
+    "true_gain": 0.3092832379914548,
+    "predicted_gain": 0.30446361294989693,
+    "observed_gain": 0.29724879548456573,
+    "true_quality": 1.2385082404233578,
+    "true_defect": 0.17468388623856346,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.150315102293723,
+    "recommended_utility_regret_if_feasible": 0.011287037980267867,
+    "pareto_candidates": [
+      53,
+      8,
+      37,
+      91,
+      145,
+      105,
+      17
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 0,
+    "initial_constraint_violations": 1,
+    "total_sampled_constraint_violations": 1
+  },
+  {
+    "policy": "constrained_ei",
+    "seed": 2,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 30,
+        "simple_regret": 0.040243232828344855,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 128,
+        "simple_regret": 0.040243232828344855,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 37,
+        "simple_regret": 0.009729986848935779,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 38,
+        "simple_regret": 0.009729986848935779,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 91,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 77,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 6,
+        "candidate": 83,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 109,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 32,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 9,
+        "candidate": 66,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 138,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 11,
+        "candidate": 135,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      7,
+      65,
+      53,
+      8,
+      34,
+      41,
+      47,
+      159,
+      90,
+      158,
+      30,
+      128,
+      37,
+      38,
+      91,
+      77,
+      83,
+      109,
+      32,
+      66,
+      138,
+      135
+    ],
+    "recommendation": 37,
+    "composition_process": [
+      0.3674290021871995,
+      0.48471137194392583,
+      0.14785962586887463,
+      0.2935318976681419
+    ],
+    "true_gain": 0.32535525769139817,
+    "predicted_gain": 0.32295357754259296,
+    "observed_gain": 0.3235765395630751,
+    "true_quality": 1.2315278482476202,
+    "true_defect": 0.12854770815648092,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1474812819196218,
+    "recommended_utility_regret_if_feasible": 0.014120858354369048,
+    "pareto_candidates": [
+      53,
+      8,
+      37,
+      91,
+      83,
+      66
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 3,
+    "initial_constraint_violations": 1,
+    "total_sampled_constraint_violations": 4
+  },
+  {
+    "policy": "random",
+    "seed": 3,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 149,
+        "simple_regret": 0.00623124050658741,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 99,
+        "simple_regret": 0.00623124050658741,
+        "defect_violation": true
+      },
+      {
+        "step": 2,
+        "candidate": 94,
+        "simple_regret": 0.00623124050658741,
+        "defect_violation": true
+      },
+      {
+        "step": 3,
+        "candidate": 91,
+        "simple_regret": 0.00623124050658741,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 62,
+        "simple_regret": 0.00623124050658741,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 40,
+        "simple_regret": 0.00623124050658741,
+        "defect_violation": true
+      },
+      {
+        "step": 6,
+        "candidate": 131,
+        "simple_regret": 0.00623124050658741,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 85,
+        "simple_regret": 0.00623124050658741,
+        "defect_violation": true
+      },
+      {
+        "step": 8,
+        "candidate": 127,
+        "simple_regret": 0.00623124050658741,
+        "defect_violation": true
+      },
+      {
+        "step": 9,
+        "candidate": 121,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 154,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 13,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      143,
+      58,
+      66,
+      111,
+      92,
+      150,
+      84,
+      0,
+      60,
+      124,
+      149,
+      99,
+      94,
+      91,
+      62,
+      40,
+      131,
+      85,
+      127,
+      121,
+      154,
+      13
+    ],
+    "recommendation": 121,
+    "composition_process": [
+      0.28720020975452215,
+      0.40740197810617773,
+      0.30539781213930006,
+      0.22934902406799673
+    ],
+    "true_gain": 0.2899978254310349,
+    "predicted_gain": 0.28764173327600984,
+    "observed_gain": 0.28887341290119456,
+    "true_quality": 1.2486900925674786,
+    "true_defect": 0.2033607056156677,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1687354420440494,
+    "recommended_utility_regret_if_feasible": 0.0,
+    "pareto_candidates": [
+      111,
+      0,
+      91,
+      121
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 5,
+    "initial_constraint_violations": 6,
+    "total_sampled_constraint_violations": 11
+  },
+  {
+    "policy": "greedy",
+    "seed": 3,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 156,
+        "simple_regret": 0.00623124050658741,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 121,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 49,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 123,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 4,
+        "candidate": 50,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 5,
+        "candidate": 122,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 6,
+        "candidate": 112,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 76,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 136,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 9,
+        "candidate": 43,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 87,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 108,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      143,
+      58,
+      66,
+      111,
+      92,
+      150,
+      84,
+      0,
+      60,
+      124,
+      156,
+      121,
+      49,
+      123,
+      50,
+      122,
+      112,
+      76,
+      136,
+      43,
+      87,
+      108
+    ],
+    "recommendation": 121,
+    "composition_process": [
+      0.28720020975452215,
+      0.40740197810617773,
+      0.30539781213930006,
+      0.22934902406799673
+    ],
+    "true_gain": 0.2899978254310349,
+    "predicted_gain": 0.28964664371008897,
+    "observed_gain": 0.28887341290119456,
+    "true_quality": 1.2486900925674786,
+    "true_defect": 0.2033607056156677,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1687354420440494,
+    "recommended_utility_regret_if_feasible": 0.0,
+    "pareto_candidates": [
+      111,
+      0,
+      121
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 4,
+    "initial_constraint_violations": 6,
+    "total_sampled_constraint_violations": 10
+  },
+  {
+    "policy": "constrained_ei",
+    "seed": 3,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 122,
+        "simple_regret": 0.00623124050658741,
+        "defect_violation": true
+      },
+      {
+        "step": 1,
+        "candidate": 121,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 132,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 112,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 65,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 131,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 126,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 7,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 156,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 29,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 88,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 10,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      }
+    ],
+    "selected": [
+      143,
+      58,
+      66,
+      111,
+      92,
+      150,
+      84,
+      0,
+      60,
+      124,
+      122,
+      121,
+      132,
+      112,
+      65,
+      131,
+      126,
+      7,
+      156,
+      29,
+      88,
+      10
+    ],
+    "recommendation": 7,
+    "composition_process": [
+      0.34251376861985333,
+      0.40767336904791474,
+      0.24981286233223193,
+      0.26844713269431475
+    ],
+    "true_gain": 0.3062716366649634,
+    "predicted_gain": 0.30618727281243113,
+    "observed_gain": 0.3169396744622295,
+    "true_quality": 1.2432844738626556,
+    "true_defect": 0.16401405930723198,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.163828236649285,
+    "recommended_utility_regret_if_feasible": 0.0049072053947645244,
+    "pareto_candidates": [
+      111,
+      0,
+      126,
+      7,
+      29,
+      88
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 2,
+    "initial_constraint_violations": 6,
+    "total_sampled_constraint_violations": 8
+  },
+  {
+    "policy": "random",
+    "seed": 4,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 108,
+        "simple_regret": 0.009171904222231575,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 9,
+        "simple_regret": 0.009171904222231575,
+        "defect_violation": true
+      },
+      {
+        "step": 2,
+        "candidate": 4,
+        "simple_regret": 0.009171904222231575,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 37,
+        "simple_regret": 0.009171904222231575,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 135,
+        "simple_regret": 0.009171904222231575,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 45,
+        "simple_regret": 0.009171904222231575,
+        "defect_violation": true
+      },
+      {
+        "step": 6,
+        "candidate": 27,
+        "simple_regret": 0.009171904222231575,
+        "defect_violation": true
+      },
+      {
+        "step": 7,
+        "candidate": 113,
+        "simple_regret": 0.009171904222231575,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 132,
+        "simple_regret": 0.009171904222231575,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 149,
+        "simple_regret": 0.009171904222231575,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 38,
+        "simple_regret": 0.009171904222231575,
+        "defect_violation": true
+      },
+      {
+        "step": 11,
+        "candidate": 59,
+        "simple_regret": 0.009171904222231575,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      2,
+      95,
+      40,
+      34,
+      136,
+      1,
+      101,
+      51,
+      79,
+      30,
+      108,
+      9,
+      4,
+      37,
+      135,
+      45,
+      27,
+      113,
+      132,
+      149,
+      38,
+      59
+    ],
+    "recommendation": 95,
+    "composition_process": [
+      0.4081919738495699,
+      0.45229305221765775,
+      0.13951497393277235,
+      0.1636864877572114
+    ],
+    "true_gain": 0.31098788402468885,
+    "predicted_gain": 0.30826357142345734,
+    "observed_gain": 0.3127111733726429,
+    "true_quality": 1.213812744894422,
+    "true_defect": 0.1341033719650582,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.134854733687692,
+    "recommended_utility_regret_if_feasible": 0.008185249672528094,
+    "pareto_candidates": [
+      95,
+      136,
+      1,
+      4,
+      37,
+      149
+    ],
+    "final_regret": 0.009171904222231575,
+    "sampled_constraint_violations": 4,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 7
+  },
+  {
+    "policy": "greedy",
+    "seed": 4,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 83,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 57,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 73,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 3,
+        "candidate": 0,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 114,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 32,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 9,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 7,
+        "candidate": 60,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 8,
+        "candidate": 19,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 5,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 61,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 11,
+        "candidate": 27,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      }
+    ],
+    "selected": [
+      2,
+      95,
+      40,
+      34,
+      136,
+      1,
+      101,
+      51,
+      79,
+      30,
+      83,
+      57,
+      73,
+      0,
+      114,
+      32,
+      9,
+      60,
+      19,
+      5,
+      61,
+      27
+    ],
+    "recommendation": 95,
+    "composition_process": [
+      0.4081919738495699,
+      0.45229305221765775,
+      0.13951497393277235,
+      0.1636864877572114
+    ],
+    "true_gain": 0.31098788402468885,
+    "predicted_gain": 0.31051110559599204,
+    "observed_gain": 0.3127111733726429,
+    "true_quality": 1.213812744894422,
+    "true_defect": 0.1341033719650582,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.134854733687692,
+    "recommended_utility_regret_if_feasible": 0.008185249672528094,
+    "pareto_candidates": [
+      95,
+      136,
+      1,
+      57
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 5,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 8
+  },
+  {
+    "policy": "constrained_ei",
+    "seed": 4,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 83,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 73,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 2,
+        "candidate": 135,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 19,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 10,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 32,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 113,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 104,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 105,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 9,
+        "candidate": 63,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 10,
+        "candidate": 154,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 29,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      2,
+      95,
+      40,
+      34,
+      136,
+      1,
+      101,
+      51,
+      79,
+      30,
+      83,
+      73,
+      135,
+      19,
+      10,
+      32,
+      113,
+      104,
+      105,
+      63,
+      154,
+      29
+    ],
+    "recommendation": 95,
+    "composition_process": [
+      0.4081919738495699,
+      0.45229305221765775,
+      0.13951497393277235,
+      0.1636864877572114
+    ],
+    "true_gain": 0.31098788402468885,
+    "predicted_gain": 0.3063167381642738,
+    "observed_gain": 0.3127111733726429,
+    "true_quality": 1.213812744894422,
+    "true_defect": 0.1341033719650582,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.134854733687692,
+    "recommended_utility_regret_if_feasible": 0.008185249672528094,
+    "pareto_candidates": [
+      95,
+      136,
+      105
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 3,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 6
+  },
+  {
+    "policy": "random",
+    "seed": 5,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 53,
+        "simple_regret": 0.024291868134701966,
+        "defect_violation": true
+      },
+      {
+        "step": 1,
+        "candidate": 39,
+        "simple_regret": 0.024291868134701966,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 72,
+        "simple_regret": 0.024291868134701966,
+        "defect_violation": true
+      },
+      {
+        "step": 3,
+        "candidate": 51,
+        "simple_regret": 0.024291868134701966,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 107,
+        "simple_regret": 0.024291868134701966,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 131,
+        "simple_regret": 0.024291868134701966,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 77,
+        "simple_regret": 0.024291868134701966,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 55,
+        "simple_regret": 0.024291868134701966,
+        "defect_violation": true
+      },
+      {
+        "step": 8,
+        "candidate": 2,
+        "simple_regret": 0.024291868134701966,
+        "defect_violation": true
+      },
+      {
+        "step": 9,
+        "candidate": 89,
+        "simple_regret": 0.024291868134701966,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 142,
+        "simple_regret": 0.024291868134701966,
+        "defect_violation": true
+      },
+      {
+        "step": 11,
+        "candidate": 70,
+        "simple_regret": 0.024291868134701966,
+        "defect_violation": true
+      }
+    ],
+    "selected": [
+      1,
+      12,
+      35,
+      73,
+      50,
+      81,
+      158,
+      25,
+      105,
+      60,
+      53,
+      39,
+      72,
+      51,
+      107,
+      131,
+      77,
+      55,
+      2,
+      89,
+      142,
+      70
+    ],
+    "recommendation": 73,
+    "composition_process": [
+      0.22835526017154548,
+      0.5300797706888575,
+      0.24156496913959705,
+      0.250502649098269
+    ],
+    "true_gain": 0.2977818551041089,
+    "predicted_gain": 0.2953588236931672,
+    "observed_gain": 0.2928129671393354,
+    "true_quality": 1.2270543385170778,
+    "true_defect": 0.19702801671509027,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1380343614844093,
+    "recommended_utility_regret_if_feasible": 0.029882904624362716,
+    "pareto_candidates": [
+      12,
+      35,
+      73,
+      105
+    ],
+    "final_regret": 0.024291868134701966,
+    "sampled_constraint_violations": 6,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 9
+  },
+  {
+    "policy": "greedy",
+    "seed": 5,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 30,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 98,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 52,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 96,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 84,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 10,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 104,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 153,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 78,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 19,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 3,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 146,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      1,
+      12,
+      35,
+      73,
+      50,
+      81,
+      158,
+      25,
+      105,
+      60,
+      30,
+      98,
+      52,
+      96,
+      84,
+      10,
+      104,
+      153,
+      78,
+      19,
+      3,
+      146
+    ],
+    "recommendation": 96,
+    "composition_process": [
+      0.37779483455036195,
+      0.43770901804381934,
+      0.18449614740581885,
+      0.22427260896178525
+    ],
+    "true_gain": 0.3115265056595543,
+    "predicted_gain": 0.31146623297001197,
+    "observed_gain": 0.3088624022467143,
+    "true_quality": 1.2417100885912495,
+    "true_defect": 0.1420638594711783,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.162061748668609,
+    "recommended_utility_regret_if_feasible": 0.005855517440163105,
+    "pareto_candidates": [
+      35,
+      98,
+      96,
+      10,
+      104,
+      153
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 0,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 3
+  },
+  {
+    "policy": "constrained_ei",
+    "seed": 5,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 52,
+        "simple_regret": 0.024291868134701966,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 98,
+        "simple_regret": 0.018696030149551346,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 19,
+        "simple_regret": 0.018696030149551346,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 30,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 96,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 153,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 40,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 7,
+        "candidate": 3,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 84,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 78,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 58,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 24,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      1,
+      12,
+      35,
+      73,
+      50,
+      81,
+      158,
+      25,
+      105,
+      60,
+      52,
+      98,
+      19,
+      30,
+      96,
+      153,
+      40,
+      3,
+      84,
+      78,
+      58,
+      24
+    ],
+    "recommendation": 96,
+    "composition_process": [
+      0.37779483455036195,
+      0.43770901804381934,
+      0.18449614740581885,
+      0.22427260896178525
+    ],
+    "true_gain": 0.3115265056595543,
+    "predicted_gain": 0.309834363869396,
+    "observed_gain": 0.3088624022467143,
+    "true_quality": 1.2417100885912495,
+    "true_defect": 0.1420638594711783,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.162061748668609,
+    "recommended_utility_regret_if_feasible": 0.005855517440163105,
+    "pareto_candidates": [
+      35,
+      98,
+      96,
+      153
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 1,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 4
+  },
+  {
+    "policy": "random",
+    "seed": 6,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 108,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 123,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 113,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 109,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 82,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 56,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 45,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 52,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": true
+      },
+      {
+        "step": 8,
+        "candidate": 125,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 158,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 144,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": true
+      },
+      {
+        "step": 11,
+        "candidate": 137,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      92,
+      96,
+      28,
+      48,
+      17,
+      159,
+      115,
+      126,
+      147,
+      35,
+      108,
+      123,
+      113,
+      109,
+      82,
+      56,
+      45,
+      52,
+      125,
+      158,
+      144,
+      137
+    ],
+    "recommendation": 17,
+    "composition_process": [
+      0.3827959046385873,
+      0.43224259134608156,
+      0.18496150401533115,
+      0.19099040448213023
+    ],
+    "true_gain": 0.30719298611559026,
+    "predicted_gain": 0.311315412741463,
+    "observed_gain": 0.3072411135780783,
+    "true_quality": 1.2337944853264606,
+    "true_defect": 0.1460936541154916,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1551049376524047,
+    "recommended_utility_regret_if_feasible": 0.01054244429951301,
+    "pareto_candidates": [
+      96,
+      17,
+      113,
+      109
+    ],
+    "final_regret": 0.009064402893962598,
+    "sampled_constraint_violations": 2,
+    "initial_constraint_violations": 2,
+    "total_sampled_constraint_violations": 4
+  },
+  {
+    "policy": "greedy",
+    "seed": 6,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 69,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 53,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 50,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 4,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 156,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 60,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 6,
+        "candidate": 134,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 7,
+        "candidate": 151,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 87,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 21,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 13,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 82,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      92,
+      96,
+      28,
+      48,
+      17,
+      159,
+      115,
+      126,
+      147,
+      35,
+      69,
+      53,
+      50,
+      4,
+      156,
+      60,
+      134,
+      151,
+      87,
+      21,
+      13,
+      82
+    ],
+    "recommendation": 17,
+    "composition_process": [
+      0.3827959046385873,
+      0.43224259134608156,
+      0.18496150401533115,
+      0.19099040448213023
+    ],
+    "true_gain": 0.30719298611559026,
+    "predicted_gain": 0.3078468594868101,
+    "observed_gain": 0.3072411135780783,
+    "true_quality": 1.2337944853264606,
+    "true_defect": 0.1460936541154916,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1551049376524047,
+    "recommended_utility_regret_if_feasible": 0.01054244429951301,
+    "pareto_candidates": [
+      17,
+      35,
+      69,
+      53,
+      50,
+      4
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 2,
+    "initial_constraint_violations": 2,
+    "total_sampled_constraint_violations": 4
+  },
+  {
+    "policy": "constrained_ei",
+    "seed": 6,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 53,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 4,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 57,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 21,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 112,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 45,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 110,
+        "simple_regret": 0.009064402893962598,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 50,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 20,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 9,
+        "candidate": 59,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 93,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 121,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      92,
+      96,
+      28,
+      48,
+      17,
+      159,
+      115,
+      126,
+      147,
+      35,
+      53,
+      4,
+      57,
+      21,
+      112,
+      45,
+      110,
+      50,
+      20,
+      59,
+      93,
+      121
+    ],
+    "recommendation": 17,
+    "composition_process": [
+      0.3827959046385873,
+      0.43224259134608156,
+      0.18496150401533115,
+      0.19099040448213023
+    ],
+    "true_gain": 0.30719298611559026,
+    "predicted_gain": 0.3088320479491809,
+    "observed_gain": 0.3072411135780783,
+    "true_quality": 1.2337944853264606,
+    "true_defect": 0.1460936541154916,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1551049376524047,
+    "recommended_utility_regret_if_feasible": 0.01054244429951301,
+    "pareto_candidates": [
+      17,
+      35,
+      53,
+      4,
+      110,
+      50
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 1,
+    "initial_constraint_violations": 2,
+    "total_sampled_constraint_violations": 3
+  },
+  {
+    "policy": "random",
+    "seed": 7,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 153,
+        "simple_regret": 0.0518956861092601,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 149,
+        "simple_regret": 0.0518956861092601,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 87,
+        "simple_regret": 0.0518956861092601,
+        "defect_violation": true
+      },
+      {
+        "step": 3,
+        "candidate": 36,
+        "simple_regret": 0.0518956861092601,
+        "defect_violation": true
+      },
+      {
+        "step": 4,
+        "candidate": 138,
+        "simple_regret": 0.0518956861092601,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 52,
+        "simple_regret": 0.0518956861092601,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 16,
+        "simple_regret": 0.0518956861092601,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 103,
+        "simple_regret": 0.0518956861092601,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 127,
+        "simple_regret": 0.0518956861092601,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 38,
+        "simple_regret": 0.0518956861092601,
+        "defect_violation": true
+      },
+      {
+        "step": 10,
+        "candidate": 30,
+        "simple_regret": 0.0518956861092601,
+        "defect_violation": true
+      },
+      {
+        "step": 11,
+        "candidate": 15,
+        "simple_regret": 0.0518956861092601,
+        "defect_violation": true
+      }
+    ],
+    "selected": [
+      117,
+      76,
+      88,
+      128,
+      146,
+      32,
+      89,
+      27,
+      5,
+      64,
+      153,
+      149,
+      87,
+      36,
+      138,
+      52,
+      16,
+      103,
+      127,
+      38,
+      30,
+      15
+    ],
+    "recommendation": 89,
+    "composition_process": [
+      0.4124600955184879,
+      0.4618635831951431,
+      0.12567632128636902,
+      0.3335649840925182
+    ],
+    "true_gain": 0.3364003873820724,
+    "predicted_gain": 0.33732298715744535,
+    "observed_gain": 0.3350439281099175,
+    "true_quality": 1.1978047625076056,
+    "true_defect": 0.10619307067733881,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.115200839717089,
+    "recommended_utility_regret_if_feasible": 0.0506039873109001,
+    "pareto_candidates": [
+      88,
+      89,
+      87,
+      138
+    ],
+    "final_regret": 0.0518956861092601,
+    "sampled_constraint_violations": 5,
+    "initial_constraint_violations": 5,
+    "total_sampled_constraint_violations": 10
+  },
+  {
+    "policy": "greedy",
+    "seed": 7,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 52,
+        "simple_regret": 0.0518956861092601,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 113,
+        "simple_regret": 0.044051403804279854,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 61,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 141,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 4,
+        "candidate": 81,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 5,
+        "candidate": 17,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 129,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 31,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 28,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 122,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 13,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 106,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      }
+    ],
+    "selected": [
+      117,
+      76,
+      88,
+      128,
+      146,
+      32,
+      89,
+      27,
+      5,
+      64,
+      52,
+      113,
+      61,
+      141,
+      81,
+      17,
+      129,
+      31,
+      28,
+      122,
+      13,
+      106
+    ],
+    "recommendation": 61,
+    "composition_process": [
+      0.2864833357192461,
+      0.46625714401742585,
+      0.2472595202633281,
+      0.2511874732287477
+    ],
+    "true_gain": 0.3008496891167023,
+    "predicted_gain": 0.3005652592032817,
+    "observed_gain": 0.3079650971564854,
+    "true_quality": 1.2497004486168657,
+    "true_defect": 0.1875950705601734,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.165804827027989,
+    "recommended_utility_regret_if_feasible": 0.0,
+    "pareto_candidates": [
+      88,
+      89,
+      5,
+      113,
+      61,
+      141,
+      31
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 3,
+    "initial_constraint_violations": 5,
+    "total_sampled_constraint_violations": 8
+  },
+  {
+    "policy": "constrained_ei",
+    "seed": 7,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 28,
+        "simple_regret": 0.0518956861092601,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 80,
+        "simple_regret": 0.0518956861092601,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 61,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 129,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 142,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 113,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 31,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 16,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 133,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 35,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 137,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 148,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      }
+    ],
+    "selected": [
+      117,
+      76,
+      88,
+      128,
+      146,
+      32,
+      89,
+      27,
+      5,
+      64,
+      28,
+      80,
+      61,
+      129,
+      142,
+      113,
+      31,
+      16,
+      133,
+      35,
+      137,
+      148
+    ],
+    "recommendation": 61,
+    "composition_process": [
+      0.2864833357192461,
+      0.46625714401742585,
+      0.2472595202633281,
+      0.2511874732287477
+    ],
+    "true_gain": 0.3008496891167023,
+    "predicted_gain": 0.2989126774274874,
+    "observed_gain": 0.3079650971564854,
+    "true_quality": 1.2497004486168657,
+    "true_defect": 0.1875950705601734,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.165804827027989,
+    "recommended_utility_regret_if_feasible": 0.0,
+    "pareto_candidates": [
+      88,
+      89,
+      5,
+      61,
+      113,
+      31
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 1,
+    "initial_constraint_violations": 5,
+    "total_sampled_constraint_violations": 6
+  },
+  {
+    "policy": "random",
+    "seed": 8,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 91,
+        "simple_regret": 0.04485569221565977,
+        "defect_violation": true
+      },
+      {
+        "step": 1,
+        "candidate": 66,
+        "simple_regret": 0.04485569221565977,
+        "defect_violation": true
+      },
+      {
+        "step": 2,
+        "candidate": 103,
+        "simple_regret": 0.04485569221565977,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 116,
+        "simple_regret": 0.04485569221565977,
+        "defect_violation": true
+      },
+      {
+        "step": 4,
+        "candidate": 124,
+        "simple_regret": 0.04485569221565977,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 113,
+        "simple_regret": 0.04485569221565977,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 158,
+        "simple_regret": 0.04485569221565977,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 139,
+        "simple_regret": 0.04485569221565977,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 48,
+        "simple_regret": 0.04485569221565977,
+        "defect_violation": true
+      },
+      {
+        "step": 9,
+        "candidate": 39,
+        "simple_regret": 0.04485569221565977,
+        "defect_violation": true
+      },
+      {
+        "step": 10,
+        "candidate": 79,
+        "simple_regret": 0.04485569221565977,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 21,
+        "simple_regret": 0.04485569221565977,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      122,
+      140,
+      61,
+      28,
+      157,
+      46,
+      82,
+      85,
+      53,
+      27,
+      91,
+      66,
+      103,
+      116,
+      124,
+      113,
+      158,
+      139,
+      48,
+      39,
+      79,
+      21
+    ],
+    "recommendation": 28,
+    "composition_process": [
+      0.27714572118385994,
+      0.6391938714424975,
+      0.08366040737364255,
+      0.18375536509686907
+    ],
+    "true_gain": 0.31160476374445756,
+    "predicted_gain": 0.3132181153455614,
+    "observed_gain": 0.3104702962424435,
+    "true_quality": 1.1886982320867936,
+    "true_defect": 0.16540089774902,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.09531615224431,
+    "recommended_utility_regret_if_feasible": 0.05637074244185669,
+    "pareto_candidates": [
+      28,
+      157,
+      124
+    ],
+    "final_regret": 0.04485569221565977,
+    "sampled_constraint_violations": 5,
+    "initial_constraint_violations": 6,
+    "total_sampled_constraint_violations": 11
+  },
+  {
+    "policy": "greedy",
+    "seed": 8,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 25,
+        "simple_regret": 0.011916725401153183,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 153,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 106,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 146,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 4,
+        "candidate": 132,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 29,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 92,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 22,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 8,
+        "candidate": 43,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 39,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 10,
+        "candidate": 123,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 109,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      122,
+      140,
+      61,
+      28,
+      157,
+      46,
+      82,
+      85,
+      53,
+      27,
+      25,
+      153,
+      106,
+      146,
+      132,
+      29,
+      92,
+      22,
+      43,
+      39,
+      123,
+      109
+    ],
+    "recommendation": 29,
+    "composition_process": [
+      0.3503674316673874,
+      0.37700733755444477,
+      0.27262523077816786,
+      0.15828257085622832
+    ],
+    "true_gain": 0.2891426398695931,
+    "predicted_gain": 0.2877298582981134,
+    "observed_gain": 0.2829094607334198,
+    "true_quality": 1.221680929977723,
+    "true_defect": 0.18401531148558845,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1460042554780903,
+    "recommended_utility_regret_if_feasible": 0.005682639208076434,
+    "pareto_candidates": [
+      157,
+      29,
+      109
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 3,
+    "initial_constraint_violations": 6,
+    "total_sampled_constraint_violations": 9
+  },
+  {
+    "policy": "constrained_ei",
+    "seed": 8,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 25,
+        "simple_regret": 0.011916725401153183,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 117,
+        "simple_regret": 0.011916725401153183,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 92,
+        "simple_regret": 0.011916725401153183,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 29,
+        "simple_regret": 0.011872994324730435,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 109,
+        "simple_regret": 0.011872994324730435,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 75,
+        "simple_regret": 0.011872994324730435,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 43,
+        "simple_regret": 0.011872994324730435,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 80,
+        "simple_regret": 0.011872994324730435,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 153,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 127,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 106,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 38,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      122,
+      140,
+      61,
+      28,
+      157,
+      46,
+      82,
+      85,
+      53,
+      27,
+      25,
+      117,
+      92,
+      29,
+      109,
+      75,
+      43,
+      80,
+      153,
+      127,
+      106,
+      38
+    ],
+    "recommendation": 29,
+    "composition_process": [
+      0.3503674316673874,
+      0.37700733755444477,
+      0.27262523077816786,
+      0.15828257085622832
+    ],
+    "true_gain": 0.2891426398695931,
+    "predicted_gain": 0.28680707560820023,
+    "observed_gain": 0.2829094607334198,
+    "true_quality": 1.221680929977723,
+    "true_defect": 0.18401531148558845,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1460042554780903,
+    "recommended_utility_regret_if_feasible": 0.005682639208076434,
+    "pareto_candidates": [
+      157,
+      29,
+      109,
+      75
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 0,
+    "initial_constraint_violations": 6,
+    "total_sampled_constraint_violations": 6
+  },
+  {
+    "policy": "random",
+    "seed": 9,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 84,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": true
+      },
+      {
+        "step": 1,
+        "candidate": 129,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 82,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 37,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": true
+      },
+      {
+        "step": 4,
+        "candidate": 103,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": true
+      },
+      {
+        "step": 5,
+        "candidate": 81,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": true
+      },
+      {
+        "step": 6,
+        "candidate": 78,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 121,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": true
+      },
+      {
+        "step": 8,
+        "candidate": 26,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 136,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 109,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 126,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": true
+      }
+    ],
+    "selected": [
+      120,
+      115,
+      89,
+      113,
+      106,
+      40,
+      22,
+      8,
+      110,
+      130,
+      84,
+      129,
+      82,
+      37,
+      103,
+      81,
+      78,
+      121,
+      26,
+      136,
+      109,
+      126
+    ],
+    "recommendation": 40,
+    "composition_process": [
+      0.36462175693676796,
+      0.5202681541772719,
+      0.11511008888596005,
+      0.22108249354902987
+    ],
+    "true_gain": 0.3194644163586093,
+    "predicted_gain": 0.31891482336023147,
+    "observed_gain": 0.3196830602468075,
+    "true_quality": 1.2378787738046912,
+    "true_defect": 0.13219547435676046,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1530337689993626,
+    "recommended_utility_regret_if_feasible": 0.016806828259734008,
+    "pareto_candidates": [
+      40,
+      78
+    ],
+    "final_regret": 0.012426520216563208,
+    "sampled_constraint_violations": 6,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 9
+  },
+  {
+    "policy": "greedy",
+    "seed": 9,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 18,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 70,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 95,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": true
+      },
+      {
+        "step": 3,
+        "candidate": 21,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 17,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 3,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 6,
+        "candidate": 73,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 27,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 98,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 119,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 48,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 19,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      120,
+      115,
+      89,
+      113,
+      106,
+      40,
+      22,
+      8,
+      110,
+      130,
+      18,
+      70,
+      95,
+      21,
+      17,
+      3,
+      73,
+      27,
+      98,
+      119,
+      48,
+      19
+    ],
+    "recommendation": 48,
+    "composition_process": [
+      0.39203764608519537,
+      0.473748825734784,
+      0.13421352818002077,
+      0.28136868447010255
+    ],
+    "true_gain": 0.32711631460599444,
+    "predicted_gain": 0.32626159431108154,
+    "observed_gain": 0.31423513357785066,
+    "true_quality": 1.229387941811253,
+    "true_defect": 0.11846389801742585,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1468150466815665,
+    "recommended_utility_regret_if_feasible": 0.023025550577530085,
+    "pareto_candidates": [
+      70,
+      17,
+      3,
+      48
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 2,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 5
+  },
+  {
+    "policy": "constrained_ei",
+    "seed": 9,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 119,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 65,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 47,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 21,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 123,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 111,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 44,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 28,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": true
+      },
+      {
+        "step": 8,
+        "candidate": 70,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 139,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": true
+      },
+      {
+        "step": 10,
+        "candidate": 109,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 138,
+        "simple_regret": 0.012426520216563208,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      120,
+      115,
+      89,
+      113,
+      106,
+      40,
+      22,
+      8,
+      110,
+      130,
+      119,
+      65,
+      47,
+      21,
+      123,
+      111,
+      44,
+      28,
+      70,
+      139,
+      109,
+      138
+    ],
+    "recommendation": 40,
+    "composition_process": [
+      0.36462175693676796,
+      0.5202681541772719,
+      0.11511008888596005,
+      0.22108249354902987
+    ],
+    "true_gain": 0.3194644163586093,
+    "predicted_gain": 0.31848318124282377,
+    "observed_gain": 0.3196830602468075,
+    "true_quality": 1.2378787738046912,
+    "true_defect": 0.13219547435676046,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1530337689993626,
+    "recommended_utility_regret_if_feasible": 0.016806828259734008,
+    "pareto_candidates": [
+      40,
+      123,
+      44,
+      70
+    ],
+    "final_regret": 0.012426520216563208,
+    "sampled_constraint_violations": 2,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 5
+  },
+  {
+    "policy": "random",
+    "seed": 10,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 73,
+        "simple_regret": 0.07903252986567755,
+        "defect_violation": true
+      },
+      {
+        "step": 1,
+        "candidate": 141,
+        "simple_regret": 0.07903252986567755,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 74,
+        "simple_regret": 0.07903252986567755,
+        "defect_violation": true
+      },
+      {
+        "step": 3,
+        "candidate": 128,
+        "simple_regret": 0.07903252986567755,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 28,
+        "simple_regret": 0.07903252986567755,
+        "defect_violation": true
+      },
+      {
+        "step": 5,
+        "candidate": 54,
+        "simple_regret": 0.07903252986567755,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 48,
+        "simple_regret": 0.07903252986567755,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 91,
+        "simple_regret": 0.07903252986567755,
+        "defect_violation": true
+      },
+      {
+        "step": 8,
+        "candidate": 46,
+        "simple_regret": 0.07903252986567755,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 29,
+        "simple_regret": 0.07903252986567755,
+        "defect_violation": true
+      },
+      {
+        "step": 10,
+        "candidate": 71,
+        "simple_regret": 0.04859700734141126,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 139,
+        "simple_regret": 0.04859700734141126,
+        "defect_violation": true
+      }
+    ],
+    "selected": [
+      116,
+      94,
+      9,
+      109,
+      1,
+      159,
+      21,
+      10,
+      89,
+      101,
+      73,
+      141,
+      74,
+      128,
+      28,
+      54,
+      48,
+      91,
+      46,
+      29,
+      71,
+      139
+    ],
+    "recommendation": 71,
+    "composition_process": [
+      0.3207503802405299,
+      0.5384611382731744,
+      0.1407884814862956,
+      0.3664698232093061
+    ],
+    "true_gain": 0.3328454654539207,
+    "predicted_gain": 0.33739289411860063,
+    "observed_gain": 0.3329390754350301,
+    "true_quality": 1.1847628247184792,
+    "true_defect": 0.14001754230658248,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.0946357850528858,
+    "recommended_utility_regret_if_feasible": 0.05669401672002872,
+    "pareto_candidates": [
+      159,
+      101,
+      141,
+      46,
+      71
+    ],
+    "final_regret": 0.04859700734141126,
+    "sampled_constraint_violations": 6,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 9
+  },
+  {
+    "policy": "greedy",
+    "seed": 10,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 12,
+        "simple_regret": 0.07903252986567755,
+        "defect_violation": true
+      },
+      {
+        "step": 1,
+        "candidate": 111,
+        "simple_regret": 0.07903252986567755,
+        "defect_violation": true
+      },
+      {
+        "step": 2,
+        "candidate": 29,
+        "simple_regret": 0.07903252986567755,
+        "defect_violation": true
+      },
+      {
+        "step": 3,
+        "candidate": 149,
+        "simple_regret": 0.07903252986567755,
+        "defect_violation": true
+      },
+      {
+        "step": 4,
+        "candidate": 50,
+        "simple_regret": 0.014309477690493733,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 105,
+        "simple_regret": 0.014309477690493733,
+        "defect_violation": true
+      },
+      {
+        "step": 6,
+        "candidate": 119,
+        "simple_regret": 0.014309477690493733,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 49,
+        "simple_regret": 0.014309477690493733,
+        "defect_violation": true
+      },
+      {
+        "step": 8,
+        "candidate": 86,
+        "simple_regret": 0.014309477690493733,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 137,
+        "simple_regret": 0.007883626276136146,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 132,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 71,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      116,
+      94,
+      9,
+      109,
+      1,
+      159,
+      21,
+      10,
+      89,
+      101,
+      12,
+      111,
+      29,
+      149,
+      50,
+      105,
+      119,
+      49,
+      86,
+      137,
+      132,
+      71
+    ],
+    "recommendation": 137,
+    "composition_process": [
+      0.3103037241117053,
+      0.576253837337373,
+      0.11344243855092168,
+      0.26295269726010073
+    ],
+    "true_gain": 0.32214506593723935,
+    "predicted_gain": 0.3212305247278941,
+    "observed_gain": 0.3215202832079843,
+    "true_quality": 1.2254762057837543,
+    "true_defect": 0.1479990111810513,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1352899047986618,
+    "recommended_utility_regret_if_feasible": 0.016039896974252787,
+    "pareto_candidates": [
+      159,
+      89,
+      101,
+      50,
+      86,
+      137,
+      132
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 6,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 9
+  },
+  {
+    "policy": "constrained_ei",
+    "seed": 10,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 132,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 100,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 37,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 18,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 155,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 5,
+        "candidate": 36,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 151,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 7,
+        "candidate": 13,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 43,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 9,
+        "candidate": 83,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 145,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 11,
+        "candidate": 144,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      116,
+      94,
+      9,
+      109,
+      1,
+      159,
+      21,
+      10,
+      89,
+      101,
+      132,
+      100,
+      37,
+      18,
+      155,
+      36,
+      151,
+      13,
+      43,
+      83,
+      145,
+      144
+    ],
+    "recommendation": 132,
+    "composition_process": [
+      0.327319052660144,
+      0.5546394198958415,
+      0.11804152744401458,
+      0.20854638361609812
+    ],
+    "true_gain": 0.31465821890549533,
+    "predicted_gain": 0.3125529042493683,
+    "observed_gain": 0.3129046699661121,
+    "true_quality": 1.2333598320598904,
+    "true_defect": 0.1502607943851212,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1458152107715174,
+    "recommended_utility_regret_if_feasible": 0.005514591001397173,
+    "pareto_candidates": [
+      159,
+      101,
+      132,
+      37,
+      13
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 3,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 6
+  },
+  {
+    "policy": "random",
+    "seed": 11,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 49,
+        "simple_regret": 0.10017857307847544,
+        "defect_violation": true
+      },
+      {
+        "step": 1,
+        "candidate": 120,
+        "simple_regret": 0.10017857307847544,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 113,
+        "simple_regret": 0.10017857307847544,
+        "defect_violation": true
+      },
+      {
+        "step": 3,
+        "candidate": 44,
+        "simple_regret": 0.10017857307847544,
+        "defect_violation": true
+      },
+      {
+        "step": 4,
+        "candidate": 83,
+        "simple_regret": 0.10017857307847544,
+        "defect_violation": true
+      },
+      {
+        "step": 5,
+        "candidate": 107,
+        "simple_regret": 0.10017857307847544,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 126,
+        "simple_regret": 0.10017857307847544,
+        "defect_violation": true
+      },
+      {
+        "step": 7,
+        "candidate": 40,
+        "simple_regret": 0.10017857307847544,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 136,
+        "simple_regret": 0.10017857307847544,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 102,
+        "simple_regret": 0.10017857307847544,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 29,
+        "simple_regret": 0.10017857307847544,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 153,
+        "simple_regret": 0.10017857307847544,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      128,
+      124,
+      63,
+      110,
+      37,
+      70,
+      94,
+      23,
+      26,
+      2,
+      49,
+      120,
+      113,
+      44,
+      83,
+      107,
+      126,
+      40,
+      136,
+      102,
+      29,
+      153
+    ],
+    "recommendation": 26,
+    "composition_process": [
+      0.1968799150223857,
+      0.5401635702864503,
+      0.26295651469116416,
+      0.07533451313806017
+    ],
+    "true_gain": 0.2657379911976718,
+    "predicted_gain": 0.2685130818473038,
+    "observed_gain": 0.25872596398139586,
+    "true_quality": 1.1375345761165137,
+    "true_defect": 0.23478227930536752,
+    "recommendation_feasible": false,
+    "recommended_utility": 1.0493417366547146,
+    "recommended_utility_regret_if_feasible": null,
+    "pareto_candidates": [
+      110,
+      23,
+      26,
+      29
+    ],
+    "final_regret": 0.10017857307847544,
+    "sampled_constraint_violations": 5,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 8
+  },
+  {
+    "policy": "greedy",
+    "seed": 11,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 83,
+        "simple_regret": 0.10017857307847544,
+        "defect_violation": true
+      },
+      {
+        "step": 1,
+        "candidate": 22,
+        "simple_regret": 0.009195657301185767,
+        "defect_violation": false
+      },
+      {
+        "step": 2,
+        "candidate": 65,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 50,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 109,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 5,
+        "candidate": 158,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 122,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 45,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 8,
+        "candidate": 0,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 9,
+        "candidate": 81,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      },
+      {
+        "step": 10,
+        "candidate": 104,
+        "simple_regret": 0.0,
+        "defect_violation": false
+      },
+      {
+        "step": 11,
+        "candidate": 12,
+        "simple_regret": 0.0,
+        "defect_violation": true
+      }
+    ],
+    "selected": [
+      128,
+      124,
+      63,
+      110,
+      37,
+      70,
+      94,
+      23,
+      26,
+      2,
+      83,
+      22,
+      65,
+      50,
+      109,
+      158,
+      122,
+      45,
+      0,
+      81,
+      104,
+      12
+    ],
+    "recommendation": 22,
+    "composition_process": [
+      0.30877679761472354,
+      0.32189282411487363,
+      0.3693303782704029,
+      0.20582105633707926
+    ],
+    "true_gain": 0.2797353864605472,
+    "predicted_gain": 0.28125280663172236,
+    "observed_gain": 0.27654802421023134,
+    "true_quality": 1.225470631330308,
+    "true_defect": 0.2135130187693871,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1515159533085577,
+    "recommended_utility_regret_if_feasible": 0.0,
+    "pareto_candidates": [
+      110,
+      23,
+      22
+    ],
+    "final_regret": 0.0,
+    "sampled_constraint_violations": 4,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 7
+  },
+  {
+    "policy": "constrained_ei",
+    "seed": 11,
+    "trace": [
+      {
+        "step": 0,
+        "candidate": 122,
+        "simple_regret": 0.012220917459436764,
+        "defect_violation": false
+      },
+      {
+        "step": 1,
+        "candidate": 145,
+        "simple_regret": 0.012220917459436764,
+        "defect_violation": true
+      },
+      {
+        "step": 2,
+        "candidate": 127,
+        "simple_regret": 0.012220917459436764,
+        "defect_violation": false
+      },
+      {
+        "step": 3,
+        "candidate": 14,
+        "simple_regret": 0.012220917459436764,
+        "defect_violation": false
+      },
+      {
+        "step": 4,
+        "candidate": 66,
+        "simple_regret": 0.012220917459436764,
+        "defect_violation": true
+      },
+      {
+        "step": 5,
+        "candidate": 120,
+        "simple_regret": 0.012220917459436764,
+        "defect_violation": false
+      },
+      {
+        "step": 6,
+        "candidate": 118,
+        "simple_regret": 0.012220917459436764,
+        "defect_violation": false
+      },
+      {
+        "step": 7,
+        "candidate": 90,
+        "simple_regret": 0.012220917459436764,
+        "defect_violation": true
+      },
+      {
+        "step": 8,
+        "candidate": 125,
+        "simple_regret": 0.012220917459436764,
+        "defect_violation": true
+      },
+      {
+        "step": 9,
+        "candidate": 146,
+        "simple_regret": 0.012220917459436764,
+        "defect_violation": false
+      },
+      {
+        "step": 10,
+        "candidate": 87,
+        "simple_regret": 0.012220917459436764,
+        "defect_violation": true
+      },
+      {
+        "step": 11,
+        "candidate": 56,
+        "simple_regret": 0.012220917459436764,
+        "defect_violation": false
+      }
+    ],
+    "selected": [
+      128,
+      124,
+      63,
+      110,
+      37,
+      70,
+      94,
+      23,
+      26,
+      2,
+      122,
+      145,
+      127,
+      14,
+      66,
+      120,
+      118,
+      90,
+      125,
+      146,
+      87,
+      56
+    ],
+    "recommendation": 122,
+    "composition_process": [
+      0.3154756464274422,
+      0.46780945645352934,
+      0.2167148971190284,
+      0.13872734683237353
+    ],
+    "true_gain": 0.2907458738436398,
+    "predicted_gain": 0.28915676114313565,
+    "observed_gain": 0.2843211360793231,
+    "true_quality": 1.222445371172057,
+    "true_defect": 0.19033215512708226,
+    "recommendation_feasible": true,
+    "recommended_utility": 1.1407533079509946,
+    "recommended_utility_regret_if_feasible": 0.010762645357563105,
+    "pareto_candidates": [
+      110,
+      23,
+      122,
+      14,
+      146
+    ],
+    "final_regret": 0.012220917459436764,
+    "sampled_constraint_violations": 5,
+    "initial_constraint_violations": 3,
+    "total_sampled_constraint_violations": 8
+  }
+]

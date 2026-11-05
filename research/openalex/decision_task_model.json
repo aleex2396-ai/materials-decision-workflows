@@ -1,0 +1,988 @@
+{
+  "retrieved_at": "2026-11-05T12:04:33.0016201Z",
+  "url": "https://api.openalex.org/works/doi:10.48550/arXiv.1703.04529",
+  "response": {
+    "id": "https://openalex.org/W2597344944",
+    "doi": "https://doi.org/10.48550/arxiv.1703.04529",
+    "title": "Task-based End-to-end Model Learning in Stochastic Optimization",
+    "display_name": "Task-based End-to-end Model Learning in Stochastic Optimization",
+    "publication_year": 2017,
+    "publication_date": "2017-03-13",
+    "ids": {
+      "openalex": "https://openalex.org/W2597344944",
+      "doi": "https://doi.org/10.48550/arxiv.1703.04529",
+      "mag": "2597344944"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "pmh:oai:arXiv.org:1703.04529",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/1703.04529",
+      "pdf_url": "https://arxiv.org/pdf/1703.04529",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    "volume": null,
+    "type": "preprint",
+    "indexed_in": [
+      "arxiv",
+      "datacite"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/1703.04529",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5075620331",
+          "display_name": "Priya L. Donti",
+          "orcid": "https://orcid.org/0000-0002-8503-7464",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8503-7464"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I74973139",
+            "display_name": "Carnegie Mellon University",
+            "ror": "https://ror.org/05x2bcf33",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Donti, Priya L.",
+        "raw_affiliation_strings": [
+          "Dept. of Computer Science Dept. of Engr. & Public Policy Carnegie Mellon University Pittsburgh , PA 15213"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dept. of Computer Science Dept. of Engr. & Public Policy Carnegie Mellon University Pittsburgh , PA 15213",
+            "institution_ids": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5030666794",
+          "display_name": "Brandon Amos",
+          "orcid": "https://orcid.org/0000-0003-2884-0119",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2884-0119"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I74973139",
+            "display_name": "Carnegie Mellon University",
+            "ror": "https://ror.org/05x2bcf33",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Amos, Brandon",
+        "raw_affiliation_strings": [
+          "Dept. of Computer Science Carnegie Mellon University Pittsburgh , PA 15213"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dept. of Computer Science Carnegie Mellon University Pittsburgh , PA 15213",
+            "institution_ids": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5075035644",
+          "display_name": "J. Zico Kolter",
+          "orcid": "https://orcid.org/0000-0002-8106-5759",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8106-5759"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I74973139",
+            "display_name": "Carnegie Mellon University",
+            "ror": "https://ror.org/05x2bcf33",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kolter, J. Zico",
+        "raw_affiliation_strings": [
+          "Dept. of Computer Science Carnegie Mellon University Pittsburgh , PA 15213"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dept. of Computer Science Carnegie Mellon University Pittsburgh , PA 15213",
+            "institution_ids": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I74973139"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": true,
+    "cited_by_count": 211,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "30",
+      "issue": null,
+      "first_page": "5484",
+      "last_page": "5494"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11307",
+      "display_name": "Domain Adaptation and Few-Shot Learning",
+      "score": 0.7167999744415283,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11307",
+        "display_name": "Domain Adaptation and Few-Shot Learning",
+        "score": 0.7167999744415283,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10036",
+        "display_name": "Advanced Neural Network Applications",
+        "score": 0.045899998396635056,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10028",
+        "display_name": "Topic Modeling",
+        "score": 0.026900000870227814,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/end-to-end-learning",
+        "display_name": "end-to-end learning",
+        "score": 0.7870000004768372
+      },
+      {
+        "id": "https://openalex.org/keywords/task-based-learning",
+        "display_name": "task-based learning",
+        "score": 0.8730000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/model-learning",
+        "display_name": "model learning",
+        "score": 0.6740000247955322
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C74296488",
+        "wikidata": "https://www.wikidata.org/wiki/Q2527392",
+        "display_name": "End-to-end principle",
+        "level": 2,
+        "score": 0.8609220385551453
+      },
+      {
+        "id": "https://openalex.org/C2780451532",
+        "wikidata": "https://www.wikidata.org/wiki/Q759676",
+        "display_name": "Task (project management)",
+        "level": 2,
+        "score": 0.5746772885322571
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.48539507389068604
+      },
+      {
+        "id": "https://openalex.org/C2778935963",
+        "wikidata": "https://www.wikidata.org/wiki/Q13218530",
+        "display_name": "End of history",
+        "level": 3,
+        "score": 0.45767873525619507
+      },
+      {
+        "id": "https://openalex.org/C2986709869",
+        "wikidata": "https://www.wikidata.org/wiki/Q398589",
+        "display_name": "Dead end",
+        "level": 3,
+        "score": 0.4242831766605377
+      },
+      {
+        "id": "https://openalex.org/C91262260",
+        "wikidata": "https://www.wikidata.org/wiki/Q528074",
+        "display_name": "End user",
+        "level": 2,
+        "score": 0.41414040327072144
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.25074130296707153
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.18034055829048157
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.17546549439430237
+      },
+      {
+        "id": "https://openalex.org/C136764020",
+        "wikidata": "https://www.wikidata.org/wiki/Q466",
+        "display_name": "World Wide Web",
+        "level": 1,
+        "score": 0.12120586633682251
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.11084222793579102
+      },
+      {
+        "id": "https://openalex.org/C187736073",
+        "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+        "display_name": "Management",
+        "level": 1,
+        "score": 0.0884229838848114
+      },
+      {
+        "id": "https://openalex.org/C2780876879",
+        "wikidata": "https://www.wikidata.org/wiki/Q3054749",
+        "display_name": "Meaning (existential)",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C542102704",
+        "wikidata": "https://www.wikidata.org/wiki/Q183257",
+        "display_name": "Psychotherapist",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "pmh:oai:arXiv.org:1703.04529",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/1703.04529",
+        "pdf_url": "https://arxiv.org/pdf/1703.04529",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
+        "id": "mag:2597344944",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://arxiv.org/pdf/1703.04529.pdf",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "arXiv (Cornell University)",
+        "raw_type": null
+      },
+      {
+        "id": "doi:10.48550/arxiv.1703.04529",
+        "doi": "https://doi.org/10.48550/arxiv.1703.04529",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.1703.04529",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "article-journal"
+      },
+      {
+        "id": "mag:2752814746",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://papers.nips.cc/paper/7132-task-based-end-to-end-model-learning-in-stochastic-optimization.pdf",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4363606243",
+          "display_name": "neural information processing systems",
+          "issn_l": "1049-5258",
+          "issn": [
+            "1049-5258"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "norway-2"
+          ],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Neural Information Processing Systems",
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:arXiv.org:1703.04529",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/1703.04529",
+      "pdf_url": "https://arxiv.org/pdf/1703.04529",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    "sustainable_development_goals": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2597344944.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2597344944.grobid-xml"
+    },
+    "referenced_works_count": 30,
+    "referenced_works": [
+      "https://openalex.org/W1522301498",
+      "https://openalex.org/W1607307044",
+      "https://openalex.org/W1754068669",
+      "https://openalex.org/W1969007958",
+      "https://openalex.org/W1998042868",
+      "https://openalex.org/W2000257769",
+      "https://openalex.org/W2034105234",
+      "https://openalex.org/W2044042941",
+      "https://openalex.org/W2099119623",
+      "https://openalex.org/W2102113734",
+      "https://openalex.org/W2123516968",
+      "https://openalex.org/W2133233905",
+      "https://openalex.org/W2149416133",
+      "https://openalex.org/W2159620355",
+      "https://openalex.org/W2186629860",
+      "https://openalex.org/W2186820913",
+      "https://openalex.org/W2193413348",
+      "https://openalex.org/W2194775991",
+      "https://openalex.org/W2258731934",
+      "https://openalex.org/W2505728881",
+      "https://openalex.org/W2530195778",
+      "https://openalex.org/W2551887912",
+      "https://openalex.org/W2592457170",
+      "https://openalex.org/W2604763608",
+      "https://openalex.org/W2766820687",
+      "https://openalex.org/W2949117887",
+      "https://openalex.org/W2953084784",
+      "https://openalex.org/W2963266548",
+      "https://openalex.org/W2963789586",
+      "https://openalex.org/W2964161785"
+    ],
+    "related_works": [
+      "https://openalex.org/W2921949675",
+      "https://openalex.org/W2924984511",
+      "https://openalex.org/W3213878263",
+      "https://openalex.org/W4251595504",
+      "https://openalex.org/W2765959212",
+      "https://openalex.org/W2945957438",
+      "https://openalex.org/W2917248696",
+      "https://openalex.org/W7028615073",
+      "https://openalex.org/W3006799261",
+      "https://openalex.org/W6981712315"
+    ],
+    "abstract_inverted_index": {
+      "With": [
+        0
+      ],
+      "the": [
+        1,
+        22,
+        33,
+        59,
+        70,
+        81,
+        105
+      ],
+      "increasing": [
+        2
+      ],
+      "popularity": [
+        3
+      ],
+      "of": [
+        4,
+        72,
+        80
+      ],
+      "machine": [
+        5,
+        50
+      ],
+      "learning": [
+        6,
+        48,
+        51
+      ],
+      "techniques,": [
+        7
+      ],
+      "it": [
+        8
+      ],
+      "has": [
+        9
+      ],
+      "become": [
+        10
+      ],
+      "common": [
+        11
+      ],
+      "to": [
+        12
+      ],
+      "see": [
+        13
+      ],
+      "prediction": [
+        14
+      ],
+      "algorithms": [
+        15,
+        29
+      ],
+      "operating": [
+        16
+      ],
+      "within": [
+        17,
+        69
+      ],
+      "some": [
+        18
+      ],
+      "larger": [
+        19
+      ],
+      "process.": [
+        20
+      ],
+      "However,": [
+        21
+      ],
+      "criteria": [
+        23,
+        35
+      ],
+      "by": [
+        24
+      ],
+      "which": [
+        25,
+        37,
+        64
+      ],
+      "we": [
+        26,
+        38
+      ],
+      "train": [
+        27
+      ],
+      "these": [
+        28,
+        120
+      ],
+      "often": [
+        30
+      ],
+      "differ": [
+        31
+      ],
+      "from": [
+        32
+      ],
+      "ultimate": [
+        34,
+        60
+      ],
+      "on": [
+        36
+      ],
+      "evaluate": [
+        39
+      ],
+      "them.": [
+        40
+      ],
+      "This": [
+        41
+      ],
+      "paper": [
+        42
+      ],
+      "proposes": [
+        43
+      ],
+      "an": [
+        44
+      ],
+      "end-to-end": [
+        45
+      ],
+      "approach": [
+        46,
+        107
+      ],
+      "for": [
+        47,
+        63
+      ],
+      "probabilistic": [
+        49
+      ],
+      "models": [
+        52
+      ],
+      "in": [
+        53,
+        119
+      ],
+      "a": [
+        54,
+        84,
+        89,
+        96
+      ],
+      "manner": [
+        55
+      ],
+      "that": [
+        56,
+        104
+      ],
+      "directly": [
+        57
+      ],
+      "captures": [
+        58
+      ],
+      "task-based": [
+        61
+      ],
+      "objective": [
+        62
+      ],
+      "they": [
+        65
+      ],
+      "will": [
+        66
+      ],
+      "be": [
+        67
+      ],
+      "used,": [
+        68
+      ],
+      "context": [
+        71
+      ],
+      "stochastic": [
+        73
+      ],
+      "programming.": [
+        74
+      ],
+      "We": [
+        75,
+        102
+      ],
+      "present": [
+        76
+      ],
+      "three": [
+        77
+      ],
+      "experimental": [
+        78
+      ],
+      "evaluations": [
+        79
+      ],
+      "proposed": [
+        82,
+        106
+      ],
+      "approach:": [
+        83
+      ],
+      "classical": [
+        85
+      ],
+      "inventory": [
+        86
+      ],
+      "stock": [
+        87
+      ],
+      "problem,": [
+        88
+      ],
+      "real-world": [
+        90,
+        97
+      ],
+      "electrical": [
+        91
+      ],
+      "grid": [
+        92
+      ],
+      "scheduling": [
+        93
+      ],
+      "task,": [
+        94
+      ],
+      "and": [
+        95,
+        113
+      ],
+      "energy": [
+        98
+      ],
+      "storage": [
+        99
+      ],
+      "arbitrage": [
+        100
+      ],
+      "task.": [
+        101
+      ],
+      "show": [
+        103
+      ],
+      "can": [
+        108
+      ],
+      "outperform": [
+        109
+      ],
+      "both": [
+        110
+      ],
+      "traditional": [
+        111
+      ],
+      "modeling": [
+        112
+      ],
+      "purely": [
+        114
+      ],
+      "black-box": [
+        115
+      ],
+      "policy": [
+        116
+      ],
+      "optimization": [
+        117
+      ],
+      "approaches": [
+        118
+      ],
+      "applications.": [
+        121
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 25
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 25
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 24
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 25
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 37
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 35
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 19
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2026-11-04T10:54:05.112534",
+    "created_date": "2017-03-23T00:00:00"
+  }
+}

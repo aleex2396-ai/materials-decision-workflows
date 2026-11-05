@@ -1,0 +1,1351 @@
+{
+  "retrieved_at": "2026-11-05T11:20:50.7796112Z",
+  "url": "https://api.openalex.org/works/doi:10.1109/LRA.2022.3196132",
+  "response": {
+    "id": "https://openalex.org/W4293370597",
+    "doi": "https://doi.org/10.1109/lra.2022.3196132",
+    "title": "Safe-Control-Gym: A Unified Benchmark Suite for Safe Learning-Based Control and Reinforcement Learning in Robotics",
+    "display_name": "Safe-Control-Gym: A Unified Benchmark Suite for Safe Learning-Based Control and Reinforcement Learning in Robotics",
+    "publication_year": 2022,
+    "publication_date": "2022-08-26",
+    "ids": {
+      "openalex": "https://openalex.org/W4293370597",
+      "doi": "https://doi.org/10.1109/lra.2022.3196132"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/lra.2022.3196132",
+      "doi": "https://doi.org/10.1109/lra.2022.3196132",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/lra.2022.3196132",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210169774",
+        "display_name": "IEEE Robotics and Automation Letters",
+        "issn_l": "2377-3766",
+        "issn": [
+          "2377-3766",
+          "2377-3774"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "dongbi-b",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Robotics and Automation Letters",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "arxiv",
+      "crossref",
+      "datacite"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2109.06325",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5006446172",
+          "display_name": "Zhaocong Yuan",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185261750",
+            "display_name": "University of Toronto",
+            "ror": "https://ror.org/03dbr7087",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210127509",
+            "display_name": "Vector Institute",
+            "ror": "https://ror.org/03kqdja62",
+            "country_code": "CA",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210127509"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhaocong Yuan",
+        "raw_affiliation_strings": [
+          "Dynamic Systems Lab and Institute for Aerospace Studies, University of Toronto, Toronto, ON, Canada",
+          "Vector Institute for Artificial Intelligence in Toronto, University of Toronto, Toronto, ON, Canada"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dynamic Systems Lab and Institute for Aerospace Studies, University of Toronto, Toronto, ON, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Vector Institute for Artificial Intelligence in Toronto, University of Toronto, Toronto, ON, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750",
+              "https://openalex.org/I4210127509"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5030315406",
+          "display_name": "Adam W. Hall",
+          "orcid": "https://orcid.org/0000-0002-1461-923X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1461-923X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185261750",
+            "display_name": "University of Toronto",
+            "ror": "https://ror.org/03dbr7087",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210127509",
+            "display_name": "Vector Institute",
+            "ror": "https://ror.org/03kqdja62",
+            "country_code": "CA",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210127509"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Adam W. Hall",
+        "raw_affiliation_strings": [
+          "Dynamic Systems Lab and Institute for Aerospace Studies, University of Toronto, Toronto, ON, Canada",
+          "Vector Institute for Artificial Intelligence in Toronto, University of Toronto, Toronto, ON, Canada"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-1461-923X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dynamic Systems Lab and Institute for Aerospace Studies, University of Toronto, Toronto, ON, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Vector Institute for Artificial Intelligence in Toronto, University of Toronto, Toronto, ON, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750",
+              "https://openalex.org/I4210127509"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5048199386",
+          "display_name": "Siqi Zhou",
+          "orcid": "https://orcid.org/0000-0001-7240-546X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7240-546X",
+            "https://orcid.org/0009-0006-8916-1573"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185261750",
+            "display_name": "University of Toronto",
+            "ror": "https://ror.org/03dbr7087",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210127509",
+            "display_name": "Vector Institute",
+            "ror": "https://ror.org/03kqdja62",
+            "country_code": "CA",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210127509"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Siqi Zhou",
+        "raw_affiliation_strings": [
+          "Dynamic Systems Lab and Institute for Aerospace Studies, University of Toronto, Toronto, ON, Canada",
+          "Vector Institute for Artificial Intelligence in Toronto, University of Toronto, Toronto, ON, Canada"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-7240-546X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dynamic Systems Lab and Institute for Aerospace Studies, University of Toronto, Toronto, ON, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Vector Institute for Artificial Intelligence in Toronto, University of Toronto, Toronto, ON, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750",
+              "https://openalex.org/I4210127509"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5011540585",
+          "display_name": "Lukas Brunke",
+          "orcid": "https://orcid.org/0000-0002-9893-9889",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-9893-9889"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185261750",
+            "display_name": "University of Toronto",
+            "ror": "https://ror.org/03dbr7087",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210127509",
+            "display_name": "Vector Institute",
+            "ror": "https://ror.org/03kqdja62",
+            "country_code": "CA",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210127509"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lukas Brunke",
+        "raw_affiliation_strings": [
+          "Dynamic Systems Lab and Institute for Aerospace Studies, University of Toronto, Toronto, ON, Canada",
+          "Vector Institute for Artificial Intelligence in Toronto, University of Toronto, Toronto, ON, Canada"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dynamic Systems Lab and Institute for Aerospace Studies, University of Toronto, Toronto, ON, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Vector Institute for Artificial Intelligence in Toronto, University of Toronto, Toronto, ON, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750",
+              "https://openalex.org/I4210127509"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5019695635",
+          "display_name": "Melissa Greeff",
+          "orcid": "https://orcid.org/0000-0002-1708-3709",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1708-3709"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185261750",
+            "display_name": "University of Toronto",
+            "ror": "https://ror.org/03dbr7087",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210127509",
+            "display_name": "Vector Institute",
+            "ror": "https://ror.org/03kqdja62",
+            "country_code": "CA",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210127509"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Melissa Greeff",
+        "raw_affiliation_strings": [
+          "Dynamic Systems Lab and Institute for Aerospace Studies, University of Toronto, Toronto, ON, Canada",
+          "Vector Institute for Artificial Intelligence in Toronto, University of Toronto, Toronto, ON, Canada"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-1708-3709",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dynamic Systems Lab and Institute for Aerospace Studies, University of Toronto, Toronto, ON, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Vector Institute for Artificial Intelligence in Toronto, University of Toronto, Toronto, ON, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750",
+              "https://openalex.org/I4210127509"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5038164962",
+          "display_name": "Jacopo Panerati",
+          "orcid": "https://orcid.org/0000-0003-2994-5422",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2994-5422"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185261750",
+            "display_name": "University of Toronto",
+            "ror": "https://ror.org/03dbr7087",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210127509",
+            "display_name": "Vector Institute",
+            "ror": "https://ror.org/03kqdja62",
+            "country_code": "CA",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210127509"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jacopo Panerati",
+        "raw_affiliation_strings": [
+          "Dynamic Systems Lab and Institute for Aerospace Studies, University of Toronto, Toronto, ON, Canada",
+          "Vector Institute for Artificial Intelligence in Toronto, University of Toronto, Toronto, ON, Canada"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-2994-5422",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dynamic Systems Lab and Institute for Aerospace Studies, University of Toronto, Toronto, ON, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Vector Institute for Artificial Intelligence in Toronto, University of Toronto, Toronto, ON, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750",
+              "https://openalex.org/I4210127509"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5052147335",
+          "display_name": "Angela P. Schoellig",
+          "orcid": "https://orcid.org/0000-0003-4012-4668",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4012-4668"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185261750",
+            "display_name": "University of Toronto",
+            "ror": "https://ror.org/03dbr7087",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210127509",
+            "display_name": "Vector Institute",
+            "ror": "https://ror.org/03kqdja62",
+            "country_code": "CA",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210127509"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Angela P. Schoellig",
+        "raw_affiliation_strings": [
+          "Dynamic Systems Lab and Institute for Aerospace Studies, University of Toronto, Toronto, ON, Canada",
+          "Vector Institute for Artificial Intelligence in Toronto, University of Toronto, Toronto, ON, Canada"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-4012-4668",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dynamic Systems Lab and Institute for Aerospace Studies, University of Toronto, Toronto, ON, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Vector Institute for Artificial Intelligence in Toronto, University of Toronto, Toronto, ON, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750",
+              "https://openalex.org/I4210127509"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 2195,
+      "currency": "USD",
+      "value_usd": 2195
+    },
+    "apc_paid": null,
+    "fwci": 3.1981,
+    "has_fulltext": true,
+    "cited_by_count": 57,
+    "citation_normalized_percentile": {
+      "value": 0.93516254,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "7",
+      "issue": "4",
+      "first_page": "11142",
+      "last_page": "11149"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10462",
+      "display_name": "Reinforcement Learning in Robotics",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10462",
+        "display_name": "Reinforcement Learning in Robotics",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12794",
+        "display_name": "Adaptive Dynamic Programming Control",
+        "score": 9.999999747378752E-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10791",
+        "display_name": "Advanced Control Systems Optimization",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/benchmark-suite",
+        "display_name": "benchmark suite",
+        "score": 0.9649999737739563
+      },
+      {
+        "id": "https://openalex.org/keywords/learning-control",
+        "display_name": "learning control",
+        "score": 0.8740000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/reinforcement-learning",
+        "display_name": "reinforcement learning",
+        "score": 0.6869999766349792
+      },
+      {
+        "id": "https://openalex.org/keywords/symbolic-dynamics",
+        "display_name": "symbolic dynamics",
+        "score": 0.7009999752044678
+      },
+      {
+        "id": "https://openalex.org/keywords/input-constraints",
+        "display_name": "input constraints",
+        "score": 0.6370000243186951
+      },
+      {
+        "id": "https://openalex.org/keywords/quadrotor",
+        "display_name": "quadrotor",
+        "score": 0.7929999828338623
+      },
+      {
+        "id": "https://openalex.org/keywords/cartpole",
+        "display_name": "CartPole",
+        "score": 0.9900000095367432
+      },
+      {
+        "id": "https://openalex.org/keywords/stabilization",
+        "display_name": "stabilization",
+        "score": 0.8090000152587891
+      },
+      {
+        "id": "https://openalex.org/keywords/trajectory-tracking",
+        "display_name": "trajectory tracking",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/model-based-control",
+        "display_name": "model-based control",
+        "score": 0.7789999842643738
+      },
+      {
+        "id": "https://openalex.org/keywords/data-driven-control",
+        "display_name": "data-driven control",
+        "score": 0.7879999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/data-efficiency",
+        "display_name": "data efficiency",
+        "score": 0.6449999809265137
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C97541855",
+        "wikidata": "https://www.wikidata.org/wiki/Q830687",
+        "display_name": "Reinforcement learning",
+        "level": 2,
+        "score": 0.671287477016449
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.6313663721084595
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5723822116851807
+      },
+      {
+        "id": "https://openalex.org/C79581498",
+        "wikidata": "https://www.wikidata.org/wiki/Q1367530",
+        "display_name": "Suite",
+        "level": 2,
+        "score": 0.5085018873214722
+      },
+      {
+        "id": "https://openalex.org/C185798385",
+        "wikidata": "https://www.wikidata.org/wiki/Q1161707",
+        "display_name": "Benchmark (surveying)",
+        "level": 2,
+        "score": 0.5044466257095337
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.38579535484313965
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C13280743",
+        "wikidata": "https://www.wikidata.org/wiki/Q131089",
+        "display_name": "Geodesy",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1109/lra.2022.3196132",
+        "doi": "https://doi.org/10.1109/lra.2022.3196132",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/lra.2022.3196132",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210169774",
+          "display_name": "IEEE Robotics and Automation Letters",
+          "issn_l": "2377-3766",
+          "issn": [
+            "2377-3766",
+            "2377-3774"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "dongbi-b",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-1",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Robotics and Automation Letters",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:2109.06325",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2109.06325",
+        "pdf_url": "https://arxiv.org/pdf/2109.06325",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
+        "id": "doi:10.48550/arxiv.2109.06325",
+        "doi": "https://doi.org/10.48550/arxiv.2109.06325",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.2109.06325",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Preprint"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:arXiv.org:2109.06325",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2109.06325",
+      "pdf_url": "https://arxiv.org/pdf/2109.06325",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    "sustainable_development_goals": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320994",
+        "display_name": "Canada Research Chairs",
+        "ror": "https://ror.org/0517h6h17"
+      },
+      {
+        "id": "https://openalex.org/F4320334593",
+        "display_name": "Natural Sciences and Engineering Research Council of Canada",
+        "ror": "https://ror.org/01h531d29"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4293370597.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4293370597.grobid-xml"
+    },
+    "referenced_works_count": 29,
+    "referenced_works": [
+      "https://openalex.org/W1583833196",
+      "https://openalex.org/W2055513615",
+      "https://openalex.org/W2602963933",
+      "https://openalex.org/W2612281180",
+      "https://openalex.org/W2615547864",
+      "https://openalex.org/W2619551236",
+      "https://openalex.org/W2736601468",
+      "https://openalex.org/W2753349275",
+      "https://openalex.org/W2754517384",
+      "https://openalex.org/W2768908787",
+      "https://openalex.org/W2781726626",
+      "https://openalex.org/W2784465508",
+      "https://openalex.org/W2793750335",
+      "https://openalex.org/W2822752092",
+      "https://openalex.org/W2842089854",
+      "https://openalex.org/W2925329277",
+      "https://openalex.org/W2963148914",
+      "https://openalex.org/W2963190151",
+      "https://openalex.org/W3047166264",
+      "https://openalex.org/W3106002372",
+      "https://openalex.org/W3121342653",
+      "https://openalex.org/W3134537774",
+      "https://openalex.org/W3150631816",
+      "https://openalex.org/W3155747680",
+      "https://openalex.org/W3172279798",
+      "https://openalex.org/W3193576605",
+      "https://openalex.org/W3195968524",
+      "https://openalex.org/W6741002519",
+      "https://openalex.org/W6780559895"
+    ],
+    "related_works": [
+      "https://openalex.org/W7132880378",
+      "https://openalex.org/W3195968524",
+      "https://openalex.org/W4378464886",
+      "https://openalex.org/W7133205794",
+      "https://openalex.org/W2945623569",
+      "https://openalex.org/W4298070618",
+      "https://openalex.org/W4416149688",
+      "https://openalex.org/W181569489",
+      "https://openalex.org/W2618318883",
+      "https://openalex.org/W4383108928"
+    ],
+    "abstract_inverted_index": {
+      "In": [
+        0
+      ],
+      "recent": [
+        1
+      ],
+      "years,": [
+        2
+      ],
+      "both": [
+        3,
+        64
+      ],
+      "reinforcement": [
+        4,
+        51,
+        96,
+        160
+      ],
+      "learning": [
+        5,
+        52,
+        97
+      ],
+      "and": [
+        6,
+        32,
+        50,
+        66,
+        80,
+        86,
+        117,
+        124,
+        146,
+        159
+      ],
+      "learning-based": [
+        7,
+        157
+      ],
+      "control—as": [
+        8
+      ],
+      "well": [
+        9
+      ],
+      "as": [
+        10
+      ],
+      "the": [
+        11,
+        30,
+        39,
+        44,
+        48,
+        78,
+        112,
+        141,
+        152
+      ],
+      "study": [
+        12
+      ],
+      "of": [
+        13,
+        34,
+        148,
+        154
+      ],
+      "theirsafety,": [
+        14
+      ],
+      "which": [
+        15
+      ],
+      "is": [
+        16
+      ],
+      "crucial": [
+        17
+      ],
+      "for": [
+        18,
+        73
+      ],
+      "deployment": [
+        19
+      ],
+      "in": [
+        20,
+        95,
+        111,
+        125
+      ],
+      "real-world": [
+        21
+      ],
+      "robots—have": [
+        22
+      ],
+      "gained": [
+        23
+      ],
+      "significant": [
+        24
+      ],
+      "traction.": [
+        25
+      ],
+      "However,": [
+        26
+      ],
+      "to": [
+        27,
+        41,
+        91,
+        100,
+        128,
+        137
+      ],
+      "adequately": [
+        28
+      ],
+      "gauge": [
+        29
+      ],
+      "progress": [
+        31
+      ],
+      "applicability": [
+        33
+      ],
+      "new": [
+        35,
+        58
+      ],
+      "results,": [
+        36
+      ],
+      "we": [
+        37,
+        55,
+        134
+      ],
+      "need": [
+        38
+      ],
+      "tools": [
+        40
+      ],
+      "equitably": [
+        42
+      ],
+      "compare": [
+        43,
+        140
+      ],
+      "approaches": [
+        45,
+        150
+      ],
+      "proposed": [
+        46
+      ],
+      "by": [
+        47
+      ],
+      "controls": [
+        49
+      ],
+      "communities.": [
+        53
+      ],
+      "Here,": [
+        54
+      ],
+      "propose": [
+        56,
+        90
+      ],
+      "a": [
+        57
+      ],
+      "open-source": [
+        59
+      ],
+      "benchmark": [
+        60
+      ],
+      "suite,": [
+        61
+      ],
+      "calledsafe-control-gym,": [
+        62
+      ],
+      "supporting": [
+        63
+      ],
+      "model-based": [
+        65
+      ],
+      "data-based": [
+        67
+      ],
+      "control": [
+        68,
+        84,
+        113,
+        142
+      ],
+      "techniques.": [
+        69
+      ],
+      "We": [
+        70,
+        89
+      ],
+      "provide": [
+        71
+      ],
+      "implementations": [
+        72
+      ],
+      "three": [
+        74
+      ],
+      "dynamic": [
+        75
+      ],
+      "systems—the": [
+        76
+      ],
+      "cart-pole,": [
+        77
+      ],
+      "1D,": [
+        79
+      ],
+      "2D": [
+        81
+      ],
+      "quadrotor—and": [
+        82
+      ],
+      "two": [
+        83
+      ],
+      "tasks—stabilization": [
+        85
+      ],
+      "trajectory": [
+        87
+      ],
+      "tracking.": [
+        88
+      ],
+      "extend": [
+        92
+      ],
+      "OpenAI'sGymAPI—thede": [
+        93
+      ],
+      "factostandard": [
+        94
+      ],
+      "research—with(i)the": [
+        98
+      ],
+      "ability": [
+        99
+      ],
+      "specify": [
+        101
+      ],
+      "(and": [
+        102
+      ],
+      "query)": [
+        103
+      ],
+      "symbolic": [
+        104
+      ],
+      "dynamics": [
+        105
+      ],
+      "and(ii)constraints,": [
+        106
+      ],
+      "and(iii)(repeatably)": [
+        107
+      ],
+      "inject": [
+        108
+      ],
+      "simulated": [
+        109
+      ],
+      "disturbances": [
+        110
+      ],
+      "inputs,": [
+        114
+      ],
+      "state": [
+        115
+      ],
+      "measurements,": [
+        116
+      ],
+      "inertial": [
+        118
+      ],
+      "properties.": [
+        119
+      ],
+      "To": [
+        120
+      ],
+      "demonstrate": [
+        121
+      ],
+      "our": [
+        122
+      ],
+      "proposal": [
+        123
+      ],
+      "an": [
+        126
+      ],
+      "attempt": [
+        127
+      ],
+      "bring": [
+        129
+      ],
+      "research": [
+        130
+      ],
+      "communities": [
+        131
+      ],
+      "closer": [
+        132
+      ],
+      "together,": [
+        133
+      ],
+      "show": [
+        135
+      ],
+      "how": [
+        136
+      ],
+      "usesafe-control-gymto": [
+        138
+      ],
+      "quantitatively": [
+        139
+      ],
+      "performance,": [
+        143
+      ],
+      "data": [
+        144
+      ],
+      "efficiency,": [
+        145
+      ],
+      "safety": [
+        147
+      ],
+      "multiple": [
+        149
+      ],
+      "from": [
+        151
+      ],
+      "fields": [
+        153
+      ],
+      "traditional": [
+        155
+      ],
+      "control,": [
+        156,
+        158
+      ],
+      "learning.": [
+        161
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 16
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 13
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-11-04T10:54:05.112534",
+    "created_date": "2022-08-28T00:00:00"
+  }
+}

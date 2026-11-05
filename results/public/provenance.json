@@ -1,0 +1,37 @@
+{
+  "origin": "public_synthetic_only",
+  "config_sha256": "f642ead1d50659f3b124407c7c4f3fcc47cef21450a287676850f8bfed51a9b1",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.4",
+  "scipy": "1.17.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_sha256": {
+    "__init__.py": "c826e3b343c219b874c17fb64c63681ca1078a73d8e7d765a7750a493eb150a8",
+    "cli.py": "0f5aaeb95980a10e627e062095d58cb7af33081276ae1ed3a698e5fee1695ea1",
+    "control.py": "08a5fc131ae2391ba6227ad39ddf8255d4212c30c4a6c86cae948f7789d3a46a",
+    "data.py": "0a8da0fddd39b167d38424e952dab3e5ba18a44768805c98632172b612289393",
+    "decision_learning.py": "471ce36de38e38fde6267a6c6d6f6a54e8f948efdfae9c143b31909e92575e40",
+    "decision_report.py": "6baa9f27091c3822f071e997c70d0fb814cc04148f5db9788458e267fe9ba244",
+    "decision_study.py": "395f51a3ab82b1c7a1bfb752a1907c9deb1a52c8060741cbf28d18318b1c9427",
+    "discovery.py": "fb3ed02591a027d51b84ca3fe25071398e47f16d0a19ad563094cea85c8c46ea",
+    "dr_control.py": "5b12633ce4e5c92e9b20397680cf049fb29cc755bb8d5bdd8a89a0b84534f7ea",
+    "dual.py": "ae0086e80f163ed1ac925d94f71e347dd8cde3323918c0b42cbab0cd9e0629bf",
+    "mechanism_study.py": "123dff9e3e0964fdbd6276ade816a31a2c352f8d4225ebb847ba7120f92e285e",
+    "models.py": "7cf0c3312bae019d6f663d6bdbfe85a1e1b40bff4fc2ca9a186a35901bf20c9c",
+    "private_local.py": "7fc769b615b2dbc6d29b6de3d8c451efe583a1ff2122829ebf7d296bd852c6b6",
+    "reference_study.py": "17326dc92e2acb20ef37379e12c884c1db923bb9844d668e24f6b71884f38b1c",
+    "report.py": "4d9a3ca8931f129dc1bfe3217e5a5d48d08560f771bb3361ee022bf6213553f3",
+    "simulator.py": "d8a86364497fa7bf1e76e3824caca6dbc96cc7dd9c5ae557a150d018f2452101",
+    "study.py": "1ba142c373972112be481554561e358d8269513bcbfe2502af8d7f4f05618437"
+  },
+  "no_private_data_loaded": true,
+  "artifact_sha256": {
+    "control.json": "eafeb3db9f1732cfa7ab0a31bde7e230637b489b4f25501ec5ae192f45b67d49",
+    "control_cost.png": "478e9e50a9b4a4a09f7880887387e3031761f38e99937e490bc5abcab8b8ae34",
+    "discovery.json": "4c5a94cf3dbb39423b1251a27e29e8d8a09095c4e1ee0a873d6a114772c11fb3",
+    "predictions.json": "65d7b96b849d819bdb18478600720d9b567a4abb4d134786ad7111d9ab266b50",
+    "REPORT.md": "e2d2b9052097253d5e2fda55ac579a18b767c7ab9991709d247338c7eba2c4ec",
+    "summary.json": "670923f4ad08eb619c1790d175c126ff53e95d7c5551d9ca56f8615a8c6fe517",
+    "trajectory.png": "d39709096ca75becbd6ee47f5c9e148603e93bef94517c48840d230c19dc3ab8"
+  }
+}

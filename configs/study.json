@@ -1,0 +1,15 @@
+{
+  "study_version": "1.0",
+  "origin": "public_synthetic_only",
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+  "train_size": 48,
+  "calibration_size": 99,
+  "test_size": 240,
+  "discovery_steps": 12,
+  "control_steps": 36,
+  "bootstrap_replicates": 2000,
+  "primary_comparison": "safe_probe minus robust_adaptive total cost, paired by material and disturbance seed",
+  "secondary_endpoints": ["constraint violations", "final gain interval width", "prediction coverage", "simple discovery regret"],
+  "scenarios": ["iid", "bounded_shift", "outside_envelope"],
+  "claims": "Conditional safety only within declared physical bounds; no laboratory efficacy or publication novelty claim."
+}

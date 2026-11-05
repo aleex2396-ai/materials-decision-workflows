@@ -1,0 +1,1020 @@
+{
+  "retrieved_at": "2026-11-05T11:20:49.8763759Z",
+  "url": "https://api.openalex.org/works/doi:10.48550/arXiv.2304.06783",
+  "response": {
+    "id": "https://openalex.org/W4391021528",
+    "doi": "https://doi.org/10.1109/cdc49753.2023.10384311",
+    "title": "A Distributionally Robust Approach to Regret Optimal Control using the Wasserstein Distance",
+    "display_name": "A Distributionally Robust Approach to Regret Optimal Control using the Wasserstein Distance",
+    "publication_year": 2023,
+    "publication_date": "2023-12-13",
+    "ids": {
+      "openalex": "https://openalex.org/W4391021528",
+      "doi": "https://doi.org/10.1109/cdc49753.2023.10384311"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/cdc49753.2023.10384311",
+      "doi": "https://doi.org/10.1109/cdc49753.2023.10384311",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/cdc49753.2023.10384311",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210221977",
+        "display_name": "IEEE Conference on Decision and Control (CDC)",
+        "issn_l": "0191-2216",
+        "issn": [
+          "0191-2216"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "conference"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2023 62nd IEEE Conference on Decision and Control (CDC)",
+      "raw_type": "proceedings-article"
+    },
+    "volume": null,
+    "type": "conference-paper",
+    "indexed_in": [
+      "arxiv",
+      "crossref",
+      "datacite"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2304.06783",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5033257687",
+          "display_name": "Feras Al Taha",
+          "orcid": "https://orcid.org/0000-0001-5588-9431",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5588-9431"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I205783295",
+            "display_name": "Cornell University",
+            "ror": "https://ror.org/05bnh6r87",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Feras Al Taha",
+        "raw_affiliation_strings": [
+          "School of Electrical and Computer Engineering, Cornell University,Ithaca,NY,USA,14853"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical and Computer Engineering, Cornell University,Ithaca,NY,USA,14853",
+            "institution_ids": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5032451269",
+          "display_name": "Shuhao Yan",
+          "orcid": "https://orcid.org/0000-0002-0701-3723",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0701-3723"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I205783295",
+            "display_name": "Cornell University",
+            "ror": "https://ror.org/05bnh6r87",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shuhao Yan",
+        "raw_affiliation_strings": [
+          "School of Electrical and Computer Engineering, Cornell University,Ithaca,NY,USA,14853"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical and Computer Engineering, Cornell University,Ithaca,NY,USA,14853",
+            "institution_ids": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5071680590",
+          "display_name": "Eilyan Y. Bitar",
+          "orcid": "https://orcid.org/0000-0002-5659-5969",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5659-5969"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I205783295",
+            "display_name": "Cornell University",
+            "ror": "https://ror.org/05bnh6r87",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Eilyan Bitar",
+        "raw_affiliation_strings": [
+          "School of Electrical and Computer Engineering, Cornell University,Ithaca,NY,USA,14853"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical and Computer Engineering, Cornell University,Ithaca,NY,USA,14853",
+            "institution_ids": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I205783295"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 5.2589,
+    "has_fulltext": true,
+    "cited_by_count": 13,
+    "citation_normalized_percentile": {
+      "value": 0.97732399,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 88,
+      "max": 98
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "2768",
+      "last_page": "2775"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10791",
+      "display_name": "Advanced Control Systems Optimization",
+      "score": 0.8711000084877014,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10791",
+        "display_name": "Advanced Control Systems Optimization",
+        "score": 0.8711000084877014,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11413",
+        "display_name": "Risk and Portfolio Optimization",
+        "score": 0.06560000032186508,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10046",
+        "display_name": "Stability and Control of Uncertain Systems",
+        "score": 0.04919999837875366,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/distributionally-robust-optimization",
+        "display_name": "distributionally robust optimization",
+        "score": 0.9660000205039978
+      },
+      {
+        "id": "https://openalex.org/keywords/minimax-regret",
+        "display_name": "minimax regret",
+        "score": 0.781000018119812
+      },
+      {
+        "id": "https://openalex.org/keywords/stochastic-perturbation",
+        "display_name": "random perturbations",
+        "score": 0.4580000042915344
+      },
+      {
+        "id": "https://openalex.org/keywords/quadratic-cost-function",
+        "display_name": "quadratic cost function",
+        "score": 0.7139999866485596
+      },
+      {
+        "id": "https://openalex.org/keywords/discrete-time-linear-systems",
+        "display_name": "discrete-time linear systems",
+        "score": 0.6930000185966492
+      },
+      {
+        "id": "https://openalex.org/keywords/semidefinite-programming",
+        "display_name": "semidefinite programming",
+        "score": 0.7070000171661377
+      },
+      {
+        "id": "https://openalex.org/keywords/worst-case-distribution",
+        "display_name": "worst-case distribution",
+        "score": 0.7749999761581421
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C50817715",
+        "wikidata": "https://www.wikidata.org/wiki/Q79895177",
+        "display_name": "Regret",
+        "level": 2,
+        "score": 0.8765191435813904
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5882439017295837
+      },
+      {
+        "id": "https://openalex.org/C91575142",
+        "wikidata": "https://www.wikidata.org/wiki/Q1971426",
+        "display_name": "Optimal control",
+        "level": 2,
+        "score": 0.569858729839325
+      },
+      {
+        "id": "https://openalex.org/C126255220",
+        "wikidata": "https://www.wikidata.org/wiki/Q141495",
+        "display_name": "Mathematical optimization",
+        "level": 1,
+        "score": 0.563439667224884
+      },
+      {
+        "id": "https://openalex.org/C2775924081",
+        "wikidata": "https://www.wikidata.org/wiki/Q55608371",
+        "display_name": "Control (management)",
+        "level": 2,
+        "score": 0.48306921124458313
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.26500484347343445
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.21575695276260376
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.06525278091430664
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1109/cdc49753.2023.10384311",
+        "doi": "https://doi.org/10.1109/cdc49753.2023.10384311",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/cdc49753.2023.10384311",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210221977",
+          "display_name": "IEEE Conference on Decision and Control (CDC)",
+          "issn_l": "0191-2216",
+          "issn": [
+            "0191-2216"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2023 62nd IEEE Conference on Decision and Control (CDC)",
+        "raw_type": "proceedings-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:2304.06783",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2304.06783",
+        "pdf_url": "https://arxiv.org/pdf/2304.06783",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
+        "id": "doi:10.48550/arxiv.2304.06783",
+        "doi": "https://doi.org/10.48550/arxiv.2304.06783",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.2304.06783",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Preprint"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:arXiv.org:2304.06783",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2304.06783",
+      "pdf_url": "https://arxiv.org/pdf/2304.06783",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    "sustainable_development_goals": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4391021528.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4391021528.grobid-xml"
+    },
+    "referenced_works_count": 31,
+    "referenced_works": [
+      "https://openalex.org/W53582479",
+      "https://openalex.org/W111418999",
+      "https://openalex.org/W1712265143",
+      "https://openalex.org/W1855555568",
+      "https://openalex.org/W2101773087",
+      "https://openalex.org/W2107467870",
+      "https://openalex.org/W2110349823",
+      "https://openalex.org/W2129316296",
+      "https://openalex.org/W2151481501",
+      "https://openalex.org/W2165906350",
+      "https://openalex.org/W2336156739",
+      "https://openalex.org/W2340212920",
+      "https://openalex.org/W2570198601",
+      "https://openalex.org/W2624196447",
+      "https://openalex.org/W2738121580",
+      "https://openalex.org/W2804111489",
+      "https://openalex.org/W2804656147",
+      "https://openalex.org/W2935277128",
+      "https://openalex.org/W2950929549",
+      "https://openalex.org/W2969738732",
+      "https://openalex.org/W2982343021",
+      "https://openalex.org/W2996515172",
+      "https://openalex.org/W3100916622",
+      "https://openalex.org/W3129730011",
+      "https://openalex.org/W3176714685",
+      "https://openalex.org/W3185561310",
+      "https://openalex.org/W4226253126",
+      "https://openalex.org/W4246506621",
+      "https://openalex.org/W4285273628",
+      "https://openalex.org/W4292022450",
+      "https://openalex.org/W4292070118"
+    ],
+    "related_works": [
+      "https://openalex.org/W4415711988",
+      "https://openalex.org/W4390489583",
+      "https://openalex.org/W2905838893",
+      "https://openalex.org/W4398152827",
+      "https://openalex.org/W4399597913",
+      "https://openalex.org/W4409426254",
+      "https://openalex.org/W4315488909",
+      "https://openalex.org/W3129730011",
+      "https://openalex.org/W4310630685",
+      "https://openalex.org/W3118957949"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "paper": [
+        1
+      ],
+      "proposes": [
+        2
+      ],
+      "a": [
+        3,
+        21,
+        44,
+        78,
+        93,
+        122,
+        132,
+        142,
+        153
+      ],
+      "distributionally": [
+        4,
+        184
+      ],
+      "robust": [
+        5,
+        185
+      ],
+      "approach": [
+        6,
+        188
+      ],
+      "to": [
+        7,
+        20,
+        41,
+        68,
+        92,
+        163
+      ],
+      "regret": [
+        8,
+        75,
+        137,
+        160,
+        177
+      ],
+      "optimal": [
+        9,
+        105,
+        127,
+        138,
+        178,
+        186
+      ],
+      "control": [
+        10,
+        139,
+        179,
+        187
+      ],
+      "of": [
+        11,
+        33,
+        47,
+        52,
+        95,
+        112,
+        134,
+        169
+      ],
+      "discrete-time": [
+        12
+      ],
+      "linear": [
+        13,
+        62
+      ],
+      "dynam-ical": [
+        14
+      ],
+      "systems": [
+        15
+      ],
+      "with": [
+        16,
+        182
+      ],
+      "quadratic": [
+        17
+      ],
+      "costs": [
+        18
+      ],
+      "subject": [
+        19
+      ],
+      "stochastic": [
+        22
+      ],
+      "additive": [
+        23
+      ],
+      "disturbance": [
+        24,
+        35,
+        63,
+        97,
+        114
+      ],
+      "on": [
+        25,
+        121
+      ],
+      "the": [
+        26,
+        34,
+        53,
+        70,
+        83,
+        86,
+        96,
+        100,
+        104,
+        113,
+        118,
+        135,
+        147,
+        157,
+        164,
+        167,
+        170,
+        175,
+        183
+      ],
+      "state": [
+        27
+      ],
+      "process.": [
+        28
+      ],
+      "The": [
+        29,
+        74
+      ],
+      "underlying": [
+        30
+      ],
+      "probability": [
+        31
+      ],
+      "distribution": [
+        32,
+        155,
+        165
+      ],
+      "process": [
+        36,
+        98,
+        115
+      ],
+      "is": [
+        37,
+        80
+      ],
+      "unknown,": [
+        38
+      ],
+      "but": [
+        39
+      ],
+      "assumed": [
+        40
+      ],
+      "lie": [
+        42
+      ],
+      "in": [
+        43,
+        50,
+        90,
+        161
+      ],
+      "given": [
+        45
+      ],
+      "ball": [
+        46
+      ],
+      "distributions": [
+        48
+      ],
+      "defined": [
+        49,
+        81
+      ],
+      "terms": [
+        51
+      ],
+      "type-2": [
+        54
+      ],
+      "Wasserstein": [
+        55,
+        171
+      ],
+      "distance.": [
+        56
+      ],
+      "In": [
+        57
+      ],
+      "this": [
+        58
+      ],
+      "framework,": [
+        59
+      ],
+      "strictly": [
+        60
+      ],
+      "causal": [
+        61
+      ],
+      "feedback": [
+        64
+      ],
+      "controllers": [
+        65
+      ],
+      "are": [
+        66
+      ],
+      "designed": [
+        67
+      ],
+      "minimize": [
+        69
+      ],
+      "worst-case": [
+        71,
+        154,
+        158
+      ],
+      "expected": [
+        72,
+        159
+      ],
+      "regret.": [
+        73
+      ],
+      "incurred": [
+        76,
+        102
+      ],
+      "by": [
+        77,
+        103
+      ],
+      "controller": [
+        79,
+        107
+      ],
+      "as": [
+        82,
+        141
+      ],
+      "difference": [
+        84
+      ],
+      "between": [
+        85
+      ],
+      "cost": [
+        87,
+        101
+      ],
+      "it": [
+        88
+      ],
+      "incurs": [
+        89
+      ],
+      "response": [
+        91
+      ],
+      "realization": [
+        94,
+        116
+      ],
+      "and": [
+        99,
+        193
+      ],
+      "noncausal": [
+        106
+      ],
+      "which": [
+        108
+      ],
+      "has": [
+        109
+      ],
+      "perfect": [
+        110
+      ],
+      "knowledge": [
+        111
+      ],
+      "at": [
+        117,
+        166
+      ],
+      "outset.": [
+        119
+      ],
+      "Building": [
+        120
+      ],
+      "well-established": [
+        123
+      ],
+      "duality": [
+        124
+      ],
+      "theory": [
+        125
+      ],
+      "for": [
+        126
+      ],
+      "transport": [
+        128
+      ],
+      "problems,": [
+        129
+      ],
+      "we": [
+        130,
+        151
+      ],
+      "derive": [
+        131
+      ],
+      "reformulation": [
+        133
+      ],
+      "minimax": [
+        136,
+        176
+      ],
+      "problem": [
+        140
+      ],
+      "tractable": [
+        143
+      ],
+      "semidefinite": [
+        144
+      ],
+      "program.": [
+        145
+      ],
+      "Using": [
+        146
+      ],
+      "equivalent": [
+        148
+      ],
+      "dual": [
+        149
+      ],
+      "reformulation,": [
+        150
+      ],
+      "characterize": [
+        152
+      ],
+      "achieving": [
+        156
+      ],
+      "relation": [
+        162
+      ],
+      "center": [
+        168
+      ],
+      "ball.": [
+        172
+      ],
+      "We": [
+        173
+      ],
+      "compare": [
+        174
+      ],
+      "design": [
+        180
+      ],
+      "method": [
+        181
+      ],
+      "using": [
+        189
+      ],
+      "an": [
+        190
+      ],
+      "illustrative": [
+        191
+      ],
+      "example": [
+        192
+      ],
+      "numerical": [
+        194
+      ],
+      "experiments.": [
+        195
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-11-04T10:54:05.112534",
+    "created_date": "2024-01-20T00:00:00"
+  }
+}

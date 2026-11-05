@@ -1,0 +1,602 @@
+[
+  {
+    "seed": 0,
+    "distribution": "iid",
+    "gp": {
+      "rmse": 0.056694920160062,
+      "mae": 0.039130570094002046,
+      "gaussian_nll": -1.6323231976987065,
+      "coverage": 0.9458333333333333,
+      "mean_width": 0.20432018641968971
+    },
+    "ridge": {
+      "rmse": 0.11313304302121369,
+      "mae": 0.0930399380054851
+    },
+    "constant": {
+      "rmse": 0.19355633829831856,
+      "mae": 0.14656762046751792
+    },
+    "conformal_radius": 1.8380012350815556,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nll": -46.513035017084896
+    }
+  },
+  {
+    "seed": 0,
+    "distribution": "shift",
+    "gp": {
+      "rmse": 0.19352813109061182,
+      "mae": 0.14167028400425238,
+      "gaussian_nll": -0.5522813449713387,
+      "coverage": 0.9708333333333333,
+      "mean_width": 0.6211348447813047
+    },
+    "ridge": {
+      "rmse": 0.08494442224014057,
+      "mae": 0.06786959025630009
+    },
+    "constant": {
+      "rmse": 0.2778696653332565,
+      "mae": 0.23113569787159716
+    },
+    "conformal_radius": 1.8380012350815556,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nll": -46.513035017084896
+    }
+  },
+  {
+    "seed": 1,
+    "distribution": "iid",
+    "gp": {
+      "rmse": 0.06964698528240758,
+      "mae": 0.04783816924525303,
+      "gaussian_nll": -1.4962267373669174,
+      "coverage": 0.9083333333333333,
+      "mean_width": 0.2065480053596149
+    },
+    "ridge": {
+      "rmse": 0.1200003667295908,
+      "mae": 0.0969277594413215
+    },
+    "constant": {
+      "rmse": 0.17150399665213364,
+      "mae": 0.13103863788051331
+    },
+    "conformal_radius": 1.7652563773904069,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -52.15140703487044
+    }
+  },
+  {
+    "seed": 1,
+    "distribution": "shift",
+    "gp": {
+      "rmse": 0.22992106702846968,
+      "mae": 0.1956218959360757,
+      "gaussian_nll": -0.17328404645110507,
+      "coverage": 0.8708333333333333,
+      "mean_width": 0.5586462840392838
+    },
+    "ridge": {
+      "rmse": 0.161261412882084,
+      "mae": 0.1405482964824132
+    },
+    "constant": {
+      "rmse": 0.30700357310343873,
+      "mae": 0.25858149772295536
+    },
+    "conformal_radius": 1.7652563773904069,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -52.15140703487044
+    }
+  },
+  {
+    "seed": 2,
+    "distribution": "iid",
+    "gp": {
+      "rmse": 0.05177177881205174,
+      "mae": 0.03938401804035883,
+      "gaussian_nll": -1.668685178748107,
+      "coverage": 0.9125,
+      "mean_width": 0.17542103019015542
+    },
+    "ridge": {
+      "rmse": 0.1132957843456427,
+      "mae": 0.0930452631258475
+    },
+    "constant": {
+      "rmse": 0.17180720185623444,
+      "mae": 0.13363749728889257
+    },
+    "conformal_radius": 1.6295405571972443,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nll": -51.07521145004896
+    }
+  },
+  {
+    "seed": 2,
+    "distribution": "shift",
+    "gp": {
+      "rmse": 0.06550417894993353,
+      "mae": 0.054087352004640335,
+      "gaussian_nll": -1.3712534190785344,
+      "coverage": 0.9416666666666667,
+      "mean_width": 0.2138921894000412
+    },
+    "ridge": {
+      "rmse": 0.09718825252258463,
+      "mae": 0.08382785314174238
+    },
+    "constant": {
+      "rmse": 0.3083715990522864,
+      "mae": 0.2656626263977126
+    },
+    "conformal_radius": 1.6295405571972443,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nll": -51.07521145004896
+    }
+  },
+  {
+    "seed": 3,
+    "distribution": "iid",
+    "gp": {
+      "rmse": 0.0677706694544046,
+      "mae": 0.05102271215392527,
+      "gaussian_nll": -1.3524521901771664,
+      "coverage": 0.9208333333333333,
+      "mean_width": 0.2345894475426122
+    },
+    "ridge": {
+      "rmse": 0.11385806223649185,
+      "mae": 0.08941589212977222
+    },
+    "constant": {
+      "rmse": 0.18081569608150178,
+      "mae": 0.1430457801903352
+    },
+    "conformal_radius": 2.184031338259157,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nll": -51.929332459768695
+    }
+  },
+  {
+    "seed": 3,
+    "distribution": "shift",
+    "gp": {
+      "rmse": 0.14699660701825784,
+      "mae": 0.11776434593478685,
+      "gaussian_nll": -0.719797713971271,
+      "coverage": 1.0,
+      "mean_width": 0.6575355094895108
+    },
+    "ridge": {
+      "rmse": 0.09012766377796086,
+      "mae": 0.07389182644719261
+    },
+    "constant": {
+      "rmse": 0.3165638651792899,
+      "mae": 0.2682659481785998
+    },
+    "conformal_radius": 2.184031338259157,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nll": -51.929332459768695
+    }
+  },
+  {
+    "seed": 4,
+    "distribution": "iid",
+    "gp": {
+      "rmse": 0.04319193264710312,
+      "mae": 0.032773156270250486,
+      "gaussian_nll": -1.745783535666346,
+      "coverage": 0.9541666666666667,
+      "mean_width": 0.18894465499500487
+    },
+    "ridge": {
+      "rmse": 0.11604979890896608,
+      "mae": 0.0952705118632089
+    },
+    "constant": {
+      "rmse": 0.1604323369583668,
+      "mae": 0.1251975517563702
+    },
+    "conformal_radius": 1.8110171847332124,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -42.25433976048388
+    }
+  },
+  {
+    "seed": 4,
+    "distribution": "shift",
+    "gp": {
+      "rmse": 0.14207962334851904,
+      "mae": 0.10475442410986482,
+      "gaussian_nll": -0.6217806181100491,
+      "coverage": 0.9791666666666666,
+      "mean_width": 0.6568009345670095
+    },
+    "ridge": {
+      "rmse": 0.11192131109217186,
+      "mae": 0.08907179905851074
+    },
+    "constant": {
+      "rmse": 0.28567352400972207,
+      "mae": 0.24076082548293135
+    },
+    "conformal_radius": 1.8110171847332124,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -42.25433976048388
+    }
+  },
+  {
+    "seed": 5,
+    "distribution": "iid",
+    "gp": {
+      "rmse": 0.09874734616618261,
+      "mae": 0.06221518136916453,
+      "gaussian_nll": -1.372864599469629,
+      "coverage": 0.9208333333333333,
+      "mean_width": 0.23770123007462313
+    },
+    "ridge": {
+      "rmse": 0.12200015518634709,
+      "mae": 0.09166717763876023
+    },
+    "constant": {
+      "rmse": 0.19916275209893686,
+      "mae": 0.1450444272808665
+    },
+    "conformal_radius": 1.798904006044251,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nll": -48.68878293386556
+    }
+  },
+  {
+    "seed": 5,
+    "distribution": "shift",
+    "gp": {
+      "rmse": 0.20456217519219833,
+      "mae": 0.16028614864940144,
+      "gaussian_nll": -0.46769483901007675,
+      "coverage": 0.9041666666666667,
+      "mean_width": 0.5174834291906321
+    },
+    "ridge": {
+      "rmse": 0.10850984335176547,
+      "mae": 0.08978093043208271
+    },
+    "constant": {
+      "rmse": 0.3060067566306922,
+      "mae": 0.2595956253983481
+    },
+    "conformal_radius": 1.798904006044251,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nll": -48.68878293386556
+    }
+  },
+  {
+    "seed": 6,
+    "distribution": "iid",
+    "gp": {
+      "rmse": 0.08171127343914636,
+      "mae": 0.046977985759671895,
+      "gaussian_nll": -1.617173579005364,
+      "coverage": 0.8916666666666667,
+      "mean_width": 0.1811549051707246
+    },
+    "ridge": {
+      "rmse": 0.11735826419186361,
+      "mae": 0.08724235160848223
+    },
+    "constant": {
+      "rmse": 0.1967659249444599,
+      "mae": 0.143493018518472
+    },
+    "conformal_radius": 1.5607145146251902,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -47.017941820226746
+    }
+  },
+  {
+    "seed": 6,
+    "distribution": "shift",
+    "gp": {
+      "rmse": 0.18747362196254688,
+      "mae": 0.1523206351868917,
+      "gaussian_nll": -0.47945999536355793,
+      "coverage": 0.7833333333333333,
+      "mean_width": 0.407988030993589
+    },
+    "ridge": {
+      "rmse": 0.11937071653471654,
+      "mae": 0.10222587083436273
+    },
+    "constant": {
+      "rmse": 0.3244072658672986,
+      "mae": 0.27730992453250825
+    },
+    "conformal_radius": 1.5607145146251902,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -47.017941820226746
+    }
+  },
+  {
+    "seed": 7,
+    "distribution": "iid",
+    "gp": {
+      "rmse": 0.055239047813328085,
+      "mae": 0.04042483930979478,
+      "gaussian_nll": -1.595899886529275,
+      "coverage": 0.9416666666666667,
+      "mean_width": 0.19908063246572297
+    },
+    "ridge": {
+      "rmse": 0.11590000514335336,
+      "mae": 0.09317470179412186
+    },
+    "constant": {
+      "rmse": 0.17304686378697248,
+      "mae": 0.13377532191622604
+    },
+    "conformal_radius": 2.201034810596299,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nll": -49.74029464674822
+    }
+  },
+  {
+    "seed": 7,
+    "distribution": "shift",
+    "gp": {
+      "rmse": 0.1546295179909403,
+      "mae": 0.13218846158785932,
+      "gaussian_nll": -0.37857951056157,
+      "coverage": 0.9625,
+      "mean_width": 0.8722509338783373
+    },
+    "ridge": {
+      "rmse": 0.08262788094905142,
+      "mae": 0.067271368553424
+    },
+    "constant": {
+      "rmse": 0.29524320743909843,
+      "mae": 0.25120733158672526
+    },
+    "conformal_radius": 2.201034810596299,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nll": -49.74029464674822
+    }
+  },
+  {
+    "seed": 8,
+    "distribution": "iid",
+    "gp": {
+      "rmse": 0.049884236167868724,
+      "mae": 0.03842636007034651,
+      "gaussian_nll": -1.6551207350506603,
+      "coverage": 0.9125,
+      "mean_width": 0.1740981361951857
+    },
+    "ridge": {
+      "rmse": 0.14457856005017264,
+      "mae": 0.10956974260863973
+    },
+    "constant": {
+      "rmse": 0.21080316177561736,
+      "mae": 0.15759147427209216
+    },
+    "conformal_radius": 1.7487283331977586,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -52.17702670607378
+    }
+  },
+  {
+    "seed": 8,
+    "distribution": "shift",
+    "gp": {
+      "rmse": 0.16846864774701087,
+      "mae": 0.14166796521619407,
+      "gaussian_nll": -0.532853972173366,
+      "coverage": 0.9875,
+      "mean_width": 0.5613968548256987
+    },
+    "ridge": {
+      "rmse": 0.1537509458687706,
+      "mae": 0.13395876499905193
+    },
+    "constant": {
+      "rmse": 0.2550498082801709,
+      "mae": 0.21226766675678202
+    },
+    "conformal_radius": 1.7487283331977586,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -52.17702670607378
+    }
+  },
+  {
+    "seed": 9,
+    "distribution": "iid",
+    "gp": {
+      "rmse": 0.05245004923714569,
+      "mae": 0.03865510483055019,
+      "gaussian_nll": -1.7016578477896318,
+      "coverage": 0.9125,
+      "mean_width": 0.16832399307063356
+    },
+    "ridge": {
+      "rmse": 0.12513018134556242,
+      "mae": 0.09945203241216088
+    },
+    "constant": {
+      "rmse": 0.19679469085787266,
+      "mae": 0.1423153322903409
+    },
+    "conformal_radius": 1.4565945204627966,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -46.58412931703601
+    }
+  },
+  {
+    "seed": 9,
+    "distribution": "shift",
+    "gp": {
+      "rmse": 0.1565372620878322,
+      "mae": 0.118671966142152,
+      "gaussian_nll": -0.7490755783328532,
+      "coverage": 0.9791666666666666,
+      "mean_width": 0.4642340049829032
+    },
+    "ridge": {
+      "rmse": 0.08572051212818357,
+      "mae": 0.07079249319667005
+    },
+    "constant": {
+      "rmse": 0.32936063871570626,
+      "mae": 0.28219143847215106
+    },
+    "conformal_radius": 1.4565945204627966,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -46.58412931703601
+    }
+  },
+  {
+    "seed": 10,
+    "distribution": "iid",
+    "gp": {
+      "rmse": 0.09540639509126854,
+      "mae": 0.06102417446399309,
+      "gaussian_nll": -1.2657702976519725,
+      "coverage": 0.9291666666666667,
+      "mean_width": 0.24728433622843243
+    },
+    "ridge": {
+      "rmse": 0.1255377651085004,
+      "mae": 0.10053899370953577
+    },
+    "constant": {
+      "rmse": 0.18366453298393198,
+      "mae": 0.14232892827751603
+    },
+    "conformal_radius": 2.122098975711686,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nll": -53.54628517150544
+    }
+  },
+  {
+    "seed": 10,
+    "distribution": "shift",
+    "gp": {
+      "rmse": 0.2676441421789244,
+      "mae": 0.2074778164188644,
+      "gaussian_nll": 0.10950696210164808,
+      "coverage": 0.8125,
+      "mean_width": 0.6413263450096952
+    },
+    "ridge": {
+      "rmse": 0.24144906657103862,
+      "mae": 0.20414868368778963
+    },
+    "constant": {
+      "rmse": 0.3066220267457683,
+      "mae": 0.2558232931660424
+    },
+    "conformal_radius": 2.122098975711686,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nll": -53.54628517150544
+    }
+  },
+  {
+    "seed": 11,
+    "distribution": "iid",
+    "gp": {
+      "rmse": 0.08171167489137508,
+      "mae": 0.05386949168222938,
+      "gaussian_nll": -1.4120867236224761,
+      "coverage": 0.8708333333333333,
+      "mean_width": 0.2059890990140979
+    },
+    "ridge": {
+      "rmse": 0.11920110027352804,
+      "mae": 0.08977569376626839
+    },
+    "constant": {
+      "rmse": 0.17515906861825184,
+      "mae": 0.1339319179637454
+    },
+    "conformal_radius": 1.3087305154284754,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -45.28220019369295
+    }
+  },
+  {
+    "seed": 11,
+    "distribution": "shift",
+    "gp": {
+      "rmse": 0.2520711232605844,
+      "mae": 0.20382538496646468,
+      "gaussian_nll": -0.04863091341855197,
+      "coverage": 0.5666666666666667,
+      "mean_width": 0.42461647448143663
+    },
+    "ridge": {
+      "rmse": 0.11119075456753888,
+      "mae": 0.0875127076446364
+    },
+    "constant": {
+      "rmse": 0.3429251837518829,
+      "mae": 0.29273690596160457
+    },
+    "conformal_radius": 1.3087305154284754,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -45.28220019369295
+    }
+  }
+]
