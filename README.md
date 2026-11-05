@@ -1,8 +1,8 @@
 # Materials Decision Workflows
 
-A reproducible reference workflow for materials machine learning, sequential experiment selection, and decision-focused control.
+This repository is a public re-export of work done at a startup, rebuilt on independent synthetic problems and published as a single initial commit to keep the original development history and confidential data private.
 
-The project connects material descriptors to property prediction, uncertainty diagnostics, experiment selection and evaluated control decisions. A second workflow learns disturbance moments through a causal Wasserstein minimax-regret controller. Small, explicit numerical implementations make the assumptions, gradients and failure cases inspectable.
+This pipeline helps decide which material to test next, which candidate to recommend, and how to adjust a simulated process as new measurements arrive. It learns from simulated measurements, compares possible experiments, and checks how well its decisions hold up under uncertainty.
 
 **All bundled observations, fitted results and figures are generated from independent synthetic problems.** They are not anonymized extracts, rescaled measurements or fitted replicas of a private dataset. The optional local-data adapter requires a caller-supplied schema; no source-specific schema or real observations are distributed. See the [data policy](docs/DATA_POLICY.md).
 
