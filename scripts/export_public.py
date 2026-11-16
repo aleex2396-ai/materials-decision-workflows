@@ -23,7 +23,7 @@ PUBLIC_DOCS = {
     "DATA_POLICY.md", "DECISION_FOCUSED_THEORY.md", "DECISION_LEARNING.md",
     "DUAL_CONTROL_THEORY.md", "FINDINGS.md", "OPTIMIZER_DIAGNOSTICS.md",
     "PIPELINE.md", "REPRODUCIBILITY.md", "RELEASE_VERIFICATION.md",
-    "TECHNICAL_VALIDATION.md", "THEORY.md",
+    "TECHNICAL_VALIDATION.md", "THEORY.md", "CAMPAIGN_WORKFLOW.md",
 }
 RESEARCH_FILES = {
     "LITERATURE_REVIEW.md", "GITHUB_REVIEW.md", "THEORY_NOTES.md", "SEARCH_LOG.md",
@@ -58,9 +58,12 @@ RESULT_GROUPS = {
         "provenance.json", "REPORT.md"}},
     "reference": {"config": "configs/dual_study.json", "files": {
         "summary.json", "provenance.json", "REPORT.md"}},
+    "campaign": {"config": "src/materials_workflow/preset.json", "producer": "materials_workflow",
+                 "files": {"summary.json", "packet.json", "provenance.json", "REPORT.md",
+                           "decision_map.png", "explorer.html"}},
 }
 CONFIG_FILES = {specification["config"] for specification in RESULT_GROUPS.values()}
-TEXT_SUFFIXES = {".py", ".json", ".md", ".toml", ".txt", ".bib", ".ps1", ".yml"}
+TEXT_SUFFIXES = {".py", ".json", ".md", ".html", ".toml", ".txt", ".bib", ".ps1", ".yml"}
 MAX_FILE_BYTES = 20 * 1024 * 1024
 MAX_EXPORT_BYTES = 64 * 1024 * 1024
 
@@ -133,11 +136,16 @@ def scan_text(data: bytes, relative: str, source_root: Path) -> None:
 
 
 def validate_results(files: dict[str, bytes]) -> None:
-    code = {PurePosixPath(name).name: digest(data) for name, data in files.items()
-            if PurePosixPath(name).parent == PurePosixPath("src/crfml") and name.endswith(".py")}
-    if {name for name in files if name.startswith("src/")} != {"src/crfml/" + name for name in code}:
+    # Each independent producer attests every module in its own source tree.
+    producers = {spec.get("producer", "crfml") for spec in RESULT_GROUPS.values()}
+    source_sets = {package: {PurePosixPath(name).name: digest(data) for name, data in files.items()
+                             if PurePosixPath(name).parent == PurePosixPath("src", package) and name.endswith(".py")}
+                   for package in producers}
+    covered = {f"src/{package}/{name}" for package, code in source_sets.items() for name in code}
+    if {name for name in files if name.startswith("src/") and name not in CONFIG_FILES} != covered:
         raise ExportError("Source tree contains modules outside the producer's hashed source set")
     for group, specification in RESULT_GROUPS.items():
+        code = source_sets[specification.get("producer", "crfml")]
         prefix = f"results/{group}/"
         expected = specification["files"]
         config_path = specification["config"]
@@ -215,7 +223,7 @@ def collect_public_files(source_root: str | Path) -> dict[str, bytes]:
         data = path.read_bytes()
         if path.suffix in TEXT_SUFFIXES or path.name in ROOT_FILES:
             scan_text(data, relative, root)
-        if relative.startswith("configs/"):
+        if relative in CONFIG_FILES:
             configuration = json_object(data, relative)
             if not isinstance(configuration, dict) or configuration.get("origin") != "public_synthetic_only":
                 raise ExportError(f"Non-public configuration rejected: {relative}")
@@ -242,7 +250,7 @@ def export_public(source_root: str | Path, destination: str | Path | None = None
     if target.exists():
         raise FileExistsError("Destination already exists; choose a new directory, never overwrite")
     files = collect_public_files(root)
-    manifest = dict(schema_version=3, status="local_review_copy_not_published",
+    manifest = dict(schema_version=3, status="allowlisted_export_verified",
                     publication_profile="neutral_synthetic_workflow",
                     origin="public_synthetic_only", no_private_tree_read=True,
                     files=[dict(path=name, bytes=len(data), sha256=digest(data)) for name, data in sorted(files.items())],
@@ -254,7 +262,7 @@ def export_public(source_root: str | Path, destination: str | Path | None = None
         path = target / relative
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_bytes(data)
-    (target / "PUBLIC_EXPORT_MANIFEST.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    (target / "PUBLIC_EXPORT_MANIFEST.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8", newline="\n")
     for row in manifest["files"]:
         if digest((target / row["path"]).read_bytes()) != row["sha256"]:
             raise ExportError("Destination verification failed")
@@ -303,6 +311,10 @@ def check_tracked(source_root: str | Path) -> dict:
         if any(not isinstance(row, dict) or not isinstance(row.get("path"), str)
                or not allowed(row["path"]) for row in manifest["files"]):
             raise ExportError("Publication manifest contains a non-allowlisted entry; names withheld")
+        current_entries = [dict(path=name, bytes=len(content), sha256=digest(content))
+                           for name, content in sorted(files.items())]
+        if manifest["files"] != current_entries:
+            raise ExportError("Publication manifest does not match current reviewed file contents")
         expected.add(manifest_name)
     if tracked != expected:
         raise ExportError("Tracked paths do not match the validated public working tree; names withheld")

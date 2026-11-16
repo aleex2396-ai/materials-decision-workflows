@@ -1,5 +1,7 @@
 # End-to-end pipeline and study map
 
+The [formulation campaign](CAMPAIGN_WORKFLOW.md) covers the operational path from a raw return through a checked database, missing-data inference, formulation prediction and batch Bayesian optimisation. The map below describes the original four numerical research studies.
+
 This repository connects eight stages of a materials-learning workflow, from problem definition to evaluated decisions and feedback. The main research question is whether learning a disturbance second moment for downstream causal-control regret changes decision quality relative to learning the same estimator for likelihood. The discovery loop supplies a selected synthetic material to the control study; the control problem then has known dynamics and learned exogenous uncertainty.
 
 ## Eight-stage mapping

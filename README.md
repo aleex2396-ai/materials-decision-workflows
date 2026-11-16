@@ -1,50 +1,64 @@
 # Materials Decision Workflows
 
-This repository is a public re-export of work done at a startup, rebuilt on independent synthetic problems and published as a single initial commit to keep the original development history and confidential data private.
+An instrument returns two conflicting measurements. A supplier leaves one property blank. The lab has enough capacity for three experiments, and increasing optical transmission can cost fracture toughness. This repository implements the decisions that connect those events, from the first raw return to the next funded batch.
 
-This pipeline helps decide which material to test next, which candidate to recommend, and how to adjust a simulated process as new measurements arrive. It learns from simulated measurements, compares possible experiments, and checks how well its decisions hold up under uncertainty.
+**Explore the [worked campaign](results/campaign/REPORT.md) · Read the [workflow and methods](docs/CAMPAIGN_WORKFLOW.md) · Inspect the [decision packet](results/campaign/packet.json).**
 
-**All bundled observations, fitted results and figures are generated from independent synthetic problems.** They are not anonymized extracts, rescaled measurements or fitted replicas of a private dataset. The optional local-data adapter requires a caller-supplied schema; no source-specific schema or real observations are distributed. See the [data policy](docs/DATA_POLICY.md).
+[![A ternary membrane formulation library and its measured transmission–toughness frontier, with the proposed batch and its subsequent simulated measurements](results/campaign/decision_map.png)](results/campaign/REPORT.md)
 
-## Start here
+Built as a workflow showcase for a materials startup, the public example uses independently generated optical composite membranes with three fictitious components and two processing routes. All measurements, stock cards, failures and follow-up runs in this campaign come from the seeded generator. The scientific results in the repository concern those synthetic experiments. [Synthetic generator](src/materials_workflow/synthetic.py) · [Public data policy](docs/DATA_POLICY.md)
 
-Use Python 3.12 in an activated virtual environment, from the repository root:
+## Run the campaign
 
-~~~bash
-python -m pip install -r requirements-lock.txt
-python -m pip install --no-deps -e .
-python -m pytest -q
-python -m crfml.cli counterexample
-~~~
+Run these commands from a checkout with Python 3.11 or newer.
 
-The last command runs a small uncertainty-selection example. To execute the complete workflow and regenerate all four studies:
+```bash
+python -m pip install -e .
+python -m materials_workflow demo --output .local/campaign
+```
 
-~~~bash
-python -m crfml.cli all --output results
-~~~
+Open `.local/campaign/explorer.html` in a browser to inspect a candidate, a quality decision or a prospective prediction. The explorer is a self-contained file. GitHub also renders the [campaign report](results/campaign/REPORT.md) directly.
 
-The full numerical study takes longer than the small example. It uses CPU solvers and replaces artifacts in the selected output directory. Use a fresh directory to keep an existing run.
+```bash
+python -m materials_workflow audit --db .local/campaign/campaign.sqlite3 --submission 2
+python -m materials_workflow features --db .local/campaign/campaign.sqlite3 --out .local/features.json
+python -m materials_workflow predict --db .local/campaign/campaign.sqlite3 --candidate .local/campaign/candidate.json
+python -m materials_workflow measure-or-make --db .local/campaign/campaign.sqlite3 --shortlist .local/campaign/shortlist.json --cost 0.01
+python -m materials_workflow recommend --db .local/campaign/campaign.sqlite3 --candidates .local/campaign/candidates.json --pending .local/campaign/pending.json --budget 7.5 --batch-size 3 --out .local/next.json
+```
 
-## Workflow
+## From a lab return to a decision
 
-~~~mermaid
+```mermaid
 flowchart LR
-  A[Synthetic experiments] --> B[Validate and represent observations]
-  B --> C[Fit prediction and uncertainty models]
-  C --> D[Select and observe the next experiment]
-  D --> C
-  D --> E[Recommend a material]
-  E --> F[Known synthetic process model]
-  F --> G[Estimate disturbance moments]
-  G --> H[Synthesize a causal robust controller]
-  H --> I[Evaluate cost, regret and shifted laws]
-  H --> J[Differentiate validation loss]
-  J --> G
-~~~
+  R[Raw lab return] --> Q[Identity, execution and assay checks]
+  Q -->|eligible| U[Convert units and attach provenance]
+  Q -->|doubtful| A[Act or Ask review]
+  A -->|new evidence| R
+  Q -->|confirmed failed make| F[Makeability evidence]
+  U --> D[(Versioned experiment database)]
+  D --> I[Conditional descriptor estimates]
+  I --> M[Mixture features and Bayesian response model]
+  M --> P[Predict a specified formulation]
+  M --> B[Choose a batch across objectives]
+  F --> B
+  B --> S[Register predictions and run selected designs]
+  S --> R
+```
 
-The [pipeline map](docs/PIPELINE.md) covers data acquisition, processing, representation, feature engineering, model development, evaluation, discovery and feedback. Offline learning and online feedback are identified separately.
+| Decision | What the implementation produces |
+|---|---|
+| **Can this measurement teach us anything?** | Immutable source receipts, unit conversions, revisions and separate eligibility for performance and makeability. A valid poor response enters training. A failed meter check requests a re-read. A confirmed failed make supplies a feasibility label. |
+| **When should the system ask a person?** | A shadow policy interprets standard, process and repeat residuals. It chooses a corrective action or defers. A held-out failure bank compares harmful decisions and the fraction settled against fixed rules, including under drift. |
+| **What can we infer about a missing property?** | The database retains the measured value or its absence. A versioned feature view records which supplier fields were estimated through training-set correlations, their uncertainty and the observations supporting the snapshot. |
+| **Is a missing property worth measuring?** | A value-of-information calculation prices the chance that an assay would change the preferred recipe. It compares the gain from a better choice with the cost of obtaining the measurement. |
+| **How will this recipe perform?** | A group-weighted Bayesian response surface uses mixture interactions, process settings and uncertain descriptors to produce paired predictions for transmission and toughness. Each estimate includes a support assessment and predictive spread. |
+| **What should we make next?** | The planner starts with a space-filling design. With observations available it weighs expected Pareto-front improvement, chance of a successful make, cost and pending work. An intentional repeat can earn a batch slot. Each eligible and rejected design leaves an inspectable trace. |
+| **What changed after the experiment?** | The runner saves the proposal and predictions before generating any feedback, appends the new independent preparations, refits, and issues a second decision packet. The two training snapshots can be compared by hash. |
 
-## Included studies
+## Related research studies
+
+The original research suite connects material discovery to robust process control. It includes a separate exact Gaussian-process predictor, adaptive control and decision-focused covariance learning. To reproduce its four studies, run `python -m crfml.cli all --output results`. The [study map](docs/PIPELINE.md) and reports below give the methods and outcomes.
 
 | Study | What it demonstrates | Command | Results |
 |---|---|---|---|
@@ -74,7 +88,7 @@ See [findings](docs/FINDINGS.md), [transfer theory](docs/DECISION_FOCUSED_THEORY
 
 ## Reuse and publication
 
-The Python import/CLI package is named `crfml`. Its model, acquisition, synthesis and data-contract modules can be inspected and adapted independently. The bundled process model is illustrative; using another process requires specifying its dynamics, costs, observation assumptions and evaluation protocol.
+The campaign package is `materials_workflow` and its console command is `materials-workflow`. The four research studies are available through `crfml`. Their source packages and study artifacts have independent provenance records.
 
 [CONTRIBUTING.md](CONTRIBUTING.md) describes development checks and synthetic reproductions. [Reproducibility](docs/REPRODUCIBILITY.md) and [recorded verification](docs/RELEASE_VERIFICATION.md) distinguish observed checks from cross-platform claims.
 

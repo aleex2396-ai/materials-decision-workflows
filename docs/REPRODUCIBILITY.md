@@ -1,5 +1,7 @@
 # Reproducibility and measurement protocol
 
+The standalone formulation workflow has a bundled [preset](../src/materials_workflow/preset.json). Run `python -m materials_workflow demo --output .local/campaign` from the repository root after installing the package. It creates a fresh local SQLite ledger, two decisions, a worked report and an offline explorer. The public snapshot is in [results/campaign](../results/campaign/REPORT.md). That snapshot lists the source hashes of `materials_workflow`; the four numerical studies below retain their separate `crfml` producer identities.
+
 ## Four studies and their roles
 
 The main study is decision-focused covariance learning through causal Wasserstein minimax-regret synthesis. Its configuration, sample budgets, seeds, shifts and primary comparison were fixed before its outcomes. The primary contrast is decision-trained minus likelihood-trained expected regret, using the same covariance family, data and robust-control objective.

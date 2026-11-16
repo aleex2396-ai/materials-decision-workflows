@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "crfml"
-version = "0.2.0"
-description = "Decision-focused covariance learning and causal Wasserstein regret control for materials research"
+version = "0.3.0"
+description = "Auditable materials experiment intake, probabilistic formulation prediction and Bayesian experiment design"
 requires-python = ">=3.11"
 dependencies = ["numpy>=2.0,<3", "scipy>=1.14,<2", "openpyxl>=3.1,<4", "matplotlib>=3.9,<4", "cvxpy>=1.7,<2", "clarabel>=0.11,<1", "scs>=3,<4"]
 
@@ -14,6 +14,10 @@ test = ["pytest>=8,<10"]
 
 [project.scripts]
 crfml = "crfml.cli:main"
+materials-workflow = "materials_workflow.__main__:main"
+
+[tool.setuptools.package-data]
+materials_workflow = ["preset.json"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

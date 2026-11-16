@@ -26,6 +26,7 @@ def synthetic_project(tmp_path):
         write(root, name, "public fixture\n")
     write(root, exporter.CI_FILE, "name: Synthetic fixture CI\n")
     write(root, "src/crfml/example.py", "VALUE = 1\n")
+    write(root, "src/materials_workflow/example.py", "VALUE = 2\n")
     configs = {}
     for group, specification in exporter.RESULT_GROUPS.items():
         config = {"origin": "public_synthetic_only", "seeds": [0, 1], "study": group}
@@ -40,13 +41,14 @@ def synthetic_project(tmp_path):
         for name in specification["files"] - {"summary.json", "provenance.json"}:
             if name.endswith(".json"):
                 write(root, prefix + name, json.dumps([{"synthetic_fixture": group}], indent=2) + "\n")
-            elif name.endswith(".md"):
+            elif name.endswith((".md", ".html")):
                 write(root, prefix + name, "Synthetic fixture study\n\nMultiline report.\n")
             else:
                 write(root, prefix + name, b"\x89PNG\r\n\x1a\nsynthetic_test_payload")
+        package = specification.get("producer", "crfml")
         provenance = dict(origin="public_synthetic_only", no_private_data_loaded=True,
                           config_sha256=exporter.digest((root / specification["config"]).read_bytes()),
-                          source_sha256={"example.py": exporter.digest((root / "src/crfml/example.py").read_bytes())},
+                          source_sha256={"example.py": exporter.digest((root / f"src/{package}/example.py").read_bytes())},
                           artifact_sha256={name: exporter.digest((root / prefix / name).read_bytes())
                                            for name in specification["files"] if name != "provenance.json"})
         if group == "mechanism":
@@ -280,6 +282,16 @@ def test_tracked_check_keeps_current_artifact_validation(tmp_path):
     init_tracked_fixture(root)
     write(root, "results/decision/records.json", '[{"changed_fixture":true}]')
     with pytest.raises(exporter.ExportError, match="artifact hashes"):
+        exporter.check_tracked(root)
+
+
+def test_tracked_manifest_binds_current_source_and_document_bytes(tmp_path):
+    source = synthetic_project(tmp_path)
+    exporter.export_public(source)
+    root = source / "dist/public-repo"
+    init_tracked_fixture(root)
+    write(root, "README.md", "A later unreviewed documentation edit\n")
+    with pytest.raises(exporter.ExportError, match="current reviewed file contents"):
         exporter.check_tracked(root)
 
 

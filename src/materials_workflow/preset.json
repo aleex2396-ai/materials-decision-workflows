@@ -1,0 +1,10 @@
+{
+  "origin": "public_synthetic_only",
+  "name": "Optical composite membranes",
+  "seed": 5837,
+  "preparation_groups": 36,
+  "candidate_count": 48,
+  "batch_size": 3,
+  "budget": 7.5,
+  "descriptor_assay_cost_in_utility_units": 0.01
+}

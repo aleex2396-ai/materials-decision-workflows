@@ -1,0 +1,38 @@
+{
+  "origin": "public_synthetic_only",
+  "name": "Optical composite membranes",
+  "config": {
+    "origin": "public_synthetic_only",
+    "name": "Optical composite membranes",
+    "seed": 5837,
+    "preparation_groups": 36,
+    "candidate_count": 48,
+    "batch_size": 3,
+    "budget": 7.5,
+    "descriptor_assay_cost_in_utility_units": 0.01
+  },
+  "initial_rows": 61,
+  "initial_groups": 33,
+  "initial_attempts": 72,
+  "gate_counts": {
+    "ask": 5,
+    "feasibility_only": 2,
+    "remake": 2,
+    "remeasure": 2,
+    "use": 61
+  },
+  "feedback_rows": 3,
+  "final_groups": 36,
+  "spent": 6.48,
+  "budget": 7.5,
+  "selected_ids": [
+    "M039",
+    "M027",
+    "M026"
+  ],
+  "next_ids": [
+    "M009",
+    "M042",
+    "M047"
+  ]
+}

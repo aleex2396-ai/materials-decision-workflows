@@ -17,5 +17,6 @@ jobs:
       - run: python -m pip install --no-deps -e .
       - run: python scripts/export_public.py --check-tracked
       - run: python -m pytest -q
+      - run: python -m materials_workflow demo --output .local/ci-campaign
       - run: python -m crfml.cli all --output results
       - run: python scripts/export_public.py --destination dist/ci-export

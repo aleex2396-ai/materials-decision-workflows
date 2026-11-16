@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "status": "local_review_copy_not_published",
+  "status": "allowlisted_export_verified",
   "publication_profile": "neutral_synthetic_workflow",
   "origin": "public_synthetic_only",
   "no_private_tree_read": true,
@@ -12,13 +12,13 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "bytes": 650,
-      "sha256": "9177b2bd97ee7eee61f9347fa2b2e79da57e00abc6e3c0d4001f4a193457edfe"
+      "bytes": 725,
+      "sha256": "a4055ec0456a6532e5d5114febe91cc9288c89db43d48709b7e952f02ff05dea"
     },
     {
       "path": ".gitignore",
-      "bytes": 223,
-      "sha256": "8d3867e47b161ff4f3175eb93f277f7a9235667aa2a9319d93abb710ff40df33"
+      "bytes": 245,
+      "sha256": "6a8ecda2090e3f39a1d1222eb275869f45bed0da5d9c8647298fce8abdc64d66"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -32,8 +32,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6680,
-      "sha256": "c067cb9e8c7b096f25f941c7abd6b4db824898f1c418040fdca83fd12f6d6710"
+      "bytes": 9696,
+      "sha256": "8e17536defc8ebfa5acfb142896286454cffd02c6f8b2825daf584a42c6678a3"
     },
     {
       "path": "configs/decision_study.json",
@@ -54,6 +54,11 @@
       "path": "configs/study.json",
       "bytes": 692,
       "sha256": "f642ead1d50659f3b124407c7c4f3fcc47cef21450a287676850f8bfed51a9b1"
+    },
+    {
+      "path": "docs/CAMPAIGN_WORKFLOW.md",
+      "bytes": 12982,
+      "sha256": "ddca2cd0387e2b868266ae188ce18e47d37457c0af866ade28d2dbdda0bba097"
     },
     {
       "path": "docs/DATA_POLICY.md",
@@ -87,8 +92,8 @@
     },
     {
       "path": "docs/PIPELINE.md",
-      "bytes": 10214,
-      "sha256": "da412a65ba41524d3ae16c4af90aa9a28aa6870cc1173bbd230b6cd0b7ce8658"
+      "bytes": 10488,
+      "sha256": "2f9b5aa8dc951bc07916acac2aaed1c828c504bbff4a91c63fbdf2e6478d4103"
     },
     {
       "path": "docs/RELEASE_VERIFICATION.md",
@@ -97,8 +102,8 @@
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
-      "bytes": 5287,
-      "sha256": "3d2f81927095ea68270b1958282d03731e5c1af64c74f611d19797de4af25ab7"
+      "bytes": 5827,
+      "sha256": "74c9a90b22573a109f1bdc9dc037976bed5078e9645fccc9f28b94ecaaca26b0"
     },
     {
       "path": "docs/TECHNICAL_VALIDATION.md",
@@ -112,8 +117,8 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 635,
-      "sha256": "8a4573b492394da2d39b0e7f4ab249a9cd468223819004512ace61f0b415bc4b"
+      "bytes": 769,
+      "sha256": "2f8a44b26bce297896a1269a263ddd4d7bbdeb2220610513730ca9b4e90aa978"
     },
     {
       "path": "requirements-lock.txt",
@@ -286,6 +291,36 @@
       "sha256": "7644123253069ee3214341ef71ff75c4ceb2301b3de4553d9fdf2cf2d565ef35"
     },
     {
+      "path": "results/campaign/REPORT.md",
+      "bytes": 3804,
+      "sha256": "db2427939b86819714d7d2391b0506237bfc847ad5137880248bcec16a95ec44"
+    },
+    {
+      "path": "results/campaign/decision_map.png",
+      "bytes": 150505,
+      "sha256": "04707ae69f74c38992d00c732772b8733fd61f7b88fe8dcf3a7a11a49fa84085"
+    },
+    {
+      "path": "results/campaign/explorer.html",
+      "bytes": 372368,
+      "sha256": "f0027e05eccfceca4f791199114ba96a5ab52d7a9627b3d98794554bde6c905c"
+    },
+    {
+      "path": "results/campaign/packet.json",
+      "bytes": 250970,
+      "sha256": "59b7567f638ab89bad9cec90f6eef586951d5bfe37fa86655daf4cd515b6e8da"
+    },
+    {
+      "path": "results/campaign/provenance.json",
+      "bytes": 3151,
+      "sha256": "4e6d47f8ad4eff7b703f91bf2bab698bc282d1eef9c16a8c63898b34f52a71ab"
+    },
+    {
+      "path": "results/campaign/summary.json",
+      "bytes": 730,
+      "sha256": "f3778fc0577c4bcb1331cd0e0a3774829a6813403ef2e7a9d8a23718df957690"
+    },
+    {
       "path": "results/decision/REPORT.md",
       "bytes": 9709,
       "sha256": "4fafee64f26736c087d56664156d3a2473c48ae6f20cbcd4b1ca4c2724894fe3"
@@ -422,8 +457,8 @@
     },
     {
       "path": "scripts/export_public.py",
-      "bytes": 18063,
-      "sha256": "3b8c6ee271fcabd445c814dee574f750b3ed6700f00712173c8facf0a39bb2c6"
+      "bytes": 19066,
+      "sha256": "bfb39ae764034c3b9a2711b5ba6f08f69f0c0fa4d141d0f4df231683ea777fe1"
     },
     {
       "path": "src/crfml/__init__.py",
@@ -511,6 +546,91 @@
       "sha256": "1ba142c373972112be481554561e358d8269513bcbfe2502af8d7f4f05618437"
     },
     {
+      "path": "src/materials_workflow/__init__.py",
+      "bytes": 82,
+      "sha256": "73518719f6d39fcfb4267b4c96596110f857b397b51b9c2f68591378542d8e3b"
+    },
+    {
+      "path": "src/materials_workflow/__main__.py",
+      "bytes": 4896,
+      "sha256": "d6b512e3cd56ee55f03268fefd50947acdcb56d882b33c7b27b32efe0a7075c3"
+    },
+    {
+      "path": "src/materials_workflow/adjudication.py",
+      "bytes": 9410,
+      "sha256": "0132b6957c81a717c53079640a72d2b8039db30c3464477efed60b8c4e3bbf8e"
+    },
+    {
+      "path": "src/materials_workflow/campaign.py",
+      "bytes": 10081,
+      "sha256": "027d9b3a4107543998481a56bb0950c1f6e5e1c19ea8d52524b201a04a813ba1"
+    },
+    {
+      "path": "src/materials_workflow/cold_start.py",
+      "bytes": 4822,
+      "sha256": "44d5ed6841c8b2fe4448eb81d4b594e7009d6da33c53ad82a3626baee90337af"
+    },
+    {
+      "path": "src/materials_workflow/decision_replay.py",
+      "bytes": 2241,
+      "sha256": "78686e7875adee687784061a6e73c7db059e22a9976795c73b034377edc8bb7b"
+    },
+    {
+      "path": "src/materials_workflow/descriptor_view.py",
+      "bytes": 6689,
+      "sha256": "f00b74f7d2e1c12970999c947fbbae1ddf16abdad987865918bf72280024e867"
+    },
+    {
+      "path": "src/materials_workflow/formulation.py",
+      "bytes": 16930,
+      "sha256": "55f59ec0020aad387ed8e9d816ef950d6520cacabc2904fe4c20358e0d1d6624"
+    },
+    {
+      "path": "src/materials_workflow/planner.py",
+      "bytes": 15197,
+      "sha256": "314c310c0bf154434a8a30bdd77ab1c1ef0d1d83b0b37899b2bbbf9e3183c468"
+    },
+    {
+      "path": "src/materials_workflow/preset.json",
+      "bytes": 236,
+      "sha256": "acf9f855d2a9e3195164f7a9a083d96484efe3ff8ca0cf54c5c42bf0b25811a3"
+    },
+    {
+      "path": "src/materials_workflow/registry.py",
+      "bytes": 14811,
+      "sha256": "eb3b6f8e15da1715b25f8a3d3677a7e68572784c025e8a98b23ce06fd74e9527"
+    },
+    {
+      "path": "src/materials_workflow/reporting.py",
+      "bytes": 26958,
+      "sha256": "cf1edef88a02b054f3717dd399ce2e62f2633b2953d368c83213a9353b41fc46"
+    },
+    {
+      "path": "src/materials_workflow/synthetic.py",
+      "bytes": 6696,
+      "sha256": "f45612bcbc9b8cb8c802cebdf350f9d58a69c8766fffcc16f410005b3e2e2aa8"
+    },
+    {
+      "path": "src/materials_workflow/value_of_information.py",
+      "bytes": 8829,
+      "sha256": "432849dff1384a9b5deb1d8503a574760bdb3fc95a4a65b95661f7c0b9afc66f"
+    },
+    {
+      "path": "tests/test_adjudication.py",
+      "bytes": 3664,
+      "sha256": "60e582f5272998a1565c315d46448d7f21f3c5f24d76584f08c0396e03b4a204"
+    },
+    {
+      "path": "tests/test_campaign_workflow.py",
+      "bytes": 2806,
+      "sha256": "f2621340607d34a4c0bbc0b156d4988dca24388be7a511152ec13f43b2dddd0b"
+    },
+    {
+      "path": "tests/test_cold_start.py",
+      "bytes": 3938,
+      "sha256": "ec54d34ce662f6f2660b526f37e2c3c46fede045ea861993511912a16602d35b"
+    },
+    {
       "path": "tests/test_control.py",
       "bytes": 3748,
       "sha256": "fe3250415daf584ea061cbf4eada528c2774ab50eb20426ac7322c9e43619573"
@@ -531,6 +651,11 @@
       "sha256": "f716e1685d11a2d09aded6f527e09e0629a1883779ae451820daa288e502b788"
     },
     {
+      "path": "tests/test_descriptor_view.py",
+      "bytes": 4591,
+      "sha256": "97309e5c7939fc3aab6e11a6eabf69424133aca909851245ff58bfc48fcc5e97"
+    },
+    {
       "path": "tests/test_dr_control.py",
       "bytes": 11658,
       "sha256": "9e9a24ec097d372555361be26fefb965ec3e4d73126641fc907a3794ea20ed48"
@@ -542,13 +667,18 @@
     },
     {
       "path": "tests/test_export.py",
-      "bytes": 14891,
-      "sha256": "d153167be93920fc5184ba5effd5271cbab0345e8ee0d9fad5ab056bc57fe97b"
+      "bytes": 15452,
+      "sha256": "c68dbc3f24a9b9391c24f622e08a1e6e03beb1604481092dfd2501841631f4e9"
     },
     {
       "path": "tests/test_factorial.py",
       "bytes": 3648,
       "sha256": "14a3cf5e5b80bb43427693f9422ec95a0a5a3083fd408cdbe0cfba90f9a83d43"
+    },
+    {
+      "path": "tests/test_formulation.py",
+      "bytes": 4818,
+      "sha256": "924fd2bca43a5a4aae44acdceacf17b44de2eaf19f87a6b4349855587a1e9397"
     },
     {
       "path": "tests/test_mechanism_study.py",
@@ -564,6 +694,26 @@
       "path": "tests/test_pipeline.py",
       "bytes": 633,
       "sha256": "79265cf5b588fd3bb4b5c7fefbe6a78402ebadda753457accad0951278221a00"
+    },
+    {
+      "path": "tests/test_planner.py",
+      "bytes": 6215,
+      "sha256": "9639a5ca928ea241e97d80af11746598922972367cb09f336c8b21cce9df85c9"
+    },
+    {
+      "path": "tests/test_registry.py",
+      "bytes": 7256,
+      "sha256": "60ef866865c47cb98f113ab2e51e1318fce29c634e0f3a19a3630708cba7e8f6"
+    },
+    {
+      "path": "tests/test_value_of_information.py",
+      "bytes": 4597,
+      "sha256": "1331dda7e5bd8336f8fcf2f2ca536d310d129c5371f94963072eb38dcba3d34d"
+    },
+    {
+      "path": "tests/test_workflow_reporting.py",
+      "bytes": 1788,
+      "sha256": "8687b435b7c0d4c609e5fa955d3233c465eea7da4624f58ba1f86bc82ed67b3c"
     }
   ],
   "notes": "Allowlisted copy only. No source Git history copied, no remote or push. Review content and provenance before publication."
