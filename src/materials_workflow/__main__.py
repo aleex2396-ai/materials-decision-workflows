@@ -1,4 +1,4 @@
-"""Command line for the optical-membrane materials decision workflow."""
+"""Command line for materials experiment intake, prediction and planning."""
 
 import argparse
 import json
@@ -9,6 +9,8 @@ from .campaign import PRESET, concise_prediction, design_batch, run_demo, write_
 from .descriptor_view import materialize_descriptors, read_descriptors
 from .formulation import PerformanceModel
 from .registry import Registry
+from .shared_experiment import PRESET as SHARED_PRESET, run_shared_demo
+from .shared_session import BudgetSession
 from .value_of_information import measure_or_make
 
 
@@ -22,6 +24,23 @@ def main(argv=None):
     demo = commands.add_parser("demo", help="run a full synthetic campaign in a fresh directory")
     demo.add_argument("--output", type=Path, default=Path(".local/campaign"))
     demo.add_argument("--config", type=Path, default=PRESET)
+    paired = commands.add_parser("shared-budget", help="execute two evidence-dependent campaigns with one budget each")
+    paired.add_argument("--output", type=Path, default=Path(".local/shared-budget"))
+    paired.add_argument("--config", type=Path, default=SHARED_PRESET)
+    live = commands.add_parser("session", help="run the shared-budget policy one observation at a time")
+    operations = live.add_subparsers(dest="operation", required=True)
+    init = operations.add_parser("init", help="register a public hypothesis and action specification")
+    init.add_argument("--spec", type=Path, required=True)
+    reserve = operations.add_parser("next", help="reserve the chosen action or resume the outstanding one")
+    record = operations.add_parser("observe", help="complete an already reserved action with its observed result")
+    record.add_argument("--step", type=int, required=True)
+    record.add_argument("--action", required=True)
+    record.add_argument("--outcome", required=True, help="one of the reserved action's observable labels")
+    record.add_argument("--receipt", type=Path, required=True, help="nonempty JSON object containing the evidence")
+    history = operations.add_parser("status", help="inspect decisions, observations and remaining credits")
+    for operation in (init, reserve, record, history):
+        operation.add_argument("--db", type=Path, required=True)
+        operation.add_argument("--out", type=Path, help="write JSON output to this path")
     ingest = commands.add_parser("ingest", help="land a JSON record or list and return the dispositions")
     ingest.add_argument("--input", required=True, type=Path)
     audit = commands.add_parser("audit", help="inspect receipts, raw submissions and normalized values")
@@ -47,6 +66,16 @@ def main(argv=None):
     try:
         if args.command == "demo":
             payload = run_demo(args.output, args.config)
+        elif args.command == "shared-budget":
+            payload = run_shared_demo(args.output, args.config)
+        elif args.command == "session":
+            with BudgetSession(args.db, spec=load(args.spec) if args.operation == "init" else None) as session:
+                if args.operation == "next":
+                    payload = session.next()
+                elif args.operation == "observe":
+                    payload = session.observe(args.step, args.action, args.outcome, load(args.receipt))
+                else:
+                    payload = session.status()
         else:
             if args.command != "ingest" and not args.db.is_file():
                 raise ValueError("The specified database does not exist.")

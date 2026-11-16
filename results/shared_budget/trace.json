@@ -1,0 +1,1682 @@
+{
+  "origin": "public_synthetic_only",
+  "public_spec": {
+    "budget": 5,
+    "utility_per_credit": 0.003,
+    "prior": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "utilities": {
+      "binder-rich": [
+        0.7965970833882634,
+        0.7965970833882634,
+        0.46632063875779345,
+        0.46632063875779345
+      ],
+      "binder-lean": [
+        0.6724043310306785,
+        0.6724043310306785,
+        0.5971671672880573,
+        0.5971671672880573
+      ],
+      "reference": [
+        0.6656561374589902,
+        0.6656561374589902,
+        0.3877607393511155,
+        0.3877607393511155
+      ]
+    },
+    "initial_qualified": [
+      "reference"
+    ],
+    "initial_specimens": [
+      "reference-archive"
+    ],
+    "actions": [
+      {
+        "id": "assay-stock",
+        "kind": "assay",
+        "cost": 1,
+        "stock_lot": "incoming-stock-01",
+        "observable": {
+          "name": "stock viscosity",
+          "unit": "Pa s",
+          "threshold": 4.0,
+          "below": "low",
+          "at_or_above": "high"
+        },
+        "likelihoods": {
+          "low": [
+            0.9937903346742238,
+            0.9937903346742238,
+            0.006209665325776159,
+            0.006209665325776159
+          ],
+          "high": [
+            0.006209665325776132,
+            0.006209665325776132,
+            0.9937903346742238,
+            0.9937903346742238
+          ]
+        }
+      },
+      {
+        "id": "reread-reference",
+        "kind": "reread",
+        "recipe": "reference",
+        "cost": 1,
+        "specimen": "reference-archive",
+        "stock_lot": "incoming-stock-01",
+        "design": {
+          "a": 0.48,
+          "b": 0.32,
+          "c": 0.2,
+          "route": "cast",
+          "cure": 0.12
+        },
+        "group_id": "archived-reference-prep",
+        "registry_return": {
+          "target": "toughness",
+          "threshold": 7.0,
+          "below": "below",
+          "at_or_above": "above",
+          "failure": "failed"
+        },
+        "likelihoods": {
+          "above": [
+            0.00191890171536653,
+            0.9999801144452659,
+            5.405475689299301e-22,
+            0.005101945355290465
+          ],
+          "below": [
+            0.9980810982846334,
+            1.988555473408926e-05,
+            1.0,
+            0.9948980546447095
+          ]
+        }
+      },
+      {
+        "id": "remake-reference",
+        "kind": "remake",
+        "recipe": "reference",
+        "cost": 4,
+        "specimen": "fresh-reference",
+        "success_outcomes": [
+          "above",
+          "below"
+        ],
+        "stock_lot": "incoming-stock-01",
+        "design": {
+          "a": 0.48,
+          "b": 0.32,
+          "c": 0.2,
+          "route": "cast",
+          "cure": 0.12
+        },
+        "group_id": "independent-prep-reference",
+        "repeats_preparation": "archived-reference-prep",
+        "registry_return": {
+          "target": "toughness",
+          "threshold": 7.0,
+          "below": "below",
+          "at_or_above": "above",
+          "failure": "failed"
+        },
+        "likelihoods": {
+          "above": [
+            0.654582910207645,
+            0.654582910207645,
+            2.1560615083433917e-05,
+            2.1560615083433917e-05
+          ],
+          "below": [
+            0.33882977255507074,
+            0.33882977255507074,
+            0.9671791758878664,
+            0.9671791758878664
+          ],
+          "failed": [
+            0.0065873172372841815,
+            0.0065873172372841815,
+            0.03279926349705019,
+            0.03279926349705019
+          ]
+        }
+      },
+      {
+        "id": "make-binder-rich",
+        "kind": "make",
+        "recipe": "binder-rich",
+        "cost": 4,
+        "specimen": "fresh-binder-rich",
+        "success_outcomes": [
+          "above",
+          "below"
+        ],
+        "stock_lot": "incoming-stock-01",
+        "design": {
+          "a": 0.75,
+          "b": 0.15,
+          "c": 0.1,
+          "route": "cast",
+          "cure": 0.65
+        },
+        "group_id": "independent-prep-binder-rich",
+        "registry_return": {
+          "target": "toughness",
+          "threshold": 7.0,
+          "below": "below",
+          "at_or_above": "above",
+          "failure": "failed"
+        },
+        "likelihoods": {
+          "above": [
+            0.9944701478224895,
+            0.9944701478224895,
+            0.024271715591329384,
+            0.024271715591329384
+          ],
+          "below": [
+            0.0013571083777275392,
+            0.0013571083777275392,
+            0.924796814155727,
+            0.924796814155727
+          ],
+          "failed": [
+            0.004172743799782958,
+            0.004172743799782958,
+            0.05093147025294352,
+            0.05093147025294352
+          ]
+        }
+      },
+      {
+        "id": "make-binder-lean",
+        "kind": "make",
+        "recipe": "binder-lean",
+        "cost": 4,
+        "specimen": "fresh-binder-lean",
+        "success_outcomes": [
+          "above",
+          "below"
+        ],
+        "stock_lot": "incoming-stock-01",
+        "design": {
+          "a": 0.15,
+          "b": 0.55,
+          "c": 0.3,
+          "route": "cast",
+          "cure": 0.65
+        },
+        "group_id": "independent-prep-binder-lean",
+        "registry_return": {
+          "target": "toughness",
+          "threshold": 7.0,
+          "below": "below",
+          "at_or_above": "above",
+          "failure": "failed"
+        },
+        "likelihoods": {
+          "above": [
+            0.8091468510705111,
+            0.8091468510705111,
+            0.44327662082443076,
+            0.44327662082443076
+          ],
+          "below": [
+            0.17936630979989227,
+            0.17936630979989227,
+            0.537739523504513,
+            0.537739523504513
+          ],
+          "failed": [
+            0.011486839129596605,
+            0.011486839129596605,
+            0.01898385567105625,
+            0.01898385567105625
+          ]
+        }
+      }
+    ]
+  },
+  "policy_sha256": "e268633fc941e3404ba300088c41a3da048dceb41e937c766b59e5007058e89e",
+  "world_order": [
+    "low/weak",
+    "low/strong",
+    "high/weak",
+    "high/strong"
+  ],
+  "training": {
+    "estimator": "PerformanceModel, group-weighted Bayesian mixture response surface",
+    "groups": 72,
+    "snapshot_sha256": "870c1d77eab7c357c99107b3595b9d57b35250763bf3f17a1d4a267f5f1c9365",
+    "seed": 5837,
+    "historical_stock_levels_pa_s": [
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5,
+      6.5
+    ],
+    "target_units": {
+      "transmission": "fraction",
+      "toughness": "kJ/m2"
+    },
+    "population_utility": "E[0.5*transmission + 0.5*toughness/(toughness+5)] on a successful fresh preparation, excluding meter error"
+  },
+  "initial_evidence": {
+    "stock_lot": "incoming-stock-01",
+    "carrier_viscosity_pa_s": 4.0,
+    "reference_specimen": "reference-archive",
+    "reference_group": "archived-reference-prep",
+    "stock_assay_sd_pa_s": 0.8,
+    "strength_cut_kj_m2": 7.0
+  },
+  "assumptions": [
+    "The balanced prior describes the population after enrollment with an accepted reference specimen.",
+    "A stock assay observes one noisy reading; only its band enters the policy.",
+    "The archived specimen retains its preparation offset on rereading. A fresh make draws a new offset.",
+    "The synthetic lab uses its own population response equations. The policy's scenario responses come from the fitted historical surrogate, with declared make-failure and instrument noise models."
+  ],
+  "description": "Two formulations share an incoming stock lot. The binder-rich recipe uses 75% of it; the binder-lean recipe uses 15%. The carrier is 4 Pa s. A paid viscometer assay reports whether the stock reads below or above 4 Pa s.",
+  "episodes": [
+    {
+      "world": "low/weak",
+      "shared": {
+        "policy_sha256": "e268633fc941e3404ba300088c41a3da048dceb41e937c766b59e5007058e89e",
+        "budget": 5,
+        "remaining": 0,
+        "spent": 5,
+        "pending": null,
+        "finished": true,
+        "events": [
+          {
+            "action_id": "assay-stock",
+            "before": {
+              "expected_recipe_utility": {
+                "binder-lean": 0.6347857491593679,
+                "binder-rich": 0.6314588610730284,
+                "reference": 0.5267084384050529
+              },
+              "posterior": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+              ],
+              "qualified": [
+                "reference"
+              ],
+              "specimens": [
+                "reference-archive"
+              ]
+            },
+            "credits_after": 4,
+            "credits_before": 5,
+            "decision": {
+              "action_id": "assay-stock",
+              "alternatives": [
+                {
+                  "action_id": "stop",
+                  "cost": 0,
+                  "expected_value": 0.5267084384050529,
+                  "kind": "stop",
+                  "outcomes": {},
+                  "recipe": "reference"
+                },
+                {
+                  "action_id": "assay-stock",
+                  "cost": 1,
+                  "expected_value": 0.6788307843944641,
+                  "kind": "assay",
+                  "outcomes": {
+                    "high": 0.5,
+                    "low": 0.5
+                  },
+                  "recipe": null
+                },
+                {
+                  "action_id": "reread-reference",
+                  "cost": 1,
+                  "expected_value": 0.6485821044469332,
+                  "kind": "reread",
+                  "outcomes": {
+                    "above": 0.25175024037898075,
+                    "below": 0.7482497596210193
+                  },
+                  "recipe": "reference"
+                },
+                {
+                  "action_id": "make-binder-lean",
+                  "cost": 4,
+                  "expected_value": 0.6207593207501081,
+                  "kind": "make",
+                  "outcomes": {
+                    "above": 0.6262117359474709,
+                    "below": 0.3585529166522027,
+                    "failed": 0.015235347400326428
+                  },
+                  "recipe": "binder-lean"
+                },
+                {
+                  "action_id": "make-binder-rich",
+                  "cost": 4,
+                  "expected_value": 0.6171850839730437,
+                  "kind": "make",
+                  "outcomes": {
+                    "above": 0.5093709317069095,
+                    "below": 0.46307696126672726,
+                    "failed": 0.027552107026363237
+                  },
+                  "recipe": "binder-rich"
+                },
+                {
+                  "action_id": "remake-reference",
+                  "cost": 4,
+                  "expected_value": 0.5147084384050529,
+                  "kind": "remake",
+                  "outcomes": {
+                    "above": 0.3273022354113642,
+                    "below": 0.6530044742214686,
+                    "failed": 0.019693290367167184
+                  },
+                  "recipe": "reference"
+                }
+              ],
+              "cost": 1,
+              "expected_value": 0.6788307843944641,
+              "ineligible": {},
+              "kind": "assay",
+              "outcomes": {
+                "high": 0.5,
+                "low": 0.5
+              },
+              "recipe": null,
+              "terminal_recipe": "reference",
+              "terminal_value": 0.5267084384050529
+            },
+            "decision_sha256": "82ee9f91c8b4f238edab79916c50f218441e36e3cbeb5888c627dadb21bb456b",
+            "policy_sha256": "e268633fc941e3404ba300088c41a3da048dceb41e937c766b59e5007058e89e",
+            "request": {
+              "cost": 1,
+              "id": "assay-stock",
+              "kind": "assay",
+              "observable": {
+                "at_or_above": "high",
+                "below": "low",
+                "name": "stock viscosity",
+                "threshold": 4.0,
+                "unit": "Pa s"
+              },
+              "stock_lot": "incoming-stock-01"
+            },
+            "step": 1,
+            "outcome": "low",
+            "receipt": {
+              "action_id": "assay-stock",
+              "cost": 1,
+              "group_id": null,
+              "kind": "assay",
+              "measurement": {
+                "band": "low",
+                "name": "stock viscosity",
+                "threshold": 4.0,
+                "unit": "Pa s",
+                "value": 1.9394186501063682
+              },
+              "observation": "low",
+              "recipe": null,
+              "run_id": "return-assay-stock",
+              "specimen_id": null,
+              "stock_lot": "incoming-stock-01"
+            },
+            "after": {
+              "expected_recipe_utility": {
+                "binder-lean": 0.6719371334237763,
+                "binder-rich": 0.7945461772021211,
+                "reference": 0.663930500041167
+              },
+              "posterior": [
+                0.496895167337112,
+                0.496895167337112,
+                0.0031048326628880796,
+                0.0031048326628880796
+              ],
+              "qualified": [
+                "reference"
+              ],
+              "specimens": [
+                "reference-archive"
+              ]
+            }
+          },
+          {
+            "action_id": "make-binder-rich",
+            "before": {
+              "expected_recipe_utility": {
+                "binder-lean": 0.6719371334237763,
+                "binder-rich": 0.7945461772021211,
+                "reference": 0.663930500041167
+              },
+              "posterior": [
+                0.496895167337112,
+                0.496895167337112,
+                0.0031048326628880796,
+                0.0031048326628880796
+              ],
+              "qualified": [
+                "reference"
+              ],
+              "specimens": [
+                "reference-archive"
+              ]
+            },
+            "credits_after": 0,
+            "credits_before": 4,
+            "decision": {
+              "action_id": "make-binder-rich",
+              "alternatives": [
+                {
+                  "action_id": "stop",
+                  "cost": 0,
+                  "expected_value": 0.663930500041167,
+                  "kind": "stop",
+                  "outcomes": {},
+                  "recipe": "reference"
+                },
+                {
+                  "action_id": "reread-reference",
+                  "cost": 1,
+                  "expected_value": 0.660930500041167,
+                  "kind": "reread",
+                  "outcomes": {
+                    "above": 0.4978546199766087,
+                    "below": 0.5021453800233914
+                  },
+                  "recipe": "reference"
+                },
+                {
+                  "action_id": "make-binder-lean",
+                  "cost": 4,
+                  "expected_value": 0.6598354138149034,
+                  "kind": "make",
+                  "outcomes": {
+                    "above": 0.8068749193880184,
+                    "below": 0.18159168751872085,
+                    "failed": 0.01153339309326088
+                  },
+                  "recipe": "binder-lean"
+                },
+                {
+                  "action_id": "make-binder-rich",
+                  "cost": 4,
+                  "expected_value": 0.7819783411036153,
+                  "kind": "make",
+                  "outcomes": {
+                    "above": 0.9884455402587414,
+                    "below": 0.007091359899142121,
+                    "failed": 0.004463099842116602
+                  },
+                  "recipe": "binder-rich"
+                },
+                {
+                  "action_id": "remake-reference",
+                  "cost": 4,
+                  "expected_value": 0.6519305000411669,
+                  "kind": "remake",
+                  "outcomes": {
+                    "above": 0.6505183032914869,
+                    "below": 0.3427316120574186,
+                    "failed": 0.006750084651094559
+                  },
+                  "recipe": "reference"
+                }
+              ],
+              "cost": 4,
+              "expected_value": 0.7819783411036153,
+              "ineligible": {
+                "assay-stock": "already_executed"
+              },
+              "kind": "make",
+              "outcomes": {
+                "above": 0.9884455402587414,
+                "below": 0.007091359899142121,
+                "failed": 0.004463099842116602
+              },
+              "recipe": "binder-rich",
+              "terminal_recipe": "reference",
+              "terminal_value": 0.663930500041167
+            },
+            "decision_sha256": "a75f4a268a1935488405ce15bfe4d7c5b7bc7d10a5d9c2c1daaa2b8cd4e53570",
+            "policy_sha256": "e268633fc941e3404ba300088c41a3da048dceb41e937c766b59e5007058e89e",
+            "request": {
+              "cost": 4,
+              "design": {
+                "a": 0.75,
+                "b": 0.15,
+                "c": 0.1,
+                "cure": 0.65,
+                "route": "cast"
+              },
+              "group_id": "independent-prep-binder-rich",
+              "id": "make-binder-rich",
+              "kind": "make",
+              "recipe": "binder-rich",
+              "registry_return": {
+                "at_or_above": "above",
+                "below": "below",
+                "failure": "failed",
+                "target": "toughness",
+                "threshold": 7.0
+              },
+              "specimen": "fresh-binder-rich",
+              "stock_lot": "incoming-stock-01",
+              "success_outcomes": [
+                "above",
+                "below"
+              ]
+            },
+            "step": 2,
+            "outcome": "above",
+            "receipt": {
+              "action_id": "make-binder-rich",
+              "cost": 4,
+              "group_id": "independent-prep-binder-rich",
+              "kind": "make",
+              "measurement": {
+                "band": "above",
+                "name": "toughness",
+                "threshold": 7.0,
+                "unit": "kJ/m2",
+                "value": 11.84882482995847
+              },
+              "observation": "above",
+              "recipe": "binder-rich",
+              "registry_action": "use",
+              "registry_record": {
+                "design": {
+                  "a": 0.75,
+                  "b": 0.15,
+                  "c": 0.1,
+                  "cure": 0.65,
+                  "route": "cast"
+                },
+                "evidence": {
+                  "instrument_check_passed": true,
+                  "protocol_followed": true,
+                  "sample_identity_confirmed": true
+                },
+                "group_id": "independent-prep-binder-rich",
+                "make_status": "success",
+                "run_id": "return-make-binder-rich",
+                "source_id": "synthetic-fixture#make-binder-rich",
+                "specimen_id": "fresh-binder-rich",
+                "stock_lot": "incoming-stock-01",
+                "targets": {
+                  "toughness": {
+                    "unit": "kJ/m2",
+                    "value": 11.84882482995847
+                  },
+                  "transmission": {
+                    "unit": "fraction",
+                    "value": 0.913601382872214
+                  }
+                }
+              },
+              "registry_sha256": "ff9530f3dcf7de2c3953f6decb14b7c4a43f9457a7eaff6e4c8b5b5eebd46ba5",
+              "run_id": "return-make-binder-rich",
+              "specimen_id": "fresh-binder-rich",
+              "stock_lot": "incoming-stock-01",
+              "targets": {
+                "toughness": 11.84882482995847,
+                "transmission": 0.913601382872214
+              }
+            },
+            "after": {
+              "expected_recipe_utility": {
+                "binder-lean": 0.6723928587876687,
+                "binder-rich": 0.796546722483563,
+                "reference": 0.665613763672157
+              },
+              "posterior": [
+                0.4999237594664724,
+                0.4999237594664724,
+                7.624053352758595e-05,
+                7.624053352758595e-05
+              ],
+              "qualified": [
+                "binder-rich",
+                "reference"
+              ],
+              "specimens": [
+                "fresh-binder-rich",
+                "reference-archive"
+              ]
+            }
+          },
+          {
+            "action_id": "stop",
+            "before": {
+              "expected_recipe_utility": {
+                "binder-lean": 0.6723928587876687,
+                "binder-rich": 0.796546722483563,
+                "reference": 0.665613763672157
+              },
+              "posterior": [
+                0.4999237594664724,
+                0.4999237594664724,
+                7.624053352758595e-05,
+                7.624053352758595e-05
+              ],
+              "qualified": [
+                "binder-rich",
+                "reference"
+              ],
+              "specimens": [
+                "fresh-binder-rich",
+                "reference-archive"
+              ]
+            },
+            "credits_after": 0,
+            "credits_before": 0,
+            "decision": {
+              "action_id": "stop",
+              "alternatives": [
+                {
+                  "action_id": "stop",
+                  "cost": 0,
+                  "expected_value": 0.796546722483563,
+                  "kind": "stop",
+                  "outcomes": {},
+                  "recipe": "binder-rich"
+                }
+              ],
+              "cost": 0,
+              "expected_value": 0.796546722483563,
+              "ineligible": {
+                "assay-stock": "already_executed",
+                "make-binder-lean": "insufficient_credits",
+                "make-binder-rich": "already_executed",
+                "remake-reference": "insufficient_credits",
+                "reread-reference": "insufficient_credits"
+              },
+              "kind": "stop",
+              "outcomes": {},
+              "recipe": "binder-rich",
+              "terminal_recipe": "binder-rich",
+              "terminal_value": 0.796546722483563
+            },
+            "decision_sha256": "b4817e5a538dddd5423e35e43601d2a4c7d6fa8385983647764e7f991e78e722",
+            "policy_sha256": "e268633fc941e3404ba300088c41a3da048dceb41e937c766b59e5007058e89e",
+            "request": {},
+            "step": 3
+          }
+        ],
+        "terminal_recipe": "binder-rich",
+        "simulated_terminal_utility": 0.8107245858191017,
+        "simulated_net_utility": 0.7957245858191017
+      },
+      "make_only": {
+        "policy_sha256": "c6e4f8da0e10589e9edc412a4d4de626d9e46d77f64061d89c93f6e5d1fff7a8",
+        "budget": 5,
+        "remaining": 1,
+        "spent": 4,
+        "pending": null,
+        "finished": true,
+        "events": [
+          {
+            "action_id": "make-binder-lean",
+            "before": {
+              "expected_recipe_utility": {
+                "binder-lean": 0.6347857491593679,
+                "binder-rich": 0.6314588610730284,
+                "reference": 0.5267084384050529
+              },
+              "posterior": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+              ],
+              "qualified": [
+                "reference"
+              ],
+              "specimens": [
+                "reference-archive"
+              ]
+            },
+            "credits_after": 1,
+            "credits_before": 5,
+            "decision": {
+              "action_id": "make-binder-lean",
+              "alternatives": [
+                {
+                  "action_id": "stop",
+                  "cost": 0,
+                  "expected_value": 0.5267084384050529,
+                  "kind": "stop",
+                  "outcomes": {},
+                  "recipe": "reference"
+                },
+                {
+                  "action_id": "make-binder-lean",
+                  "cost": 4,
+                  "expected_value": 0.6207593207501081,
+                  "kind": "make",
+                  "outcomes": {
+                    "above": 0.6262117359474709,
+                    "below": 0.3585529166522027,
+                    "failed": 0.015235347400326428
+                  },
+                  "recipe": "binder-lean"
+                },
+                {
+                  "action_id": "make-binder-rich",
+                  "cost": 4,
+                  "expected_value": 0.6171850839730437,
+                  "kind": "make",
+                  "outcomes": {
+                    "above": 0.5093709317069095,
+                    "below": 0.46307696126672726,
+                    "failed": 0.027552107026363237
+                  },
+                  "recipe": "binder-rich"
+                },
+                {
+                  "action_id": "remake-reference",
+                  "cost": 4,
+                  "expected_value": 0.5147084384050529,
+                  "kind": "remake",
+                  "outcomes": {
+                    "above": 0.3273022354113642,
+                    "below": 0.6530044742214686,
+                    "failed": 0.019693290367167184
+                  },
+                  "recipe": "reference"
+                }
+              ],
+              "cost": 4,
+              "expected_value": 0.6207593207501081,
+              "ineligible": {},
+              "kind": "make",
+              "outcomes": {
+                "above": 0.6262117359474709,
+                "below": 0.3585529166522027,
+                "failed": 0.015235347400326428
+              },
+              "recipe": "binder-lean",
+              "terminal_recipe": "reference",
+              "terminal_value": 0.5267084384050529
+            },
+            "decision_sha256": "3a4de84def4b52b8f91b184c8fbb95eaaafcc3a7023959e25e89aca745de21ca",
+            "policy_sha256": "c6e4f8da0e10589e9edc412a4d4de626d9e46d77f64061d89c93f6e5d1fff7a8",
+            "request": {
+              "cost": 4,
+              "design": {
+                "a": 0.15,
+                "b": 0.55,
+                "c": 0.3,
+                "cure": 0.65,
+                "route": "cast"
+              },
+              "group_id": "independent-prep-binder-lean",
+              "id": "make-binder-lean",
+              "kind": "make",
+              "recipe": "binder-lean",
+              "registry_return": {
+                "at_or_above": "above",
+                "below": "below",
+                "failure": "failed",
+                "target": "toughness",
+                "threshold": 7.0
+              },
+              "specimen": "fresh-binder-lean",
+              "stock_lot": "incoming-stock-01",
+              "success_outcomes": [
+                "above",
+                "below"
+              ]
+            },
+            "step": 1,
+            "outcome": "above",
+            "receipt": {
+              "action_id": "make-binder-lean",
+              "cost": 4,
+              "group_id": "independent-prep-binder-lean",
+              "kind": "make",
+              "measurement": {
+                "band": "above",
+                "name": "toughness",
+                "threshold": 7.0,
+                "unit": "kJ/m2",
+                "value": 10.17238350078493
+              },
+              "observation": "above",
+              "recipe": "binder-lean",
+              "registry_action": "use",
+              "registry_record": {
+                "design": {
+                  "a": 0.15,
+                  "b": 0.55,
+                  "c": 0.3,
+                  "cure": 0.65,
+                  "route": "cast"
+                },
+                "evidence": {
+                  "instrument_check_passed": true,
+                  "protocol_followed": true,
+                  "sample_identity_confirmed": true
+                },
+                "group_id": "independent-prep-binder-lean",
+                "make_status": "success",
+                "run_id": "return-make-binder-lean",
+                "source_id": "synthetic-fixture#make-binder-lean",
+                "specimen_id": "fresh-binder-lean",
+                "stock_lot": "incoming-stock-01",
+                "targets": {
+                  "toughness": {
+                    "unit": "kJ/m2",
+                    "value": 10.17238350078493
+                  },
+                  "transmission": {
+                    "unit": "fraction",
+                    "value": 0.7716768243783192
+                  }
+                }
+              },
+              "registry_sha256": "b9c7b1907cb58908753ba40794a77c1966c632a580b8369b1253a14341589b56",
+              "run_id": "return-make-binder-lean",
+              "specimen_id": "fresh-binder-lean",
+              "stock_lot": "incoming-stock-01",
+              "targets": {
+                "toughness": 10.17238350078493,
+                "transmission": 0.7716768243783192
+              }
+            },
+            "after": {
+              "expected_recipe_utility": {
+                "binder-lean": 0.645775258314736,
+                "binder-rich": 0.6797006584975753,
+                "reference": 0.5672992032588207
+              },
+              "posterior": [
+                0.3230324523726211,
+                0.3230324523726211,
+                0.17696754762737887,
+                0.17696754762737887
+              ],
+              "qualified": [
+                "binder-lean",
+                "reference"
+              ],
+              "specimens": [
+                "fresh-binder-lean",
+                "reference-archive"
+              ]
+            }
+          },
+          {
+            "action_id": "stop",
+            "before": {
+              "expected_recipe_utility": {
+                "binder-lean": 0.645775258314736,
+                "binder-rich": 0.6797006584975753,
+                "reference": 0.5672992032588207
+              },
+              "posterior": [
+                0.3230324523726211,
+                0.3230324523726211,
+                0.17696754762737887,
+                0.17696754762737887
+              ],
+              "qualified": [
+                "binder-lean",
+                "reference"
+              ],
+              "specimens": [
+                "fresh-binder-lean",
+                "reference-archive"
+              ]
+            },
+            "credits_after": 1,
+            "credits_before": 1,
+            "decision": {
+              "action_id": "stop",
+              "alternatives": [
+                {
+                  "action_id": "stop",
+                  "cost": 0,
+                  "expected_value": 0.645775258314736,
+                  "kind": "stop",
+                  "outcomes": {},
+                  "recipe": "binder-lean"
+                }
+              ],
+              "cost": 0,
+              "expected_value": 0.645775258314736,
+              "ineligible": {
+                "make-binder-lean": "already_executed",
+                "make-binder-rich": "insufficient_credits",
+                "remake-reference": "insufficient_credits"
+              },
+              "kind": "stop",
+              "outcomes": {},
+              "recipe": "binder-lean",
+              "terminal_recipe": "binder-lean",
+              "terminal_value": 0.645775258314736
+            },
+            "decision_sha256": "5d63886e9608d842a62e4cf89d8c45c2d99e5cadd5efc5f1c52b40a3024d3f1a",
+            "policy_sha256": "c6e4f8da0e10589e9edc412a4d4de626d9e46d77f64061d89c93f6e5d1fff7a8",
+            "request": {},
+            "step": 2
+          }
+        ],
+        "terminal_recipe": "binder-lean",
+        "simulated_terminal_utility": 0.6751132499798354,
+        "simulated_net_utility": 0.6631132499798353
+      }
+    },
+    {
+      "world": "high/weak",
+      "shared": {
+        "policy_sha256": "e268633fc941e3404ba300088c41a3da048dceb41e937c766b59e5007058e89e",
+        "budget": 5,
+        "remaining": 0,
+        "spent": 5,
+        "pending": null,
+        "finished": true,
+        "events": [
+          {
+            "action_id": "assay-stock",
+            "before": {
+              "expected_recipe_utility": {
+                "binder-lean": 0.6347857491593679,
+                "binder-rich": 0.6314588610730284,
+                "reference": 0.5267084384050529
+              },
+              "posterior": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+              ],
+              "qualified": [
+                "reference"
+              ],
+              "specimens": [
+                "reference-archive"
+              ]
+            },
+            "credits_after": 4,
+            "credits_before": 5,
+            "decision": {
+              "action_id": "assay-stock",
+              "alternatives": [
+                {
+                  "action_id": "stop",
+                  "cost": 0,
+                  "expected_value": 0.5267084384050529,
+                  "kind": "stop",
+                  "outcomes": {},
+                  "recipe": "reference"
+                },
+                {
+                  "action_id": "assay-stock",
+                  "cost": 1,
+                  "expected_value": 0.6788307843944641,
+                  "kind": "assay",
+                  "outcomes": {
+                    "high": 0.5,
+                    "low": 0.5
+                  },
+                  "recipe": null
+                },
+                {
+                  "action_id": "reread-reference",
+                  "cost": 1,
+                  "expected_value": 0.6485821044469332,
+                  "kind": "reread",
+                  "outcomes": {
+                    "above": 0.25175024037898075,
+                    "below": 0.7482497596210193
+                  },
+                  "recipe": "reference"
+                },
+                {
+                  "action_id": "make-binder-lean",
+                  "cost": 4,
+                  "expected_value": 0.6207593207501081,
+                  "kind": "make",
+                  "outcomes": {
+                    "above": 0.6262117359474709,
+                    "below": 0.3585529166522027,
+                    "failed": 0.015235347400326428
+                  },
+                  "recipe": "binder-lean"
+                },
+                {
+                  "action_id": "make-binder-rich",
+                  "cost": 4,
+                  "expected_value": 0.6171850839730437,
+                  "kind": "make",
+                  "outcomes": {
+                    "above": 0.5093709317069095,
+                    "below": 0.46307696126672726,
+                    "failed": 0.027552107026363237
+                  },
+                  "recipe": "binder-rich"
+                },
+                {
+                  "action_id": "remake-reference",
+                  "cost": 4,
+                  "expected_value": 0.5147084384050529,
+                  "kind": "remake",
+                  "outcomes": {
+                    "above": 0.3273022354113642,
+                    "below": 0.6530044742214686,
+                    "failed": 0.019693290367167184
+                  },
+                  "recipe": "reference"
+                }
+              ],
+              "cost": 1,
+              "expected_value": 0.6788307843944641,
+              "ineligible": {},
+              "kind": "assay",
+              "outcomes": {
+                "high": 0.5,
+                "low": 0.5
+              },
+              "recipe": null,
+              "terminal_recipe": "reference",
+              "terminal_value": 0.5267084384050529
+            },
+            "decision_sha256": "82ee9f91c8b4f238edab79916c50f218441e36e3cbeb5888c627dadb21bb456b",
+            "policy_sha256": "e268633fc941e3404ba300088c41a3da048dceb41e937c766b59e5007058e89e",
+            "request": {
+              "cost": 1,
+              "id": "assay-stock",
+              "kind": "assay",
+              "observable": {
+                "at_or_above": "high",
+                "below": "low",
+                "name": "stock viscosity",
+                "threshold": 4.0,
+                "unit": "Pa s"
+              },
+              "stock_lot": "incoming-stock-01"
+            },
+            "step": 1,
+            "outcome": "high",
+            "receipt": {
+              "action_id": "assay-stock",
+              "cost": 1,
+              "group_id": null,
+              "kind": "assay",
+              "measurement": {
+                "band": "high",
+                "name": "stock viscosity",
+                "threshold": 4.0,
+                "unit": "Pa s",
+                "value": 5.939418650106369
+              },
+              "observation": "high",
+              "recipe": null,
+              "run_id": "return-assay-stock",
+              "specimen_id": null,
+              "stock_lot": "incoming-stock-01"
+            },
+            "after": {
+              "expected_recipe_utility": {
+                "binder-lean": 0.5976343648949596,
+                "binder-rich": 0.4683715449439359,
+                "reference": 0.38948637676893877
+              },
+              "posterior": [
+                0.0031048326628880657,
+                0.0031048326628880657,
+                0.496895167337112,
+                0.496895167337112
+              ],
+              "qualified": [
+                "reference"
+              ],
+              "specimens": [
+                "reference-archive"
+              ]
+            }
+          },
+          {
+            "action_id": "make-binder-lean",
+            "before": {
+              "expected_recipe_utility": {
+                "binder-lean": 0.5976343648949596,
+                "binder-rich": 0.4683715449439359,
+                "reference": 0.38948637676893877
+              },
+              "posterior": [
+                0.0031048326628880657,
+                0.0031048326628880657,
+                0.496895167337112,
+                0.496895167337112
+              ],
+              "qualified": [
+                "reference"
+              ],
+              "specimens": [
+                "reference-archive"
+              ]
+            },
+            "credits_after": 0,
+            "credits_before": 4,
+            "decision": {
+              "action_id": "make-binder-lean",
+              "alternatives": [
+                {
+                  "action_id": "stop",
+                  "cost": 0,
+                  "expected_value": 0.38948637676893877,
+                  "kind": "stop",
+                  "outcomes": {},
+                  "recipe": "reference"
+                },
+                {
+                  "action_id": "reread-reference",
+                  "cost": 1,
+                  "expected_value": 0.38648637676893877,
+                  "kind": "reread",
+                  "outcomes": {
+                    "above": 0.005645860781352806,
+                    "below": 0.9943541392186472
+                  },
+                  "recipe": "reference"
+                },
+                {
+                  "action_id": "make-binder-lean",
+                  "cost": 4,
+                  "expected_value": 0.5816832276853129,
+                  "kind": "make",
+                  "outcomes": {
+                    "above": 0.4455485525069236,
+                    "below": 0.5355141457856846,
+                    "failed": 0.01893730170739198
+                  },
+                  "recipe": "binder-lean"
+                },
+                {
+                  "action_id": "make-binder-rich",
+                  "cost": 4,
+                  "expected_value": 0.452391826842472,
+                  "kind": "make",
+                  "outcomes": {
+                    "above": 0.030296323155077583,
+                    "below": 0.9190625626343125,
+                    "failed": 0.050641114210609885
+                  },
+                  "recipe": "binder-rich"
+                },
+                {
+                  "action_id": "remake-reference",
+                  "cost": 4,
+                  "expected_value": 0.37748637676893876,
+                  "kind": "remake",
+                  "outcomes": {
+                    "above": 0.0040861675312415914,
+                    "below": 0.9632773363855187,
+                    "failed": 0.03263649608323981
+                  },
+                  "recipe": "reference"
+                }
+              ],
+              "cost": 4,
+              "expected_value": 0.5816832276853129,
+              "ineligible": {
+                "assay-stock": "already_executed"
+              },
+              "kind": "make",
+              "outcomes": {
+                "above": 0.4455485525069236,
+                "below": 0.5355141457856846,
+                "failed": 0.01893730170739198
+              },
+              "recipe": "binder-lean",
+              "terminal_recipe": "reference",
+              "terminal_value": 0.38948637676893877
+            },
+            "decision_sha256": "28e99d7c748e5619a5a5fe9b239b26e66fe33df7a56b5a0fdda431f6a33db3dd",
+            "policy_sha256": "e268633fc941e3404ba300088c41a3da048dceb41e937c766b59e5007058e89e",
+            "request": {
+              "cost": 4,
+              "design": {
+                "a": 0.15,
+                "b": 0.55,
+                "c": 0.3,
+                "cure": 0.65,
+                "route": "cast"
+              },
+              "group_id": "independent-prep-binder-lean",
+              "id": "make-binder-lean",
+              "kind": "make",
+              "recipe": "binder-lean",
+              "registry_return": {
+                "at_or_above": "above",
+                "below": "below",
+                "failure": "failed",
+                "target": "toughness",
+                "threshold": 7.0
+              },
+              "specimen": "fresh-binder-lean",
+              "stock_lot": "incoming-stock-01",
+              "success_outcomes": [
+                "above",
+                "below"
+              ]
+            },
+            "step": 2,
+            "outcome": "above",
+            "receipt": {
+              "action_id": "make-binder-lean",
+              "cost": 4,
+              "group_id": "independent-prep-binder-lean",
+              "kind": "make",
+              "measurement": {
+                "band": "above",
+                "name": "toughness",
+                "threshold": 7.0,
+                "unit": "kJ/m2",
+                "value": 8.651014077452729
+              },
+              "observation": "above",
+              "recipe": "binder-lean",
+              "registry_action": "use",
+              "registry_record": {
+                "design": {
+                  "a": 0.15,
+                  "b": 0.55,
+                  "c": 0.3,
+                  "cure": 0.65,
+                  "route": "cast"
+                },
+                "evidence": {
+                  "instrument_check_passed": true,
+                  "protocol_followed": true,
+                  "sample_identity_confirmed": true
+                },
+                "group_id": "independent-prep-binder-lean",
+                "make_status": "success",
+                "run_id": "return-make-binder-lean",
+                "source_id": "synthetic-fixture#make-binder-lean",
+                "specimen_id": "fresh-binder-lean",
+                "stock_lot": "incoming-stock-01",
+                "targets": {
+                  "toughness": {
+                    "unit": "kJ/m2",
+                    "value": 8.651014077452729
+                  },
+                  "transmission": {
+                    "unit": "fraction",
+                    "value": 0.6632483474585841
+                  }
+                }
+              },
+              "registry_sha256": "6fe6a843c1acf17d0929ed5794b2875e7bd77bbf2723231050b635059d3a8a98",
+              "run_id": "return-make-binder-lean",
+              "specimen_id": "fresh-binder-lean",
+              "stock_lot": "incoming-stock-01",
+              "targets": {
+                "toughness": 8.651014077452729,
+                "transmission": 0.6632483474585841
+              }
+            },
+            "after": {
+              "expected_recipe_utility": {
+                "binder-lean": 0.5980156303126271,
+                "binder-rich": 0.470045225613751,
+                "reference": 0.3908946157263494
+              },
+              "posterior": [
+                0.00563858990931793,
+                0.00563858990931793,
+                0.4943614100906821,
+                0.4943614100906821
+              ],
+              "qualified": [
+                "binder-lean",
+                "reference"
+              ],
+              "specimens": [
+                "fresh-binder-lean",
+                "reference-archive"
+              ]
+            }
+          },
+          {
+            "action_id": "stop",
+            "before": {
+              "expected_recipe_utility": {
+                "binder-lean": 0.5980156303126271,
+                "binder-rich": 0.470045225613751,
+                "reference": 0.3908946157263494
+              },
+              "posterior": [
+                0.00563858990931793,
+                0.00563858990931793,
+                0.4943614100906821,
+                0.4943614100906821
+              ],
+              "qualified": [
+                "binder-lean",
+                "reference"
+              ],
+              "specimens": [
+                "fresh-binder-lean",
+                "reference-archive"
+              ]
+            },
+            "credits_after": 0,
+            "credits_before": 0,
+            "decision": {
+              "action_id": "stop",
+              "alternatives": [
+                {
+                  "action_id": "stop",
+                  "cost": 0,
+                  "expected_value": 0.5980156303126271,
+                  "kind": "stop",
+                  "outcomes": {},
+                  "recipe": "binder-lean"
+                }
+              ],
+              "cost": 0,
+              "expected_value": 0.5980156303126271,
+              "ineligible": {
+                "assay-stock": "already_executed",
+                "make-binder-lean": "already_executed",
+                "make-binder-rich": "insufficient_credits",
+                "remake-reference": "insufficient_credits",
+                "reread-reference": "insufficient_credits"
+              },
+              "kind": "stop",
+              "outcomes": {},
+              "recipe": "binder-lean",
+              "terminal_recipe": "binder-lean",
+              "terminal_value": 0.5980156303126271
+            },
+            "decision_sha256": "4b62c8b58737255e16e3ccbc96f61bf63cb21cfcf65bf454762958a87c6bc979",
+            "policy_sha256": "e268633fc941e3404ba300088c41a3da048dceb41e937c766b59e5007058e89e",
+            "request": {},
+            "step": 3
+          }
+        ],
+        "terminal_recipe": "binder-lean",
+        "simulated_terminal_utility": 0.597267273653671,
+        "simulated_net_utility": 0.582267273653671
+      },
+      "make_only": {
+        "policy_sha256": "c6e4f8da0e10589e9edc412a4d4de626d9e46d77f64061d89c93f6e5d1fff7a8",
+        "budget": 5,
+        "remaining": 1,
+        "spent": 4,
+        "pending": null,
+        "finished": true,
+        "events": [
+          {
+            "action_id": "make-binder-lean",
+            "before": {
+              "expected_recipe_utility": {
+                "binder-lean": 0.6347857491593679,
+                "binder-rich": 0.6314588610730284,
+                "reference": 0.5267084384050529
+              },
+              "posterior": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+              ],
+              "qualified": [
+                "reference"
+              ],
+              "specimens": [
+                "reference-archive"
+              ]
+            },
+            "credits_after": 1,
+            "credits_before": 5,
+            "decision": {
+              "action_id": "make-binder-lean",
+              "alternatives": [
+                {
+                  "action_id": "stop",
+                  "cost": 0,
+                  "expected_value": 0.5267084384050529,
+                  "kind": "stop",
+                  "outcomes": {},
+                  "recipe": "reference"
+                },
+                {
+                  "action_id": "make-binder-lean",
+                  "cost": 4,
+                  "expected_value": 0.6207593207501081,
+                  "kind": "make",
+                  "outcomes": {
+                    "above": 0.6262117359474709,
+                    "below": 0.3585529166522027,
+                    "failed": 0.015235347400326428
+                  },
+                  "recipe": "binder-lean"
+                },
+                {
+                  "action_id": "make-binder-rich",
+                  "cost": 4,
+                  "expected_value": 0.6171850839730437,
+                  "kind": "make",
+                  "outcomes": {
+                    "above": 0.5093709317069095,
+                    "below": 0.46307696126672726,
+                    "failed": 0.027552107026363237
+                  },
+                  "recipe": "binder-rich"
+                },
+                {
+                  "action_id": "remake-reference",
+                  "cost": 4,
+                  "expected_value": 0.5147084384050529,
+                  "kind": "remake",
+                  "outcomes": {
+                    "above": 0.3273022354113642,
+                    "below": 0.6530044742214686,
+                    "failed": 0.019693290367167184
+                  },
+                  "recipe": "reference"
+                }
+              ],
+              "cost": 4,
+              "expected_value": 0.6207593207501081,
+              "ineligible": {},
+              "kind": "make",
+              "outcomes": {
+                "above": 0.6262117359474709,
+                "below": 0.3585529166522027,
+                "failed": 0.015235347400326428
+              },
+              "recipe": "binder-lean",
+              "terminal_recipe": "reference",
+              "terminal_value": 0.5267084384050529
+            },
+            "decision_sha256": "3a4de84def4b52b8f91b184c8fbb95eaaafcc3a7023959e25e89aca745de21ca",
+            "policy_sha256": "c6e4f8da0e10589e9edc412a4d4de626d9e46d77f64061d89c93f6e5d1fff7a8",
+            "request": {
+              "cost": 4,
+              "design": {
+                "a": 0.15,
+                "b": 0.55,
+                "c": 0.3,
+                "cure": 0.65,
+                "route": "cast"
+              },
+              "group_id": "independent-prep-binder-lean",
+              "id": "make-binder-lean",
+              "kind": "make",
+              "recipe": "binder-lean",
+              "registry_return": {
+                "at_or_above": "above",
+                "below": "below",
+                "failure": "failed",
+                "target": "toughness",
+                "threshold": 7.0
+              },
+              "specimen": "fresh-binder-lean",
+              "stock_lot": "incoming-stock-01",
+              "success_outcomes": [
+                "above",
+                "below"
+              ]
+            },
+            "step": 1,
+            "outcome": "above",
+            "receipt": {
+              "action_id": "make-binder-lean",
+              "cost": 4,
+              "group_id": "independent-prep-binder-lean",
+              "kind": "make",
+              "measurement": {
+                "band": "above",
+                "name": "toughness",
+                "threshold": 7.0,
+                "unit": "kJ/m2",
+                "value": 8.651014077452729
+              },
+              "observation": "above",
+              "recipe": "binder-lean",
+              "registry_action": "use",
+              "registry_record": {
+                "design": {
+                  "a": 0.15,
+                  "b": 0.55,
+                  "c": 0.3,
+                  "cure": 0.65,
+                  "route": "cast"
+                },
+                "evidence": {
+                  "instrument_check_passed": true,
+                  "protocol_followed": true,
+                  "sample_identity_confirmed": true
+                },
+                "group_id": "independent-prep-binder-lean",
+                "make_status": "success",
+                "run_id": "return-make-binder-lean",
+                "source_id": "synthetic-fixture#make-binder-lean",
+                "specimen_id": "fresh-binder-lean",
+                "stock_lot": "incoming-stock-01",
+                "targets": {
+                  "toughness": {
+                    "unit": "kJ/m2",
+                    "value": 8.651014077452729
+                  },
+                  "transmission": {
+                    "unit": "fraction",
+                    "value": 0.6632483474585841
+                  }
+                }
+              },
+              "registry_sha256": "6fe6a843c1acf17d0929ed5794b2875e7bd77bbf2723231050b635059d3a8a98",
+              "run_id": "return-make-binder-lean",
+              "specimen_id": "fresh-binder-lean",
+              "stock_lot": "incoming-stock-01",
+              "targets": {
+                "toughness": 8.651014077452729,
+                "transmission": 0.6632483474585841
+              }
+            },
+            "after": {
+              "expected_recipe_utility": {
+                "binder-lean": 0.645775258314736,
+                "binder-rich": 0.6797006584975753,
+                "reference": 0.5672992032588207
+              },
+              "posterior": [
+                0.3230324523726211,
+                0.3230324523726211,
+                0.17696754762737887,
+                0.17696754762737887
+              ],
+              "qualified": [
+                "binder-lean",
+                "reference"
+              ],
+              "specimens": [
+                "fresh-binder-lean",
+                "reference-archive"
+              ]
+            }
+          },
+          {
+            "action_id": "stop",
+            "before": {
+              "expected_recipe_utility": {
+                "binder-lean": 0.645775258314736,
+                "binder-rich": 0.6797006584975753,
+                "reference": 0.5672992032588207
+              },
+              "posterior": [
+                0.3230324523726211,
+                0.3230324523726211,
+                0.17696754762737887,
+                0.17696754762737887
+              ],
+              "qualified": [
+                "binder-lean",
+                "reference"
+              ],
+              "specimens": [
+                "fresh-binder-lean",
+                "reference-archive"
+              ]
+            },
+            "credits_after": 1,
+            "credits_before": 1,
+            "decision": {
+              "action_id": "stop",
+              "alternatives": [
+                {
+                  "action_id": "stop",
+                  "cost": 0,
+                  "expected_value": 0.645775258314736,
+                  "kind": "stop",
+                  "outcomes": {},
+                  "recipe": "binder-lean"
+                }
+              ],
+              "cost": 0,
+              "expected_value": 0.645775258314736,
+              "ineligible": {
+                "make-binder-lean": "already_executed",
+                "make-binder-rich": "insufficient_credits",
+                "remake-reference": "insufficient_credits"
+              },
+              "kind": "stop",
+              "outcomes": {},
+              "recipe": "binder-lean",
+              "terminal_recipe": "binder-lean",
+              "terminal_value": 0.645775258314736
+            },
+            "decision_sha256": "5d63886e9608d842a62e4cf89d8c45c2d99e5cadd5efc5f1c52b40a3024d3f1a",
+            "policy_sha256": "c6e4f8da0e10589e9edc412a4d4de626d9e46d77f64061d89c93f6e5d1fff7a8",
+            "request": {},
+            "step": 2
+          }
+        ],
+        "terminal_recipe": "binder-lean",
+        "simulated_terminal_utility": 0.597267273653671,
+        "simulated_net_utility": 0.585267273653671
+      }
+    }
+  ]
+}

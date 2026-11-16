@@ -18,5 +18,23 @@ jobs:
       - run: python scripts/export_public.py --check-tracked
       - run: python -m pytest -q
       - run: python -m materials_workflow demo --output .local/ci-campaign
+      - run: python -m materials_workflow shared-budget --output .local/ci-shared-budget
+      - name: Compare the replayed lab decisions with the published paths
+        shell: python
+        run: |
+          import json
+          from pathlib import Path
+
+          def decisions(path):
+              summary = json.loads(Path(path).read_text(encoding="utf-8"))
+              fields = ("world", "assay_outcome", "next_make", "make_outcome",
+                        "terminal_recipe", "spent", "remaining", "switch_vs_direct")
+              paths = sorted(tuple(branch[key] for key in fields) for branch in summary["branches"])
+              return summary["budget"], summary["opening_action"], summary["direct_make"], paths
+
+          archived = decisions("results/shared_budget/summary.json")
+          replayed = decisions(".local/ci-shared-budget/summary.json")
+          if replayed != archived:
+              raise SystemExit(f"Shared-budget decisions differ. Archived {archived}. Replayed {replayed}.")
       - run: python -m crfml.cli all --output results
       - run: python scripts/export_public.py --destination dist/ci-export

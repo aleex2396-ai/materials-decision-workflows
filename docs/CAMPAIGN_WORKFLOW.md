@@ -1,6 +1,23 @@
 # Inside a materials decision campaign
 
-The scientist has two objectives for a fictional membrane: transmit light and resist fracture. Each candidate specifies a three-component mixture, a cure setting and a manufacturing route. Supplier certificates are incomplete, some assays go wrong, and each preparation uses part of a fixed budget. The experiment library, costs and instruments are invented. The software executes both sides of the loop. It can score a design supplied by the scientist or choose a batch from the library. [Worked campaign](../results/campaign/REPORT.md) · [Default preset](../src/materials_workflow/preset.json)
+The repository provides two executable planning workflows. A sequential policy buys one lab operation at a time to choose a reproducible formulation under a shared budget. A batch optimiser selects a group of formulations for prediction, manufacture and multiobjective evaluation. Both use synthetic materials, instruments and costs. [Sequential campaign](../results/shared_budget/REPORT.md) · [Batch campaign](../results/campaign/REPORT.md)
+
+## Choose the next operation under one budget
+
+An incoming-stock assay can be useful when two plausible assay results would lead to different formulations. A re-read of an existing specimen can resolve measurement uncertainty. An independent remake can supply evidence about reproducibility. These operations compete with the cost of making a new design, and with stopping and selecting an already qualified material.
+
+The sequential policy models a finite set of plausible material states. Each state assigns a reproducible utility to each candidate and a probability to each possible return from a lab action. Stopping earns the highest posterior expected utility among qualified materials and a fixed outside option. At history $h$ with $b$ credits, purchasing action $a$ has value
+
+$$
+Q(a\mid h,b)=-\lambda c_a+
+\sum_y P(y\mid h,a)\,V(h\cup\{(a,y)\},b-c_a).
+$$
+
+Here $c_a$ is the credit price, $\lambda$ is the configured utility cost per credit, and $V$ is the best value of stopping or taking another allowable action. For each possible return $y$ the policy updates the posterior by Bayes' rule and evaluates the remaining choices. A failed preparation spends its credits and cannot qualify a new formulation. The calculation is exact for its finite model and horizon. Its interpretation depends on the supplied priors, observation likelihoods and utility. [Policy implementation](../src/materials_workflow/shared_budget.py)
+
+The paired campaign starts from a response surface fitted to 72 synthetic preparations. The two candidate formulations use different amounts of the same incoming binder lot, 75% and 15% of the mixture. The stock viscosity therefore changes their predicted performance by different amounts. A one-credit viscometer reading distinguishes two viscosity ranges. After the reading, four credits remain to make one formulation. The report compares the resulting decisions with immediate fabrication under the same five-credit budget. The case is constructed to illustrate a decision reversal. [Case generator](../src/materials_workflow/shared_case.py) · [Paired report](../results/shared_budget/REPORT.md) · [Event trace](../results/shared_budget/trace.json)
+
+The numbered sections below follow the batch campaign. Its three-component formulations have two measured outcomes, light transmission and fracture toughness. [Batch preset](../src/materials_workflow/preset.json)
 
 ## 1. From instrument return to an eligible observation
 
@@ -86,6 +103,8 @@ The runner writes its batch and pre-run predictions before generating any follow
 
 | Entry point | Inspectable output |
 |---|---|
+| `shared-budget` | Two executed paths from the same initial decision, the fabrication-only comparison, an action trace and a report. |
+| `session` | A persistent decision ledger where the operator can reserve an action, submit its observation, inspect the budget and request the next action. |
 | `demo` | Fresh campaign directory with a working SQLite ledger, a sealed pre-run decision, two model snapshots identified by their training inputs, a report, a scientific figure and an offline explorer. |
 | `ingest` and `audit` | Receipt per source payload, revision lineage, reasons for exclusion, raw and canonical values, provenance for normalized measurements. |
 | `features` | Current versioned supplier-property estimates or an explicitly requested historical view with a freshness indication. |

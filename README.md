@@ -4,6 +4,8 @@ An end-to-end machine learning workflow for formulation research at a materials 
 
 A formulation that performs poorly still supplies a training observation when it was made as intended and measured correctly. A faulty instrument reading calls for a repeat measurement. The intake gate records that distinction before a result can enter training. The public repository demonstrates the workflow with independently generated synthetic data. [Workflow and methods](docs/CAMPAIGN_WORKFLOW.md) · [Data policy](docs/DATA_POLICY.md)
 
+**Follow a measurement that changes the next experiment.** Two synthetic lab runs start with the same candidates, evidence and five credits. In each, the planner spends one credit measuring the viscosity of an incoming binder lot. A reading of 1.94 Pa·s leads it to spend the remaining four credits making the binder-rich formulation. A reading of 5.94 Pa·s leads it to make the binder-lean formulation. Committing to a make before measuring would select binder-lean in both runs. [Paired campaign](results/shared_budget/REPORT.md) · [Decision trace](results/shared_budget/trace.json)
+
 ## From a lab return to a decision
 
 ```mermaid
@@ -21,6 +23,10 @@ flowchart LR
   F --> B
   B --> S[Register predictions and run selected designs]
   S --> R
+  M --> L[Choose one affordable lab action]
+  L --> O[Reserve credits and obtain observation]
+  O -->|Update belief and replan| L
+  L -->|Stop| T[Select a qualified formulation]
 ```
 
 | Decision | What the implementation produces |
@@ -31,16 +37,27 @@ flowchart LR
 | **Is a missing property worth measuring?** | A value-of-information calculation prices the chance that an assay would change the preferred recipe. It compares the gain from a better choice with the cost of obtaining the measurement. |
 | **How will this recipe perform?** | A group-weighted Bayesian response surface uses mixture interactions, process settings and uncertain descriptors to predict two performance outcomes jointly. Each estimate includes a support assessment and predictive spread. |
 | **What should we make next?** | The planner starts with a space-filling design. With observations available it weighs expected Pareto-front improvement, chance of a successful make, cost and pending work. An intentional repeat can earn a batch slot. Each eligible and rejected design leaves an inspectable trace. |
+| **What should we spend the next lab credit on?** | The sequential planner compares an incoming-stock assay, a new formulation, a re-read of an existing specimen, a fresh remake and stopping. Each purchase uses the same credit balance. Its return changes the evidence for the next choice. |
 | **What changed after the experiment?** | The runner saves the proposal and predictions before generating any feedback, appends the new independent preparations, refits, and issues a second decision packet. The two training snapshots can be compared by hash. |
 
-## Worked example
+## Run the shared-budget experiment
 
-The bundled demo uses a fictional optical membrane to give the optimiser two competing objectives, light transmission and fracture toughness. The campaign report follows three suggested formulations from their pre-run predictions through simulated measurements and the next batch decision. [Worked campaign and figure](results/campaign/REPORT.md) · [Decision packet](results/campaign/packet.json) · [Synthetic generator](src/materials_workflow/synthetic.py)
-
-Run these commands from a checkout with Python 3.11 or newer.
+From a checkout, run these commands with Python 3.11 or newer.
 
 ```bash
 python -m pip install -e .
+python -m materials_workflow shared-budget --output .local/shared-budget
+```
+
+Open `.local/shared-budget/REPORT.md` to compare the two observed paths with the fabrication-only decision under the same spend limit. The run also produces a policy specification for the persistent `session` commands, which let an operator reserve one action and submit its observed outcome before replanning. [Policy and experiment](docs/CAMPAIGN_WORKFLOW.md#choose-the-next-operation-under-one-budget)
+
+## Batch formulation example
+
+The bundled demo uses a fictional optical membrane to give the optimiser two competing objectives, light transmission and fracture toughness. The campaign report follows three suggested formulations from their pre-run predictions through simulated measurements and the next batch decision. [Worked campaign and figure](results/campaign/REPORT.md) · [Decision packet](results/campaign/packet.json) · [Synthetic generator](src/materials_workflow/synthetic.py)
+
+The batch campaign and explorer use the same Python 3.11+ package.
+
+```bash
 python -m materials_workflow demo --output .local/campaign
 ```
 

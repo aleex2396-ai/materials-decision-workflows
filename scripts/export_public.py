@@ -61,6 +61,9 @@ RESULT_GROUPS = {
     "campaign": {"config": "src/materials_workflow/preset.json", "producer": "materials_workflow",
                  "files": {"summary.json", "packet.json", "provenance.json", "REPORT.md",
                            "decision_map.png", "explorer.html"}},
+    "shared_budget": {"config": "src/materials_workflow/shared_budget_preset.json",
+                      "producer": "materials_workflow",
+                      "files": {"summary.json", "trace.json", "REPORT.md", "provenance.json"}},
 }
 CONFIG_FILES = {specification["config"] for specification in RESULT_GROUPS.values()}
 TEXT_SUFFIXES = {".py", ".json", ".md", ".html", ".toml", ".txt", ".bib", ".ps1", ".yml"}

@@ -317,3 +317,52 @@ class Registry:
             result.append({key: canonical[key] for key in ("run_id", "group_id", "design")}
                           | {"success": bool(row["made"])})
         return result
+
+
+def verify_preparation_return(request, outcome, receipt):
+    """Check one reserved preparation or specimen reread against its raw registry record."""
+    record = receipt.get("registry_record")
+    if not isinstance(record, dict):
+        raise ValueError("A preparation return requires a raw registry_record.")
+    rule = request["registry_return"]
+    failed = outcome == rule["failure"]
+    specimen = None if failed else request["specimen"]
+    if failed and request["kind"] == "reread":
+        raise ValueError("A specimen reread cannot report a failed preparation.")
+    expected = {"design": request["design"], "stock_lot": request["stock_lot"],
+                "group_id": request["group_id"], "specimen_id": specimen,
+                "repeats_preparation": request.get("repeats_preparation")}
+    for field, reserved in expected.items():
+        if record.get(field) != reserved:
+            raise ValueError(f"Raw preparation {field} differs from the reservation.")
+    for field in ("run_id", "group_id", "stock_lot", "specimen_id", "repeats_preparation"):
+        if field in receipt and receipt[field] != record.get(field):
+            raise ValueError(f"Receipt {field} differs from the raw preparation record.")
+    # Replay the actual intake gate; a claimed disposition or digest alone is insufficient.
+    with Registry(":memory:") as registry:
+        disposition = registry.ingest(record)
+        expected_action = "feasibility_only" if failed else "use"
+        if disposition["action"] != expected_action:
+            raise ValueError(f"Registry returned {disposition['action']} ({disposition['code']}); "
+                             f"the submitted outcome requires {expected_action}.")
+        for field, value in (("registry_sha256", disposition["sha256"]), ("registry_action", expected_action)):
+            if field in receipt and receipt[field] != value:
+                raise ValueError(f"Receipt {field} differs from the registry intake.")
+        if failed:
+            if receipt.get("measurement") is not None or receipt.get("targets"):
+                raise ValueError("A failed preparation cannot supply a measured endpoint.")
+            return
+        canonical = registry.submission(disposition["submission_id"])["canonical"]
+    target = rule["target"]
+    value = canonical["targets"][target]
+    band = rule["below"] if value < rule["threshold"] else rule["at_or_above"]
+    if outcome != band:
+        raise ValueError("Reported band disagrees with the normalized preparation endpoint.")
+    if "targets" in receipt and receipt["targets"] != canonical["targets"]:
+        raise ValueError("Receipt targets differ from the normalized preparation endpoints.")
+    if "measurement" in receipt:
+        reading = receipt["measurement"]
+        if (not isinstance(reading, dict) or reading.get("name") != target
+                or reading.get("unit") != UNITS[target][0] or reading.get("value") != value
+                or reading.get("band", band) != band or reading.get("threshold", rule["threshold"]) != rule["threshold"]):
+            raise ValueError("Receipt measurement differs from the normalized preparation endpoint.")

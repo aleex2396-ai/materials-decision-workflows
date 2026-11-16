@@ -1,0 +1,8 @@
+{
+  "origin": "public_synthetic_only",
+  "name": "Which formulation should the lab make?",
+  "seed": 5837,
+  "execution_seed": 17,
+  "budget": 5,
+  "utility_per_credit": 0.003
+}

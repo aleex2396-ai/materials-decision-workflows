@@ -1,6 +1,11 @@
 # Reproducibility and measurement protocol
 
-The standalone formulation workflow has a bundled [preset](../src/materials_workflow/preset.json). Run `python -m materials_workflow demo --output .local/campaign` from the repository root after installing the package. It creates a fresh local SQLite ledger, two decisions, a worked report and an offline explorer. The public snapshot is in [results/campaign](../results/campaign/REPORT.md). That snapshot lists the source hashes of `materials_workflow`; the four numerical studies below retain their separate `crfml` producer identities.
+The batch formulation demo creates a fresh local SQLite ledger, two decisions, a worked report and an offline explorer. The shared-budget demo produces paired SQLite sessions, the policy specification, lab receipts and a fabrication-only comparator. Run these commands from the checkout after installing the package, using fresh output directories. [Batch campaign](../results/campaign/REPORT.md) · [Shared-budget campaign](../results/shared_budget/REPORT.md)
+
+```bash
+python -m materials_workflow demo --output .local/campaign
+python -m materials_workflow shared-budget --output .local/shared-budget
+```
 
 ## Four studies and their roles
 
@@ -31,7 +36,7 @@ Use a fresh output directory for a new experiment; the CLI replaces files within
 
 Compare numerical records and policies across reruns. Wall-clock timings and solver attempt durations are measurements, not deterministic outputs. Cross-platform BLAS and solver differences may alter floating-point details or solver convergence. Byte-level source provenance does not imply cross-platform numerical identity. Git attributes preserve source line endings so a clone does not itself invalidate those hashes.
 
-The exporter requires all four complete result groups, current source and configuration hashes, matching summary configurations, exact artifact hashes and an explicit independent-synthetic origin. It creates a fresh allowlisted tree with a manifest and refuses overwrite. Run tests and reproduction from that tree in an environment without the development PYTHONPATH.
+The exporter requires the two formulation campaign snapshots and all four numerical studies. It checks each group's source and configuration hashes, summary configuration, artifact hashes and declared independent-synthetic origin. The formulation groups share `materials_workflow` as their producer. The four studies share `crfml`. Run tests and reproduction from the fresh allowlisted export tree in an environment without the development PYTHONPATH.
 
 ## Data boundary
 

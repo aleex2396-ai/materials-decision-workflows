@@ -12,8 +12,8 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "bytes": 725,
-      "sha256": "a4055ec0456a6532e5d5114febe91cc9288c89db43d48709b7e952f02ff05dea"
+      "bytes": 1736,
+      "sha256": "6d258a14cbd90b0c2bfc9569b58bbb4bf1cfa158c16858ca1c971b7f2b9ba9ae"
     },
     {
       "path": ".gitignore",
@@ -32,8 +32,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9744,
-      "sha256": "bb1ec1faf14770a3d34fd0f436c681c7f61411eec93c2427422abc1e518f98b7"
+      "bytes": 11412,
+      "sha256": "6e7a32d63687bf09d6d1b7ef89269fa9aee5f5722abab769f608edbdc82dd468"
     },
     {
       "path": "configs/decision_study.json",
@@ -57,8 +57,8 @@
     },
     {
       "path": "docs/CAMPAIGN_WORKFLOW.md",
-      "bytes": 12982,
-      "sha256": "ddca2cd0387e2b868266ae188ce18e47d37457c0af866ade28d2dbdda0bba097"
+      "bytes": 15526,
+      "sha256": "5ff8e1852ab523fd978d909e99f85374f4f0c039e225e1dbc91bbfe778d888d7"
     },
     {
       "path": "docs/DATA_POLICY.md",
@@ -102,8 +102,8 @@
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
-      "bytes": 5827,
-      "sha256": "74c9a90b22573a109f1bdc9dc037976bed5078e9645fccc9f28b94ecaaca26b0"
+      "bytes": 5978,
+      "sha256": "cff4e57d99be2add317d4a43d7cd251c52bda5431f58ebf01bc65e14bb34e496"
     },
     {
       "path": "docs/TECHNICAL_VALIDATION.md",
@@ -117,8 +117,8 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 769,
-      "sha256": "2f8a44b26bce297896a1269a263ddd4d7bbdeb2220610513730ca9b4e90aa978"
+      "bytes": 798,
+      "sha256": "56fe3661abbe2fc1f8e6960885ea9f8d7193bafbcd3c5224fdeab730c50d54de"
     },
     {
       "path": "requirements-lock.txt",
@@ -312,8 +312,8 @@
     },
     {
       "path": "results/campaign/provenance.json",
-      "bytes": 3151,
-      "sha256": "4e6d47f8ad4eff7b703f91bf2bab698bc282d1eef9c16a8c63898b34f52a71ab"
+      "bytes": 3893,
+      "sha256": "b0cd0799954cba5727a5fab7b0b786a1614b4730bd0587fdbf63d9ddea2c4347"
     },
     {
       "path": "results/campaign/summary.json",
@@ -456,9 +456,29 @@
       "sha256": "eb6fff7e9a7b829e5c79ffdf8a4a217ec3dc47d50a1fd71175c253eb2c48169a"
     },
     {
+      "path": "results/shared_budget/REPORT.md",
+      "bytes": 4786,
+      "sha256": "4ed814fecc62622155bab72665cb5a26699f780ecc5f7b1b5b3b86329f339cf8"
+    },
+    {
+      "path": "results/shared_budget/provenance.json",
+      "bytes": 3711,
+      "sha256": "17d03ad5c623013dcc726f33aead6c5e4ec292ef716cab9ffd90eda549578311"
+    },
+    {
+      "path": "results/shared_budget/summary.json",
+      "bytes": 1796,
+      "sha256": "752a12e88a0d365bb3f5d967a842ec656e847bb5ff952a8f6fc901ff53a0c0e7"
+    },
+    {
+      "path": "results/shared_budget/trace.json",
+      "bytes": 56079,
+      "sha256": "3fcf6d82ae6f8d78cf5b390dda351ecf6292ddc85eecd020cc449e1df23baa8a"
+    },
+    {
       "path": "scripts/export_public.py",
-      "bytes": 19066,
-      "sha256": "bfb39ae764034c3b9a2711b5ba6f08f69f0c0fa4d141d0f4df231683ea777fe1"
+      "bytes": 19302,
+      "sha256": "9b20e29eadda31f29e4cb90910bed7760cb54c4100fff112d3e3a7e2adcc9d67"
     },
     {
       "path": "src/crfml/__init__.py",
@@ -552,8 +572,8 @@
     },
     {
       "path": "src/materials_workflow/__main__.py",
-      "bytes": 4896,
-      "sha256": "d6b512e3cd56ee55f03268fefd50947acdcb56d882b33c7b27b32efe0a7075c3"
+      "bytes": 7074,
+      "sha256": "82722464ec578cc54671d6b0c5c9207bb01579fcb49c1b2991b4a9bfe040f2c7"
     },
     {
       "path": "src/materials_workflow/adjudication.py",
@@ -597,13 +617,38 @@
     },
     {
       "path": "src/materials_workflow/registry.py",
-      "bytes": 14811,
-      "sha256": "eb3b6f8e15da1715b25f8a3d3677a7e68572784c025e8a98b23ce06fd74e9527"
+      "bytes": 17981,
+      "sha256": "09ea5616963962ee1f1c822d312115573e4563fd1bf5035be935511f876fabac"
     },
     {
       "path": "src/materials_workflow/reporting.py",
       "bytes": 26958,
       "sha256": "cf1edef88a02b054f3717dd399ce2e62f2633b2953d368c83213a9353b41fc46"
+    },
+    {
+      "path": "src/materials_workflow/shared_budget.py",
+      "bytes": 13943,
+      "sha256": "28e1422fa9a91fa68637fc9ac5fae90be3b8e4bbd46a848937a389b23c586042"
+    },
+    {
+      "path": "src/materials_workflow/shared_budget_preset.json",
+      "bytes": 178,
+      "sha256": "4c2650ed67a4afaac4fa57d96eb7a7945c3124221e503bb49b881ee1007659c9"
+    },
+    {
+      "path": "src/materials_workflow/shared_case.py",
+      "bytes": 13611,
+      "sha256": "d660f1ee04a0f44741c1b19ceeddb7c2a4d0f3ca603dc35189e4751748333c0d"
+    },
+    {
+      "path": "src/materials_workflow/shared_experiment.py",
+      "bytes": 13048,
+      "sha256": "493c1809fe34fe5f945d98697b16fcbf369a3ddf83969b14b4add138c2f73a42"
+    },
+    {
+      "path": "src/materials_workflow/shared_session.py",
+      "bytes": 8567,
+      "sha256": "c790918b65de1cb7672df6e6de689673cb312a7687348869f56bce32e1c4f2d0"
     },
     {
       "path": "src/materials_workflow/synthetic.py",
@@ -704,6 +749,21 @@
       "path": "tests/test_registry.py",
       "bytes": 7256,
       "sha256": "60ef866865c47cb98f113ab2e51e1318fce29c634e0f3a19a3630708cba7e8f6"
+    },
+    {
+      "path": "tests/test_shared_budget_case.py",
+      "bytes": 5720,
+      "sha256": "0c18c6dd898c0964e6630f42c73b03ac13e6a436969398421349fc4a9d26cb8b"
+    },
+    {
+      "path": "tests/test_shared_budget_execution.py",
+      "bytes": 11886,
+      "sha256": "9c5ca0c4d2c275e3b1d1ddc7487d5154c980eed136e358e36c9347566669b1af"
+    },
+    {
+      "path": "tests/test_shared_budget_policy.py",
+      "bytes": 7114,
+      "sha256": "4d7c4f899979c21d27513cc6a908dc8b772081cbb2671b6679c67bee1ad91b34"
     },
     {
       "path": "tests/test_value_of_information.py",

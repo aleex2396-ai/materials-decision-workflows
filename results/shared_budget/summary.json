@@ -1,0 +1,63 @@
+{
+  "origin": "public_synthetic_only",
+  "config": {
+    "origin": "public_synthetic_only",
+    "name": "Which formulation should the lab make?",
+    "seed": 5837,
+    "execution_seed": 17,
+    "budget": 5,
+    "utility_per_credit": 0.003
+  },
+  "budget": 5,
+  "opening_action": "assay-stock",
+  "direct_make": "binder-lean",
+  "opening_net_value": 0.6788307843944641,
+  "make_only_net_value": 0.6207593207501081,
+  "shared_opening_decision_sha256": "82ee9f91c8b4f238edab79916c50f218441e36e3cbeb5888c627dadb21bb456b",
+  "branches": [
+    {
+      "world": "low/weak",
+      "assay_outcome": "low",
+      "measurement": {
+        "band": "low",
+        "name": "stock viscosity",
+        "threshold": 4.0,
+        "unit": "Pa s",
+        "value": 1.9394186501063682
+      },
+      "next_make": "binder-rich",
+      "make_outcome": "above",
+      "specimen_id": "fresh-binder-rich",
+      "registry_action": "use",
+      "terminal_recipe": "binder-rich",
+      "spent": 5,
+      "remaining": 0,
+      "direct_make": "binder-lean",
+      "switch_vs_direct": true,
+      "shared_net_utility": 0.7957245858191017,
+      "direct_net_utility": 0.6631132499798353
+    },
+    {
+      "world": "high/weak",
+      "assay_outcome": "high",
+      "measurement": {
+        "band": "high",
+        "name": "stock viscosity",
+        "threshold": 4.0,
+        "unit": "Pa s",
+        "value": 5.939418650106369
+      },
+      "next_make": "binder-lean",
+      "make_outcome": "above",
+      "specimen_id": "fresh-binder-lean",
+      "registry_action": "use",
+      "terminal_recipe": "binder-lean",
+      "spent": 5,
+      "remaining": 0,
+      "direct_make": "binder-lean",
+      "switch_vs_direct": false,
+      "shared_net_utility": 0.582267273653671,
+      "direct_net_utility": 0.585267273653671
+    }
+  ]
+}
