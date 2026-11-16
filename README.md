@@ -1,31 +1,8 @@
 # Materials Decision Workflows
 
-An instrument returns two conflicting measurements. A supplier leaves one property blank. The lab has enough capacity for three experiments, and increasing optical transmission can cost fracture toughness. This repository implements the decisions that connect those events, from the first raw return to the next funded batch.
+An end-to-end machine learning workflow for formulation research at a materials startup. It checks incoming lab records, builds a versioned experiment database, estimates missing material properties, and predicts the performance of a proposed formulation. A Bayesian optimiser uses those predictions, their uncertainty and the available lab budget to recommend the next experiments.
 
-**Explore the [worked campaign](results/campaign/REPORT.md) · Read the [workflow and methods](docs/CAMPAIGN_WORKFLOW.md) · Inspect the [decision packet](results/campaign/packet.json).**
-
-[![A ternary membrane formulation library and its measured transmission–toughness frontier, with the proposed batch and its subsequent simulated measurements](results/campaign/decision_map.png)](results/campaign/REPORT.md)
-
-Built as a workflow showcase for a materials startup, the public example uses independently generated optical composite membranes with three fictitious components and two processing routes. All measurements, stock cards, failures and follow-up runs in this campaign come from the seeded generator. The scientific results in the repository concern those synthetic experiments. [Synthetic generator](src/materials_workflow/synthetic.py) · [Public data policy](docs/DATA_POLICY.md)
-
-## Run the campaign
-
-Run these commands from a checkout with Python 3.11 or newer.
-
-```bash
-python -m pip install -e .
-python -m materials_workflow demo --output .local/campaign
-```
-
-Open `.local/campaign/explorer.html` in a browser to inspect a candidate, a quality decision or a prospective prediction. The explorer is a self-contained file. GitHub also renders the [campaign report](results/campaign/REPORT.md) directly.
-
-```bash
-python -m materials_workflow audit --db .local/campaign/campaign.sqlite3 --submission 2
-python -m materials_workflow features --db .local/campaign/campaign.sqlite3 --out .local/features.json
-python -m materials_workflow predict --db .local/campaign/campaign.sqlite3 --candidate .local/campaign/candidate.json
-python -m materials_workflow measure-or-make --db .local/campaign/campaign.sqlite3 --shortlist .local/campaign/shortlist.json --cost 0.01
-python -m materials_workflow recommend --db .local/campaign/campaign.sqlite3 --candidates .local/campaign/candidates.json --pending .local/campaign/pending.json --budget 7.5 --batch-size 3 --out .local/next.json
-```
+A formulation that performs poorly still supplies a training observation when it was made as intended and measured correctly. A faulty instrument reading calls for a repeat measurement. The intake gate records that distinction before a result can enter training. The public repository demonstrates the workflow with independently generated synthetic data. [Workflow and methods](docs/CAMPAIGN_WORKFLOW.md) · [Data policy](docs/DATA_POLICY.md)
 
 ## From a lab return to a decision
 
@@ -52,9 +29,30 @@ flowchart LR
 | **When should the system ask a person?** | A shadow policy interprets standard, process and repeat residuals. It chooses a corrective action or defers. A held-out failure bank compares harmful decisions and the fraction settled against fixed rules, including under drift. |
 | **What can we infer about a missing property?** | The database retains the measured value or its absence. A versioned feature view records which supplier fields were estimated through training-set correlations, their uncertainty and the observations supporting the snapshot. |
 | **Is a missing property worth measuring?** | A value-of-information calculation prices the chance that an assay would change the preferred recipe. It compares the gain from a better choice with the cost of obtaining the measurement. |
-| **How will this recipe perform?** | A group-weighted Bayesian response surface uses mixture interactions, process settings and uncertain descriptors to produce paired predictions for transmission and toughness. Each estimate includes a support assessment and predictive spread. |
+| **How will this recipe perform?** | A group-weighted Bayesian response surface uses mixture interactions, process settings and uncertain descriptors to predict two performance outcomes jointly. Each estimate includes a support assessment and predictive spread. |
 | **What should we make next?** | The planner starts with a space-filling design. With observations available it weighs expected Pareto-front improvement, chance of a successful make, cost and pending work. An intentional repeat can earn a batch slot. Each eligible and rejected design leaves an inspectable trace. |
 | **What changed after the experiment?** | The runner saves the proposal and predictions before generating any feedback, appends the new independent preparations, refits, and issues a second decision packet. The two training snapshots can be compared by hash. |
+
+## Worked example
+
+The bundled demo uses a fictional optical membrane to give the optimiser two competing objectives, light transmission and fracture toughness. The campaign report follows three suggested formulations from their pre-run predictions through simulated measurements and the next batch decision. [Worked campaign and figure](results/campaign/REPORT.md) · [Decision packet](results/campaign/packet.json) · [Synthetic generator](src/materials_workflow/synthetic.py)
+
+Run these commands from a checkout with Python 3.11 or newer.
+
+```bash
+python -m pip install -e .
+python -m materials_workflow demo --output .local/campaign
+```
+
+Open `.local/campaign/explorer.html` in a browser to inspect a candidate, a quality decision or a prospective prediction. The explorer is a self-contained file. GitHub also renders the [campaign report](results/campaign/REPORT.md) directly.
+
+```bash
+python -m materials_workflow audit --db .local/campaign/campaign.sqlite3 --submission 2
+python -m materials_workflow features --db .local/campaign/campaign.sqlite3 --out .local/features.json
+python -m materials_workflow predict --db .local/campaign/campaign.sqlite3 --candidate .local/campaign/candidate.json
+python -m materials_workflow measure-or-make --db .local/campaign/campaign.sqlite3 --shortlist .local/campaign/shortlist.json --cost 0.01
+python -m materials_workflow recommend --db .local/campaign/campaign.sqlite3 --candidates .local/campaign/candidates.json --pending .local/campaign/pending.json --budget 7.5 --batch-size 3 --out .local/next.json
+```
 
 ## Related research studies
 
